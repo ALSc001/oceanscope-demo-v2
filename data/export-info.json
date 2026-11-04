@@ -1,0 +1,4831 @@
+{
+  "schema": 1,
+  "edition": "public-demo-v2",
+  "assets": [
+    {
+      "url": "/data/field-demo.json",
+      "bytes": 23365,
+      "sha256": "fa8b0fdf8ae9b3ce306df82b3214a94d77bd1e70c31d86dd6ec397a2c114921b"
+    },
+    {
+      "url": "/data/manifest.json",
+      "bytes": 447532,
+      "sha256": "041a5c89196b88c72fec6de3b6d222ea6e6e55a5bf1be39f2a8f534151e88fac"
+    },
+    {
+      "url": "/data/calm/1001.bin.gz",
+      "bytes": 225913,
+      "sha256": "5079339eea80d870b6586fbc4136bb539bf033c8dc19ee9faa207d01fdbcaea3"
+    },
+    {
+      "url": "/data/calm/1011.bin.gz",
+      "bytes": 211688,
+      "sha256": "88010ce9a3f90d2d8eba9bff8558c95509e5c1758095f0258d7861bb42b10167"
+    },
+    {
+      "url": "/data/calm/1021.bin.gz",
+      "bytes": 218608,
+      "sha256": "f70c7f87f47bd99be08b376c5255638711eb8bee683c0a6af00b900b80ee14b0"
+    },
+    {
+      "url": "/data/calm/1031.bin.gz",
+      "bytes": 225854,
+      "sha256": "58a910ed67117430e0ec9ee1342335c54144da2af8ce1d7b6ed7a65527f62c00"
+    },
+    {
+      "url": "/data/calm/1041.bin.gz",
+      "bytes": 227219,
+      "sha256": "f06a37aed94b8143ed7b5e45cfe639f0acbb8c6ca6a8bbc475c4899bb9f269ff"
+    },
+    {
+      "url": "/data/calm/1048.bin.gz",
+      "bytes": 230398,
+      "sha256": "28835dd720b48b7182a33f3f28aec417715367091e18039304551bcae1e998c2"
+    },
+    {
+      "url": "/data/calm/1049.bin.gz",
+      "bytes": 230762,
+      "sha256": "5c351bbd6bd6841c662faf42d26f51f026c0ab433cfd2393ced73a85bd669958"
+    },
+    {
+      "url": "/data/calm/1050.bin.gz",
+      "bytes": 231261,
+      "sha256": "375da0008ab7c8db0c6f791714f92cd1933c454da0de446b42175f9cee759b2d"
+    },
+    {
+      "url": "/data/calm/1051.bin.gz",
+      "bytes": 233493,
+      "sha256": "c3b589194e4465ce3c61f780dee1b051c7e415a125700e78544f2b15d6be3e82"
+    },
+    {
+      "url": "/data/calm/1052.bin.gz",
+      "bytes": 231918,
+      "sha256": "2a37d7292f89d518a18b829ed034a3b6bd6df5c0b7318d0a933a87ad289fb932"
+    },
+    {
+      "url": "/data/calm/1053.bin.gz",
+      "bytes": 229955,
+      "sha256": "f5e70a9984614cd5f36a326c17f6d4d4fc84efa292c07bf40ef4d59e8ea5472a"
+    },
+    {
+      "url": "/data/calm/1054.bin.gz",
+      "bytes": 229223,
+      "sha256": "3f7187591719fc69f0f73ed912f56e96b00e5669ac9afb907ec6fd3e1f88f032"
+    },
+    {
+      "url": "/data/calm/1055.bin.gz",
+      "bytes": 230534,
+      "sha256": "2b0f0eb71822d5ed84c454b3c9ae022d1826e53b601063b0eec9776e719abe0a"
+    },
+    {
+      "url": "/data/calm/1061.bin.gz",
+      "bytes": 237361,
+      "sha256": "a466eae06fd3f6fc9b847c097a02894637d80dce79fe3b314932b3eb204e6a0a"
+    },
+    {
+      "url": "/data/calm/1071.bin.gz",
+      "bytes": 236484,
+      "sha256": "5ad5c9bee5b70cc01630b3ebd509a0932302f59f3c29e74fa1aa51b184d0d94d"
+    },
+    {
+      "url": "/data/calm/1081.bin.gz",
+      "bytes": 229791,
+      "sha256": "0c23e47c8ccfe7087d3b57ddfbf19d15c2fe4eaa696ac739fc50d88ce1876daf"
+    },
+    {
+      "url": "/data/calm/1091.bin.gz",
+      "bytes": 225129,
+      "sha256": "b135c72e2b5c47fe280874a5be31908cecc4311d7b8f3831e4c21311cd01f08a"
+    },
+    {
+      "url": "/data/calm/1101.bin.gz",
+      "bytes": 231734,
+      "sha256": "fbb6a53fdf3dd6d6911b213e14f6addd3cbf290d5430d8437171866f8b3a0b18"
+    },
+    {
+      "url": "/data/calm/1111.bin.gz",
+      "bytes": 227935,
+      "sha256": "d8f1e9d1eef7614b9aa7dc3ca85cd5fd9459a06fe0a8ca5ce0a86493eeaca096"
+    },
+    {
+      "url": "/data/calm/1121.bin.gz",
+      "bytes": 228135,
+      "sha256": "3c26cc1f8e5faca481fad0bfeb2b4b80e1a443bdf17b9a71d5321ee9cb848e01"
+    },
+    {
+      "url": "/data/calm/1131.bin.gz",
+      "bytes": 226686,
+      "sha256": "62f6eeb7c83e7aeace67acfa8a249592dc25cb29d3af14d109d6c5c1e821fc60"
+    },
+    {
+      "url": "/data/calm/1141.bin.gz",
+      "bytes": 232666,
+      "sha256": "722177904c3ac6237345d8dfa992a3a3b6dabbee89ce83ce37fa535a62be0d17"
+    },
+    {
+      "url": "/data/calm/1151.bin.gz",
+      "bytes": 233948,
+      "sha256": "193ab3bc94305124d76dd48eca6fb9e7e6259e5fba17997a2e91ce6288e04e11"
+    },
+    {
+      "url": "/data/calm/1161.bin.gz",
+      "bytes": 230656,
+      "sha256": "60f52bbf59a31dc9a0a3571113a9d2e8ac17270cec0b112ee29ee5a7b0a289f1"
+    },
+    {
+      "url": "/data/calm/1171.bin.gz",
+      "bytes": 230519,
+      "sha256": "c59f87246db1dfaf40882ce5d44a9377822b9ee69079849b44c91707a2fb3829"
+    },
+    {
+      "url": "/data/calm/1181.bin.gz",
+      "bytes": 238735,
+      "sha256": "8095cad81c31e957ef0f79c79b578334f928eee7b2620e4afb15a0f23fc9703c"
+    },
+    {
+      "url": "/data/calm/1191.bin.gz",
+      "bytes": 231063,
+      "sha256": "f0485c0febff94ec33031139900566011c0f0e2d8cc38d83f096f798306d47a1"
+    },
+    {
+      "url": "/data/calm/1201.bin.gz",
+      "bytes": 229758,
+      "sha256": "c9ae510ec8da6ffcd6075834feae1c62393201710c4a85b84093b2dd7de2acb3"
+    },
+    {
+      "url": "/data/calm/1211.bin.gz",
+      "bytes": 232851,
+      "sha256": "0adcee739ebc5de07f202b720c08931287c207f98cc56afdbd907e0c8be2c896"
+    },
+    {
+      "url": "/data/calm/1221.bin.gz",
+      "bytes": 239998,
+      "sha256": "6c2a152217424300abe31cd101e5006c4adc47948015e3ef0534e4f40d133c11"
+    },
+    {
+      "url": "/data/calm/1231.bin.gz",
+      "bytes": 229473,
+      "sha256": "b0a6509dc2dfdbc46a0bf91ec2ada8b1e3ff2a963fa0262bbf70ff52db5e40fb"
+    },
+    {
+      "url": "/data/calm/1240.bin.gz",
+      "bytes": 232599,
+      "sha256": "b6326da64dc125436824b4703e7e456c98eedeef6ac2c1e12c791bc14fffcbce"
+    },
+    {
+      "url": "/data/gentle/1001.bin.gz",
+      "bytes": 254774,
+      "sha256": "f848d7c49fe5d6e44e4aa03d75f1380356c8951bb09ab3352e81127b49528c72"
+    },
+    {
+      "url": "/data/gentle/1011.bin.gz",
+      "bytes": 302332,
+      "sha256": "33d7b01a10d415b5fc075886fb0ea3efbff1a6aa87f586e39b3da37974b3f872"
+    },
+    {
+      "url": "/data/gentle/1021.bin.gz",
+      "bytes": 360615,
+      "sha256": "685d91e0380d729ba7f04415586bb68ed2262db98e15cf4015608f11abbf4386"
+    },
+    {
+      "url": "/data/gentle/1031.bin.gz",
+      "bytes": 497290,
+      "sha256": "fae4b3bcb271c2b4ea374321839b59cb78399d54f91a58f5ae59a02746172300"
+    },
+    {
+      "url": "/data/gentle/1041.bin.gz",
+      "bytes": 607634,
+      "sha256": "e56c5d23cfcac1f4d074704348a47638b83ba95e43f8cda119e7f224fa5a2f20"
+    },
+    {
+      "url": "/data/gentle/1048.bin.gz",
+      "bytes": 702982,
+      "sha256": "600f579d7d310472014d2340878b235e8b63468ad9a355687313f64f7959e5f6"
+    },
+    {
+      "url": "/data/gentle/1049.bin.gz",
+      "bytes": 731405,
+      "sha256": "b92c1145c157cc9c84d70b61df1500567727b19ecb8ab8ce29d3ff00f6f54ea2"
+    },
+    {
+      "url": "/data/gentle/1050.bin.gz",
+      "bytes": 768994,
+      "sha256": "66622db7d5b75d342806bb239844924e0174470959b49a81a0645f2f644e7618"
+    },
+    {
+      "url": "/data/gentle/1051.bin.gz",
+      "bytes": 748888,
+      "sha256": "feb6637d54d11b54499222d33ecbbce1c8030325240cf582e8c8154dbd874438"
+    },
+    {
+      "url": "/data/gentle/1052.bin.gz",
+      "bytes": 770709,
+      "sha256": "cdac93b0b235cb2df4932f01aa7fb22b2ae4a6ca6f31954f5e1c0f31ab3b3bb3"
+    },
+    {
+      "url": "/data/gentle/1053.bin.gz",
+      "bytes": 774665,
+      "sha256": "e744843160593561a2412e71cfaf28b9e03f7d0aecff52bde573c13fc4d26c6e"
+    },
+    {
+      "url": "/data/gentle/1054.bin.gz",
+      "bytes": 796696,
+      "sha256": "ee99d35b39fc0e92c72fed98d4a5242863c7c850483e4be9f20b07137f4b2202"
+    },
+    {
+      "url": "/data/gentle/1055.bin.gz",
+      "bytes": 807552,
+      "sha256": "ae1097606957ed97f6c93c73f22dff6d7f542caf874fe28a6d304724afcabaf7"
+    },
+    {
+      "url": "/data/gentle/1061.bin.gz",
+      "bytes": 858398,
+      "sha256": "71e33727fea00915d8324c8f26428935ce6cd1a1fcc7ed4e509518e589dee750"
+    },
+    {
+      "url": "/data/gentle/1071.bin.gz",
+      "bytes": 824885,
+      "sha256": "21c754cd0466cb11635cfb866375395aff7bf6bc2db4d1a3ed296c963d1f81ea"
+    },
+    {
+      "url": "/data/gentle/1081.bin.gz",
+      "bytes": 708572,
+      "sha256": "8f4fc6f896cd6086c79fa4f8ae634a937ab6e94254ab815b7c5c90a5d67412ce"
+    },
+    {
+      "url": "/data/gentle/1091.bin.gz",
+      "bytes": 669873,
+      "sha256": "48070a91149f3fb159d024fed16cdf1677633de1dae09e7fbc334bdcce8aca72"
+    },
+    {
+      "url": "/data/gentle/1101.bin.gz",
+      "bytes": 639720,
+      "sha256": "262ed8fd53c18d983ed35bc9bd6aaa0dbe89f4911f6006125209540cc2e32def"
+    },
+    {
+      "url": "/data/gentle/1111.bin.gz",
+      "bytes": 615050,
+      "sha256": "ebf9fb77dee6c6256fad94a2ca90a1b67f5d30989a8a956ba7a0d0be4eeb6198"
+    },
+    {
+      "url": "/data/gentle/1121.bin.gz",
+      "bytes": 565690,
+      "sha256": "abcf636f5064c6412b3ee8b3f6ec7cccc90c82c5bc333289a1ce3283168d35b3"
+    },
+    {
+      "url": "/data/gentle/1131.bin.gz",
+      "bytes": 542748,
+      "sha256": "ce6bddec0ef4a04fc97dba295947cc16e46c6414f1b32a5c66c11c46faff8bcd"
+    },
+    {
+      "url": "/data/gentle/1141.bin.gz",
+      "bytes": 538601,
+      "sha256": "43568f03e4a6c59ab53be21091db667f2b9b40cb4ddec16b0dae914e10de1dda"
+    },
+    {
+      "url": "/data/gentle/1151.bin.gz",
+      "bytes": 509879,
+      "sha256": "4c7150187d99f48dda3e6884d5d76c3bab73d462ca36e293bc7b7f001329ae29"
+    },
+    {
+      "url": "/data/gentle/1161.bin.gz",
+      "bytes": 491460,
+      "sha256": "9473439fbbcbdc7e44ba2ef2bb4f28320eac6bfd7f09a347657dc378041c5a64"
+    },
+    {
+      "url": "/data/gentle/1171.bin.gz",
+      "bytes": 520499,
+      "sha256": "e14aee735780b692cf992e9b078b0eaa3256e0ab0be5eaf01f06dbb627770264"
+    },
+    {
+      "url": "/data/gentle/1181.bin.gz",
+      "bytes": 519364,
+      "sha256": "df4abe11cd67b67fedc8a0430bc6cd79cd874b3be68be2d1c423ee01f00c31c3"
+    },
+    {
+      "url": "/data/gentle/1191.bin.gz",
+      "bytes": 575511,
+      "sha256": "4627520ec107ae5a3d307863d9c7f6467ef00dad36356305e223b6d61b15df72"
+    },
+    {
+      "url": "/data/gentle/1201.bin.gz",
+      "bytes": 701209,
+      "sha256": "8f0ee029e5d163e5c620c100dc2ef98d6d1a6ba5155bd8b149be4ba813d1bea2"
+    },
+    {
+      "url": "/data/gentle/1211.bin.gz",
+      "bytes": 810781,
+      "sha256": "8c63f6d99c3d2ba7c222d18e3dbfa01953faeb431d23bc5b5f07e7a0a5803982"
+    },
+    {
+      "url": "/data/gentle/1221.bin.gz",
+      "bytes": 769943,
+      "sha256": "e880232562b27b4c316e2dd3a149167291db52fbc5b39c8c2bbc33cc8a9141d3"
+    },
+    {
+      "url": "/data/gentle/1231.bin.gz",
+      "bytes": 886231,
+      "sha256": "394560115aaf5da6b5385c2d775248422da7e79d320b1d1e53f3421366fa92d6"
+    },
+    {
+      "url": "/data/gentle/1240.bin.gz",
+      "bytes": 775576,
+      "sha256": "5b5f7dfe5d23da8f3ab0873eac2bd1ebe33eabca35f87702e6d60e03944896a9"
+    },
+    {
+      "url": "/data/strong/1001.bin.gz",
+      "bytes": 580364,
+      "sha256": "9bd4c7e644d81325d1ab7fcc1f70ed162a2ac8c23790c8cae4e310b24538ece1"
+    },
+    {
+      "url": "/data/strong/1011.bin.gz",
+      "bytes": 1191687,
+      "sha256": "986151faa5e3e36d83fd5880469bc698058e67d4ef008db626de5888369806db"
+    },
+    {
+      "url": "/data/strong/1021.bin.gz",
+      "bytes": 1776426,
+      "sha256": "09816485c14df8e48a01d7d78235cf05cc6cf12c5a706059dc38b7a16ff0df55"
+    },
+    {
+      "url": "/data/strong/1031.bin.gz",
+      "bytes": 2346090,
+      "sha256": "ab2130bc497cc4b0a98eff2bcbc8ff17131aa29a5ec20961b0fdb5b9d831b597"
+    },
+    {
+      "url": "/data/strong/1041.bin.gz",
+      "bytes": 2558796,
+      "sha256": "3918809251105d20223c18edef0d891a565e250a8de5fedf8a87715c89322036"
+    },
+    {
+      "url": "/data/strong/1048.bin.gz",
+      "bytes": 2249183,
+      "sha256": "606a5e9e407a48f14bbe5c09e48af86057e68a20babeacc5f0610326d0e8365d"
+    },
+    {
+      "url": "/data/strong/1049.bin.gz",
+      "bytes": 2261185,
+      "sha256": "c6310db4cb7fb3f40ed03acadd6bb8c72df848669c3ebd5db9bb972226b03fbb"
+    },
+    {
+      "url": "/data/strong/1050.bin.gz",
+      "bytes": 2194535,
+      "sha256": "7878337e32befb24e3bf92cd61d45dae24a7deafff1b6732436a96502026b41f"
+    },
+    {
+      "url": "/data/strong/1051.bin.gz",
+      "bytes": 2106897,
+      "sha256": "2a50c308e2ef55bc7e6fbe97969a0e5bced5636de4dc6888a443416b303ef247"
+    },
+    {
+      "url": "/data/strong/1052.bin.gz",
+      "bytes": 2059017,
+      "sha256": "f40b1d2de432d1775cc44c148135e52a97ab3943fb5f104cf285148cfbfb9d1d"
+    },
+    {
+      "url": "/data/strong/1053.bin.gz",
+      "bytes": 2046223,
+      "sha256": "bc81cf95e16928f9c4de37ec58b3d89455a412080cd75b4279ef1226c5cf01e0"
+    },
+    {
+      "url": "/data/strong/1054.bin.gz",
+      "bytes": 2000523,
+      "sha256": "4a2a2dd188af6f162ef0a8ee36f7702f3455760826d02179d1776c6ffef7aa39"
+    },
+    {
+      "url": "/data/strong/1055.bin.gz",
+      "bytes": 1981304,
+      "sha256": "3dea809998101767103782cf87104bbe5429a9b98fb06620e8e61ec7e5abab2b"
+    },
+    {
+      "url": "/data/strong/1061.bin.gz",
+      "bytes": 1984101,
+      "sha256": "3593f877e26649821fd16ddadeecea54a524b3952efde72613dc3f2946531059"
+    },
+    {
+      "url": "/data/strong/1071.bin.gz",
+      "bytes": 1631496,
+      "sha256": "14bdaa6284de57d33c4afe42fd80c38942d620a33b2e65831096e968745bc195"
+    },
+    {
+      "url": "/data/strong/1081.bin.gz",
+      "bytes": 1346644,
+      "sha256": "a238332f347ae3ee28182d5b41717059e465c5f534fbffe318341f16175cc3d5"
+    },
+    {
+      "url": "/data/strong/1091.bin.gz",
+      "bytes": 1127160,
+      "sha256": "0b932f3798395cb16c2a45a4507b29ef40ad3fba7e2cdbd47ea61328697d4df9"
+    },
+    {
+      "url": "/data/strong/1101.bin.gz",
+      "bytes": 1082398,
+      "sha256": "247d0eac2cd1311799159034fce03d5339057685392718b913188597b83073f0"
+    },
+    {
+      "url": "/data/strong/1111.bin.gz",
+      "bytes": 1211813,
+      "sha256": "9a2d310ee41cc783a14c1abb37865fb38feb8432d21720b3d8ef99440f731cc9"
+    },
+    {
+      "url": "/data/strong/1121.bin.gz",
+      "bytes": 1278097,
+      "sha256": "bf280579a4c9f15a0c1318f4e8f99ff865c000048b1a858763570ec8ecfa7a77"
+    },
+    {
+      "url": "/data/strong/1131.bin.gz",
+      "bytes": 1329272,
+      "sha256": "829cbec4850457cc399469c7c28c0706f412f385e725f9627ca0cc757aafbf78"
+    },
+    {
+      "url": "/data/strong/1141.bin.gz",
+      "bytes": 1474933,
+      "sha256": "60776d8406f176e9c58cad426791cf10c54d1428a8f2b02c63e6564ba10fe903"
+    },
+    {
+      "url": "/data/strong/1151.bin.gz",
+      "bytes": 1531373,
+      "sha256": "0820023636501836e2ea1148197fc6d9b0306b40e7eea5dfa1fc5cab44720e22"
+    },
+    {
+      "url": "/data/strong/1161.bin.gz",
+      "bytes": 1855337,
+      "sha256": "ed2f3a9beada4b92736d1e07373cf879f016c7200a425623a24d8b59bc8b2973"
+    },
+    {
+      "url": "/data/strong/1171.bin.gz",
+      "bytes": 2141788,
+      "sha256": "db9f07b88f4429aab09f609ccac13f06ac36229d47a08cda711473857cc46820"
+    },
+    {
+      "url": "/data/strong/1181.bin.gz",
+      "bytes": 2171969,
+      "sha256": "5da8bda80758c7d5422cdb7032c23f7ee37d9dbaecfdecef63aeb08fa005c59d"
+    },
+    {
+      "url": "/data/strong/1191.bin.gz",
+      "bytes": 1934426,
+      "sha256": "a5c1797a767bcfbaab1be4a874a9dbd458a8f8b7d05d223e6e23ece320e1fb88"
+    },
+    {
+      "url": "/data/strong/1201.bin.gz",
+      "bytes": 2414581,
+      "sha256": "05034a74614a77d56a83a8387504117e3d04bea8c30484d513464942b6c8d645"
+    },
+    {
+      "url": "/data/strong/1211.bin.gz",
+      "bytes": 3274327,
+      "sha256": "41e119d8c642ccc362452a42cdcf891ccd03fcc021d5c182c8a4e4d578d94e38"
+    },
+    {
+      "url": "/data/strong/1221.bin.gz",
+      "bytes": 2899193,
+      "sha256": "c89c5538756a4e65c85c1aaf24a9ee428cb6816c50118e6a51e37af3b7999a15"
+    },
+    {
+      "url": "/data/strong/1231.bin.gz",
+      "bytes": 2648990,
+      "sha256": "232e6cec6cc28ab18598badf90ccdb049abbe67beb5d5ce7a28a341fead51e8f"
+    },
+    {
+      "url": "/data/strong/1240.bin.gz",
+      "bytes": 2786137,
+      "sha256": "c9779050c8545813e85e3b3fbd648a65641b2c6d173cf6325b5f163eb4ea01f3"
+    },
+    {
+      "url": "/data/fields/best-1027/1001.ocfld.gz",
+      "bytes": 26128772,
+      "sha256": "3a504d78eefed6ef1a3e5fef3523f62eb7f0a13ae68e67e8cb23907f4b6f6f46"
+    },
+    {
+      "url": "/data/fields/best-1027/1049.ocfld.gz",
+      "bytes": 26633403,
+      "sha256": "1443fd356c49996f7b7bac3ab8d8ee9fc4b40d9a6d4a0734b2a0e6e2592c2548"
+    },
+    {
+      "url": "/data/fields/best-1027/1096.ocfld.gz",
+      "bytes": 26932173,
+      "sha256": "5900168e2e47a98c85f505558e49c754619e3824ea1404299d783fd7451dd0ee"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-heightA.bin",
+      "bytes": 229376,
+      "sha256": "70a39b0468748503846d8da3d28ca80d9e6d654788f88118d8e1181db4903ae7"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-heightB.bin",
+      "bytes": 229376,
+      "sha256": "b7a595c1ecc21e70b4d4570065c21790bda7a03cac757f79162ed059552d805f"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-wetA.bin",
+      "bytes": 28672,
+      "sha256": "706aab10f5f1f1b80f5a1d57d8679316d3b10ebb5beac2f06915bfa3de696e56"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-wetB.bin",
+      "bytes": 28672,
+      "sha256": "590485add6b0406317bead9175f65a07469ca761c88341daa5ae9bd282331dca"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-common.bin",
+      "bytes": 28672,
+      "sha256": "590485add6b0406317bead9175f65a07469ca761c88341daa5ae9bd282331dca"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-steep.bin",
+      "bytes": 28672,
+      "sha256": "134bde163cb5ec10c6c07a9bcc07ac1f3098c129b4fbd1e0474d2ab7c01356e4"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "efe9143e41f596fa4e5d21bca4974256b7a60aa8db0d8e74c5d90cb5a220f9f2"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "fd5ccff46be9256969c82e4874337f35ffc885b9dc31f9c2d6bdf18b76c1a66b"
+    },
+    {
+      "url": "/data/protocol-spatial/1001-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-heightA.bin",
+      "bytes": 229376,
+      "sha256": "7d1046b5c14cb5575ec7be833636dd185c45274655e378d8fd45341aa3a8c6da"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d4e5ae27c4f6a5a0e5da5ded0ebe01d8a1c43af3200c0ffd52cbdd2af72fc326"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-wetA.bin",
+      "bytes": 28672,
+      "sha256": "2d1f5f0214ce1c765019411c350081eed511fddba1e88b49e9c6cc522e527090"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-wetB.bin",
+      "bytes": 28672,
+      "sha256": "8b797bc0c6e48d237b7d9494c91489bcf392b350f619c22ac3523e16020a7da1"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-common.bin",
+      "bytes": 28672,
+      "sha256": "69a54c9b0a4e6ada200060a908175d783797aa17e7c4e98c245c961bc849628c"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-steep.bin",
+      "bytes": 28672,
+      "sha256": "18ef0f16cdac5c668193cad2a25a16bf27505de062ed2d36292e64fb467f5e31"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "cbb4d6a474eb4912959a499bcf57b343fba7cecf27ef21796168e72f2d9d0394"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "b38113892e992c3247a6e6761d6db560b44fad54cc2721df5283d717004bb186"
+    },
+    {
+      "url": "/data/protocol-spatial/1002-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-heightA.bin",
+      "bytes": 229376,
+      "sha256": "313bb7c966c6187bc6fd897a6b688a15d9169b5ba7dfe430cc13713b060cfb49"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9296a9036c7553b8ffbe2d283406987000957e644fe0fda387c6f69745e0045f"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-wetA.bin",
+      "bytes": 28672,
+      "sha256": "ccc2e03670f72606a4baeee750cde911266965d1b3a8c60a792a2753c3641122"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-wetB.bin",
+      "bytes": 28672,
+      "sha256": "9fd7466f3a82ca5ceb583d285a040a724ffb4c70ac60700ab27ed135a7f9fa4b"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-common.bin",
+      "bytes": 28672,
+      "sha256": "4b037225bfe4559596d6725e13cc20b50bbe3a16eb81f9c76b7f686afb0caf1e"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-steep.bin",
+      "bytes": 28672,
+      "sha256": "f94397a00f91ede6d631f10b8e99538a25f07d3710046e1ce366c652a7b40554"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c32993a5b5015bccc75a1c3c11c28a753f598b6391b8d9cc773a524b442de8ef"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "20f2b01b4432ad48ad98c1db71f39c49c2991befbee965d8effbb47335d54ab5"
+    },
+    {
+      "url": "/data/protocol-spatial/1003-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-heightA.bin",
+      "bytes": 229376,
+      "sha256": "21043973a8b08bb4292c6409f352d2020542ef356fe1494fe1ec51e599d14cee"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f04b9afc44bbfd28441bce29c943c326996ff2702ef11e86772c09a80e35f02c"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-wetA.bin",
+      "bytes": 28672,
+      "sha256": "c1588f915d253f70f62b002e80ce561d5746f485781db937fb899a724ee4216c"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-wetB.bin",
+      "bytes": 28672,
+      "sha256": "165e9f200f44457e02a0f7bfcc1f96d9b28b2bc05dce0f7f26435fa04af9264e"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-common.bin",
+      "bytes": 28672,
+      "sha256": "b44a84e6d777235dd1e8d41cdc6eff1ce0c6db6e5dabce1433f8b3550e82e42a"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-steep.bin",
+      "bytes": 28672,
+      "sha256": "f9fba951132eb046f3485b9780521874987343a6265a2698b8011853b0ca5c84"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "2e86380878600cdd19220e12ac121d543c637283ef958a8253911071f744b826"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "e4a0f30bea1a6485a9d5d30469a7dfc1ffebd598bdbacddaf9d50b7d2c5a582b"
+    },
+    {
+      "url": "/data/protocol-spatial/1004-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-heightA.bin",
+      "bytes": 229376,
+      "sha256": "34facfa0222a670a5f0f8e02f0be6bf12159e75b351095b695805bd49f16ae04"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-heightB.bin",
+      "bytes": 229376,
+      "sha256": "35f5ed6312974834155aaf9da5ba2d539fd6a435e37dfce0f8d55c09c271946d"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-wetA.bin",
+      "bytes": 28672,
+      "sha256": "3fd5774ad76b10ff19f5f05a996a9eea322163867dd36d1400105c59d019bfb0"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-wetB.bin",
+      "bytes": 28672,
+      "sha256": "85b2d90718ae0390ecb413fe939a6996a93e89a84240cadb201781bf84b0264c"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-common.bin",
+      "bytes": 28672,
+      "sha256": "c4c2a3074e53a31e1f1e34352bc6a6b695be5c29d8bf6bfdf97c314db0936e25"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-steep.bin",
+      "bytes": 28672,
+      "sha256": "104080196d2374893c55878203516f010f38863c5eaa79b2141b389df6c1ccb3"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "26ba0908995242081f4748526ab41433324aaafaac81c7778c0ef49c4b91872b"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "b49a46019a4c962be2d48c562864c2e1dfc2f36876678a30264c8816be649382"
+    },
+    {
+      "url": "/data/protocol-spatial/1005-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-heightA.bin",
+      "bytes": 229376,
+      "sha256": "ae6ecae5256b15a64e42a36b4e0f32f343fb1ba67027d97e50abcbbf64f6bb6f"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-heightB.bin",
+      "bytes": 229376,
+      "sha256": "3f04e03373347dbccaa238b4f8738a3b5ded108da729759d1dabdd626a3233ec"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-wetA.bin",
+      "bytes": 28672,
+      "sha256": "dd66e368cc4a8d7ce9f91e40cf77385c0a7afab783f7bdfeb5e75afc74644088"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-wetB.bin",
+      "bytes": 28672,
+      "sha256": "7560a498758008568fde26d47fa7dbaccd0968696b91a5846c9ceb760bfdc422"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-common.bin",
+      "bytes": 28672,
+      "sha256": "eac83fc48b566bde6110cfb3e13ff46d68071fa0149a8b394d016e3eee3e497c"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-steep.bin",
+      "bytes": 28672,
+      "sha256": "cb5bcbfa4bca1330f6e881c9e2a4d7b6f15836647cff332fa8c35d839355d325"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "05030e28868154ab56850f1ce0d078d7632d290ac2662d65fc63db7a3cd79baa"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "e0d3b5447df1a84a7288de95213fafa554c8fd620f929a0b5a467f78991f3d30"
+    },
+    {
+      "url": "/data/protocol-spatial/1006-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-heightA.bin",
+      "bytes": 229376,
+      "sha256": "8b5aa4d06110fbfa22b4c3615bcb511e9e9f59c84f7d87ff502029a6720a2f1d"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d8b36cbc2f4d158b067dd50f7c1d92a5a776e90b4cd06b8b0ba29af4fe73568a"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-wetA.bin",
+      "bytes": 28672,
+      "sha256": "507f77b22a9cf708c24edefbc1fd1ff8de84b8006c48b1eb920e436c1edf00fe"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-wetB.bin",
+      "bytes": 28672,
+      "sha256": "fd64045f423c87bb7ea5793fda036a5437fa3a22202a844642fe280f788ec731"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-common.bin",
+      "bytes": 28672,
+      "sha256": "e332c4d600b18ea3a94f8b65e5110f8979e6fcf4fd4d64d3af10427adb3a56a3"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-steep.bin",
+      "bytes": 28672,
+      "sha256": "7738cf313247526870d046ff9463ae0a2c7e2f49fe59a0d3203ffe27f7aed915"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "30fd3ea4b794fb66224ef1c31b3cafa5819ff753e948c79e4272e335c7195c0d"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "dea083afaa160deb3441913672b2d76c545e7c02e03cee29f1d78c001604c551"
+    },
+    {
+      "url": "/data/protocol-spatial/1007-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-heightA.bin",
+      "bytes": 229376,
+      "sha256": "aa842e4724abbd0bacefed8b70115f0f3ab3ba4b03e40dcd642fc203e9ad3d30"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-heightB.bin",
+      "bytes": 229376,
+      "sha256": "5a84ee0211329e058fe8c69f9c2be63ed41750e34edf47ab7b005e1b565179e0"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-wetA.bin",
+      "bytes": 28672,
+      "sha256": "62a8ed54a1588c0f5f0b56e87abd7a4dc1928fd39b45f6e9f5aad97eb7ddee2c"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-wetB.bin",
+      "bytes": 28672,
+      "sha256": "0dccdb41a03fbbaaf27eeacabb1d38494d68c9f997021d57761472153ed14f15"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-common.bin",
+      "bytes": 28672,
+      "sha256": "a5b6aca8e13d276f64fce0b8f43b17d682b7c36e816e1af018084fc5a26da671"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-steep.bin",
+      "bytes": 28672,
+      "sha256": "f5af2e52c3953b663f1ea3c5aaced882fc6a880cd6acf64aa559d0d5ba6d802a"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "274782f6741623369caf6b6d4e6894e49b4637111739445523c5bb952677e107"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "101ca63902a119de45a16b98454113a27d172153e5b7d277ca72f74c9b355ddd"
+    },
+    {
+      "url": "/data/protocol-spatial/1008-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9e37764c8931e4134fbd9d68ebd573c1b1f88b6a3edd8f1b37a27c6ebc15342a"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c8670de2f9be0033cbc23c00c0970effcd8c1c1db9f71d55af4b5d856611d68e"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-wetA.bin",
+      "bytes": 28672,
+      "sha256": "8430942242808fa215909435bf5096f2f72428a3dd16ab6b1db2336bc9a17a71"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-wetB.bin",
+      "bytes": 28672,
+      "sha256": "0f02d9403066e6ef82c64e323ed7103df819a845bfeb90f3f9de68646429375b"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-common.bin",
+      "bytes": 28672,
+      "sha256": "3ccae5522a6f071ebedcc4c457b019c3323e53826bac1b9501ce72d653779ac4"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-steep.bin",
+      "bytes": 28672,
+      "sha256": "4cc4986a8e841f76f96ceb214f74cf340e368d1aca4a734efd6d478a8eabef67"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "e6cdb0c2a8c4ccbc3d801755a1349a3bf31dc3bd90bc53fde1fe64bf3bff66ac"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "087c84a028d997ec3efa3d8af8296f69cd016d33a3abb10fe1fc5712719d5adc"
+    },
+    {
+      "url": "/data/protocol-spatial/1009-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-heightA.bin",
+      "bytes": 229376,
+      "sha256": "97e09a4e7c1dc06717f74babb8c9b1597fefe1c1990775d697ad966d59158bdc"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9e52430270267db47d669c9d458453b26843b6ca57de9cc2aa057f61dc718322"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-wetA.bin",
+      "bytes": 28672,
+      "sha256": "7229ec7f3d1234bddc73594747fa135e21329d09d882fa48a9f3e70bc6297b20"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-wetB.bin",
+      "bytes": 28672,
+      "sha256": "12a5b42b903ffeea47eadee287c0b5d62e400fc61d12e78e7f98d7a6d5ee6f8e"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-common.bin",
+      "bytes": 28672,
+      "sha256": "612016223decacdc5e0dd7557afdc19f88b3b5e565bc346976cf8cda1f3df0c0"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-steep.bin",
+      "bytes": 28672,
+      "sha256": "b7c86451938c3ab3e7c51d61e7efd12c96aa4fdc376f45a2b91554fc7551532d"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "0bf77a6cfa5f52cb8e85c6629efbeff869f6190ee3998612abae51805cf02f37"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "800948c40da735790f2f70aa5ce779e29d4030f278ed9b438444147409026872"
+    },
+    {
+      "url": "/data/protocol-spatial/1010-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-heightA.bin",
+      "bytes": 229376,
+      "sha256": "d5f0f5a737b016001fe8c43dcef51ecce65c6aad3c2ed962a26ba3b7b1cd9932"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ca31b6e1950374e7402a7465f104ea76ebcece4b96900eea6023bc1a90b804c7"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-wetA.bin",
+      "bytes": 28672,
+      "sha256": "02473379d2f4d19e65785bd8af39574044e1c44f0200a3c1f67acf9ddd857875"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-wetB.bin",
+      "bytes": 28672,
+      "sha256": "e400fd5d000629a23168bb46cc8bfc3a14d88ff858ea88ab0dfbbdfb675d6f40"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-common.bin",
+      "bytes": 28672,
+      "sha256": "2340c298b1ad2afcfddee59339c60c0680db528ca7c75bb5478933378bf04ccf"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-steep.bin",
+      "bytes": 28672,
+      "sha256": "ec04267dfba1db96559470e81c7863ac7d2170ff95177fd9cd0d1a40e2e82b91"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "6ecead651c923b0da64493aa16b52f6c9bca1bd0ccf1afb0779fa2753a089c7d"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "8aa19e4abfc929df10da4b2c3b9dccfe4a2fb911f51981b99fb3e52b38cfd27b"
+    },
+    {
+      "url": "/data/protocol-spatial/1011-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-heightA.bin",
+      "bytes": 229376,
+      "sha256": "e0d934b263e4cc94abdd2def8e1007cbedfaf341c9c8ae5f5bc12f67afb64400"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-heightB.bin",
+      "bytes": 229376,
+      "sha256": "941dbbb99352ca93981ff61b6bc9177155ecc14bbac5fc61d4f3196257fc54c5"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-wetA.bin",
+      "bytes": 28672,
+      "sha256": "64ad46c99080d7c13ce77023d5ca8b56d72539168a6dd97511efae6188fde8dc"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-wetB.bin",
+      "bytes": 28672,
+      "sha256": "049d8bba2e6a8ce648404841775d2c34ea2a66366fac6ff870a560873ee93ccd"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-common.bin",
+      "bytes": 28672,
+      "sha256": "febd2c3873fe974197592efc2aa4aaf0e495729127397a707d9f11e97c497608"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-steep.bin",
+      "bytes": 28672,
+      "sha256": "3e9295c9fd46f76e240a247da6b9eb7d5629449feead0dca2ad9e1727bffc447"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "7acba35804c115a8b629a749da8d805fa67c2e41e861b461ce066ee867701520"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "06bc541fcad468e9909ac6eba7ada6e1036262c2228564e1285e6657221a1e93"
+    },
+    {
+      "url": "/data/protocol-spatial/1012-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c873715d99ff125e325b0759b59c359c6bdf6d4f8191f5636b97f892ccdf9378"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-heightB.bin",
+      "bytes": 229376,
+      "sha256": "6999588bc82433f1dcbe20631e4d912b392d18a5a9cb695846595d2c82eb7b60"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-wetA.bin",
+      "bytes": 28672,
+      "sha256": "90da27c3818333d6abef1d853e192cd99e807d5b3e8650596899545ed764d71f"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-wetB.bin",
+      "bytes": 28672,
+      "sha256": "74542131ffe2383c527546d7e7ad7f0b9ef6bdb0a431c53501fc3a53b355f24b"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-common.bin",
+      "bytes": 28672,
+      "sha256": "74542131ffe2383c527546d7e7ad7f0b9ef6bdb0a431c53501fc3a53b355f24b"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-steep.bin",
+      "bytes": 28672,
+      "sha256": "6719e9e4cb3b16647c43d263bee8ca335d495972a9b90da3ff1fc0d0e1e6f542"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "1233fba9db9c7ba92d6fe5b8638349f4b4bcb5a6f9536df6ad2a9f8230981b26"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "60c92f753eb717e2d6e87173b67d152edb8b7e916b10bbe703db57341706ae36"
+    },
+    {
+      "url": "/data/protocol-spatial/1013-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-heightA.bin",
+      "bytes": 229376,
+      "sha256": "8ccdb1e04321c16e33c8474a70eb19ee416566448c6aa87f349518cc29afee70"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f5d72cf88af8d0dc0f0d23270b13b2aa13de69940768fc1df054f6f606c0bb28"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-wetA.bin",
+      "bytes": 28672,
+      "sha256": "c893771c363db7a5067ccb722dd54921e2f2dc090a4a9f9f16f2f7344639309e"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-wetB.bin",
+      "bytes": 28672,
+      "sha256": "a7af3ac5aeb5bc27783e6b832e3565034c8e80cb1d0521973460d534e54b444e"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-common.bin",
+      "bytes": 28672,
+      "sha256": "899999afeac2b802b2cc9156983ea46f8c94a684ce38716228e323370fe529e1"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-steep.bin",
+      "bytes": 28672,
+      "sha256": "057662e9d773657bdfaf08f66bc4d20e7c1fda248a95c44d1304c438f2e922d7"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "2ed923ffe94edf870d9d77598f6c21abc77f10ae43bf1857b15ae0d99ead1d10"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "603183e31ec87de30c02d585ff5e3f2b699a9637bfd4f64f8556892136a5a8f6"
+    },
+    {
+      "url": "/data/protocol-spatial/1014-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-heightA.bin",
+      "bytes": 229376,
+      "sha256": "ed0f3643b46aaffc385ba18c32b3fe7640cf4dab26d2d704a479126d9955a265"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9cb52f79a3cab875ecd6a6e9445647a03da87cb958c9edd9e8e5719e6a1297bd"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-wetA.bin",
+      "bytes": 28672,
+      "sha256": "3647182b41e68adff8841e666e1a8d6772d9b47211a13ba5f101f783d52c46c5"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-wetB.bin",
+      "bytes": 28672,
+      "sha256": "e842d381992e4ce5b31cd8b19b6f40e92781d1718cf6e53fc05cc5ddffa070e5"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-common.bin",
+      "bytes": 28672,
+      "sha256": "7815a3e6e9b169ba64b2d2c334dbe138d70c98a4bc206958b6bfca9fe6ee3ce0"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-steep.bin",
+      "bytes": 28672,
+      "sha256": "5564e472cf0d25cf71b3a555b4a9479141e4a7ae77aa7ac9e0f87d267cc52fc4"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "f005a349b0df098f651c45b7d4634ec1ec7b0b886944b27dfb4e1084503f5e20"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "11d9576b3884a7a30b29787bce1f857d8d1bca28bd5a5419f12bd78bcd0281cc"
+    },
+    {
+      "url": "/data/protocol-spatial/1015-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-heightA.bin",
+      "bytes": 229376,
+      "sha256": "69e5eea2f3363bdf377b4596ed75a900d3e13c7eab4cbd0fd430f4bca7239445"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-heightB.bin",
+      "bytes": 229376,
+      "sha256": "bed8a1be87da0d28f0bd3ec6442afa213b0558c6899d0b40c6b1c4e9e2629783"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-wetA.bin",
+      "bytes": 28672,
+      "sha256": "e3d95d855c7868002d8032dd7b1d406d5028781ccce1d9454b3b0ee5a6c130dc"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-wetB.bin",
+      "bytes": 28672,
+      "sha256": "7211d781f2640a356763e7f12d6d1c1f181b970b5a44775dbc46ab3222c4b029"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-common.bin",
+      "bytes": 28672,
+      "sha256": "0250ca41533269fc89d9fe59feb679ac469f19ecbdb6f4ac1952c5e8f8e1d3a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-steep.bin",
+      "bytes": 28672,
+      "sha256": "bf038b49a421b04cc72ae797be5a4e5ea76b65824d95c4e5aef2291d86a2f293"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "04411c09eda92e1b74dcae946b9d61e6aef49054766aee4db0d3ac37cce8f33d"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "725a63086af21d4daaf26de7e5064ce4dbaffd91e52155c92c8c61959da03d9e"
+    },
+    {
+      "url": "/data/protocol-spatial/1016-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c12c2d0b57124e5b3316af5fd7499bf7e96c95f151d5d2d627f351830381e20c"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-heightB.bin",
+      "bytes": 229376,
+      "sha256": "b66477c833eff8ff10a5a253c24df45104e34df341956da9fca29709145687b6"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-wetA.bin",
+      "bytes": 28672,
+      "sha256": "ba83c2f92ad3a48c39a250cc0855bd72028d486474d98ec0b153c91ce5b74c21"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-wetB.bin",
+      "bytes": 28672,
+      "sha256": "a9feded12fc2a5d57cbccb2568dd786cf94d0604570f3a5ab8b213d82b08ec92"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-common.bin",
+      "bytes": 28672,
+      "sha256": "ed4c8574e9b84def0ef95d61081cf1c280798984fe94428a59837c977b9dfd35"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-steep.bin",
+      "bytes": 28672,
+      "sha256": "772fad7c5a6cf37f148b24f9d284e2c4d391d6397590b0d8bfe7a592b08e27b8"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c7b0bddd9196de19761a6d535c4c728df127fbab75419e77eecd5b885556d28a"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "08c15265689198327e8dd1222a0e121dedee586f3569ecc75f1e2616b268233a"
+    },
+    {
+      "url": "/data/protocol-spatial/1017-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-heightA.bin",
+      "bytes": 229376,
+      "sha256": "0c8ee83728c07a53a10e9397d68fa3c61a468578179387cad5b736d0e95006af"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f9ad81b12ff02977ede4f49dfed2ff04c5a102a5477798cc2234eb9b0d481a26"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-wetA.bin",
+      "bytes": 28672,
+      "sha256": "8eb5823347e956227bde20843a00425bffa66368795899e6e9bb46d7874b0829"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6006ee9279abec79b18341920ff6e4af03ac736cc576a9df1663fe39c37d632d"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-common.bin",
+      "bytes": 28672,
+      "sha256": "51e2c10862d8160554b53dc94aa8a92f5c713e589fa1829785da10049876ded4"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-steep.bin",
+      "bytes": 28672,
+      "sha256": "546877e6df97370c072984a32d3300906ebb583a354e37ebbc1d55ce9b8ae59c"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4755765bb3e183457d49d3e69d6964ed2d074fe631d69a4d6988bd20824f89af"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "fbacf9bd2ef51ce53d61b4beca855b76cb9ec01a1642dd4a723705faab5824b2"
+    },
+    {
+      "url": "/data/protocol-spatial/1018-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-heightA.bin",
+      "bytes": 229376,
+      "sha256": "92ff313a2c8f89efdfa1cd295fa0b7fa6da1204e7b4191bd87022c28798b4e44"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d145bfa721ad59cd7dafc37287db7569a553440b3c13c27d20ca8eee2ce1d5fb"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-wetA.bin",
+      "bytes": 28672,
+      "sha256": "0bd320134d6dc484768e5f0b0ea557820235f6fd95f7e7bf720bab875af8c7bb"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-wetB.bin",
+      "bytes": 28672,
+      "sha256": "ec41aa30c7f8dbadcc01de90a4cdd97fa88c15b2ff7a87a7f947157063c8fd76"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-common.bin",
+      "bytes": 28672,
+      "sha256": "268d5664f99edb36094c6dcc5aa31f0809b5619ef2bcdc9a7f8e0d6630c71157"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-steep.bin",
+      "bytes": 28672,
+      "sha256": "48aa9fb2cb3afc476d6bd491df9d42377bc4186a2edbf663e422a61d24ccb153"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "83d652b1732e5b01de6a5e0d5da15a970985da6e0cdd1e547188caa6ea83eef4"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "c0065a0f4513519fa943dfe35236cf4d145915983942ad39385472ac488e43f6"
+    },
+    {
+      "url": "/data/protocol-spatial/1019-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-heightA.bin",
+      "bytes": 229376,
+      "sha256": "f0193a1de57440dc2eb6fb7eebe690461fad5162b5b33596738ed419dab791af"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-heightB.bin",
+      "bytes": 229376,
+      "sha256": "2a72b7bfd3234cf4ba8dc413ba5f73b7a39b4f507ef20c3d71ffd3907ebd6632"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-wetA.bin",
+      "bytes": 28672,
+      "sha256": "174608401a1d52f9c03fb75c4e584a45d5903d86847e24085185522b80d63f53"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-wetB.bin",
+      "bytes": 28672,
+      "sha256": "4becdf4ab40202786449703e2758f2201ad69c2352e6effff2aed5189545a946"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-common.bin",
+      "bytes": 28672,
+      "sha256": "fb5eefdb9ab3694df69cfdcab70361b87fe69260694704c3aa0335c6c2ca6fa1"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-steep.bin",
+      "bytes": 28672,
+      "sha256": "bdfa496f1a9c0db94971de2ff2c7c6d8dbe79f8c718d46cf44438670854c4a7f"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "48b07b5165fa0d3bddb6534eeb65e05e049d3b7ed272df237ac94369b525e73b"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "02c6dd6b4b03bfdeb3b933818df242d5aafa24d406f2e7bc15738caaff409576"
+    },
+    {
+      "url": "/data/protocol-spatial/1020-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-heightA.bin",
+      "bytes": 229376,
+      "sha256": "0031d59e38929c642d76fc22c7e20ceebc97148705ecbb47b4d76f7b6d66d5be"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-heightB.bin",
+      "bytes": 229376,
+      "sha256": "520c2e70681137f32d2a4501edf090e72e95188ae001c0d2326d342494ddbc2c"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-wetA.bin",
+      "bytes": 28672,
+      "sha256": "16c5dad93252ac3cec9e6756d90e208591b95a878b5cf59c240ce91e8bc9f2f1"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-wetB.bin",
+      "bytes": 28672,
+      "sha256": "c40a235fd987c84ae643ae0a318d7e87b8ae111149a65489a12f72b1933d4c5f"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-common.bin",
+      "bytes": 28672,
+      "sha256": "45f59695579c7b63eaca6cfe0a55403e8f34a3c26b793059ede10ec98fef820a"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-steep.bin",
+      "bytes": 28672,
+      "sha256": "7d8e8ad9adb362de42a2eb9b1776ed6c65991f1a88801b255e8609a74e1a2e32"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "ec94173e152b5568a47c77a571da92270877c09d4de5cebc2ca3832e128d743a"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "d65df339fc33f11f3732f210f677f9c4a6ce2cf103720b914bed597a68a8e63d"
+    },
+    {
+      "url": "/data/protocol-spatial/1021-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c40a7060a0971a30aaf6dbd7bb82daf4250f6f357932f85985053a56818e3b13"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-heightB.bin",
+      "bytes": 229376,
+      "sha256": "1df75b47398865184bca94a66c71837725c13629b45d68d0b34c766e8b2f9427"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-wetA.bin",
+      "bytes": 28672,
+      "sha256": "fba1f982bb2f28ef00cd88b0dd8eb6da07850231370aca80537218f670a35934"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-wetB.bin",
+      "bytes": 28672,
+      "sha256": "cf486ff031298a34b4e29a266d785e713c8bd7a70bce27ee8b6ad86b42087944"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-common.bin",
+      "bytes": 28672,
+      "sha256": "96ba0d24c3d238d9ea401cee6b76d1815bdbe161d32582d0b7dcb97818888722"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-steep.bin",
+      "bytes": 28672,
+      "sha256": "5baf51d2fdb2ef6de20cfb138d6ffd85425a2c93df0c07f5365ed30caa912399"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "09b9fbc847407a00acebae169523531ee5cd29ed3bb86bf6abf75cd7a1cdce8f"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "0d7517702a429fa736175352ee8ed090e102c80d51246667c33cb280244c0bb5"
+    },
+    {
+      "url": "/data/protocol-spatial/1022-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1c07302a9594819bd76e4068319a958825db0e14abeda58c4435c8d2cc2071a5"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-heightB.bin",
+      "bytes": 229376,
+      "sha256": "a371ec302f734bc393412a9711eef4a3076defcfbc39f1ef0af84a22b8d2bc91"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-wetA.bin",
+      "bytes": 28672,
+      "sha256": "a9158e2e51816d32fdbc867670c583908e0ad9d9eb513fca284e4a97833e584c"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-wetB.bin",
+      "bytes": 28672,
+      "sha256": "d4db58cb5e310426b5ae33d8f29678d3df0165b7c5129b48b66b935e034eefed"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-common.bin",
+      "bytes": 28672,
+      "sha256": "fbe739162f113dc81e31e9bc4e59dfbe98cc774a45448542dff6fd0ddd9d5f5a"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-steep.bin",
+      "bytes": 28672,
+      "sha256": "7d2c067c93c35b4d871e3d2c70fb5aa362bdf6c673fd3834b9a25c565fdb365d"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "23f3a0b4775c8dc5a30d6a32fba317abea101b7193a6c39ba85f238f67750242"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "ba799db5dbb826d61b903e9d71c80e535669e1cf3feb44081c09cde37279bfff"
+    },
+    {
+      "url": "/data/protocol-spatial/1023-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-heightA.bin",
+      "bytes": 229376,
+      "sha256": "86f134c82e7762f81a2d4eeb9fa7ae793dc43fcdc1afe8b9c21e006488e5c46a"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-heightB.bin",
+      "bytes": 229376,
+      "sha256": "6635290c288ed249547b170c2c36452312650a4c8487e2dbe5700c01dd60b7db"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-wetA.bin",
+      "bytes": 28672,
+      "sha256": "5ceaaeb203ed7ab98045c4e8960adeb80fcf434d0aa16d34c139bedac084d3fc"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-wetB.bin",
+      "bytes": 28672,
+      "sha256": "d0bb12f806fd520dec8947435d0eecb6fe9393974328b73a7ce60b6121965a44"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-common.bin",
+      "bytes": 28672,
+      "sha256": "9b2f46f248a3a2401b3196c8bc945189490726a84e8162b668e65177761dbfd3"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-steep.bin",
+      "bytes": 28672,
+      "sha256": "c6c0e42ede0c0f6d15f54e3ab5ee64ba7b93149b2bce1f2cade52d6ef417ff69"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "8aaf464c2e36798dd96d73265bbd69e0f8fb0c4151fb2b34eee8a3ed8d8a5e6c"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "85177e1f5b25bea6fc3c3a125bbeb9b802c3f146ec835b1f0bcbb00dc35964c9"
+    },
+    {
+      "url": "/data/protocol-spatial/1024-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-heightA.bin",
+      "bytes": 229376,
+      "sha256": "5476f1d537c2f2d92c814b4760bd6310816ac5eb5821a98f5d99a80317a51072"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d6ac64bd416179bae6063e4f60414063bcf6a99500907b0c3d057f0ca60d5bad"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-wetA.bin",
+      "bytes": 28672,
+      "sha256": "f68bdc0a8e9ced1d5af14bbac368eae8178a84e5bb08b69f8806fc75d2121382"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-wetB.bin",
+      "bytes": 28672,
+      "sha256": "88c1fc9d336d9fb8afae9546cc462887c7b751ff8bbe9d08dc42bb03e904b56a"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-common.bin",
+      "bytes": 28672,
+      "sha256": "b141d2caa13112141d11a21f5de2fb0b0ba7dea415d7eb3759597bb8b3e8bdc3"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-steep.bin",
+      "bytes": 28672,
+      "sha256": "4b2ef2250e1b3ae1599f30ac19941a8fc621b0fb9b07ce808374bd9f719c02fe"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4b0c9d7d6aa7f5e77f76395cf8cd99c54e7c9598a3b0f5513685795217933f2e"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "ea47c19c7329de8c46ffe40a071b2eb24dbe3d78f1a512f6d3775e937587cb41"
+    },
+    {
+      "url": "/data/protocol-spatial/1025-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-heightA.bin",
+      "bytes": 229376,
+      "sha256": "39e40759986bf721f6300472584aade915901a5cf63fa922345db311c52c7b6d"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-heightB.bin",
+      "bytes": 229376,
+      "sha256": "43ce3c1067f4cb5a6f33a4ee29b7389594c4695cffe4118d1da57d547bd10321"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-wetA.bin",
+      "bytes": 28672,
+      "sha256": "15e64ebc2deda14c192ed13551b11240bd42ca3007094fc6e6d75e78c2080fbe"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-wetB.bin",
+      "bytes": 28672,
+      "sha256": "2c38d944fe2caf8f4522d2f3fe9b4abad5668e64757e4d195bd12b9937680a48"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-common.bin",
+      "bytes": 28672,
+      "sha256": "c230a1c963c53f21d650a2aa40083173b29849144e3f8535ce3aa890c2b00098"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-steep.bin",
+      "bytes": 28672,
+      "sha256": "391e3e0be03e1aa9f9c34432904440b2df91d0f4ae8e8c75f185068aa10cbfe5"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "1fc29829335e2e04f358c6176f8a4f32f743ea29d95bfb9c10f5af4efea0d34c"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "12bfd4a1f5b8935895d3ab59a8e2511c0e6b77be283c94a2573ded00b8326723"
+    },
+    {
+      "url": "/data/protocol-spatial/1026-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-heightA.bin",
+      "bytes": 229376,
+      "sha256": "8aa95464fd411afb5dd604356c4540c09b2efd98288b6661aaf20b564729b326"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-heightB.bin",
+      "bytes": 229376,
+      "sha256": "53ea177e64bafd1fb7f2e374bff8764f4c79b24880409bd688acfebc983e648c"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-wetA.bin",
+      "bytes": 28672,
+      "sha256": "bb12eea85adb19e473dd085e9248862b53cf3f8c273a90b3eee91c27a06d4934"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b4fc929bdd1c0271e18b956587d0c27e98decec1d6b09135a3c76d0b48157638"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-common.bin",
+      "bytes": 28672,
+      "sha256": "40db168309d5817012561608621a38cd03b3ff0f6924a86877bb799b2ff57dad"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-steep.bin",
+      "bytes": 28672,
+      "sha256": "a66a573bfb04424a27a116d1302f1488ed539bf44c6716ad767db17f8da98787"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "39082fa57d29f50e32c9e4d8f626ec521d3ebf763a137426c272b3f1cf89ff2b"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "059dde807702f66ed01ce3f71c2c2d0b2a966123c7df47d7906bf09b2ba25831"
+    },
+    {
+      "url": "/data/protocol-spatial/1027-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-heightA.bin",
+      "bytes": 229376,
+      "sha256": "5a98b99b83d9aa129cae33418dffd999e1469a64f19805505b9a70d4970a85c1"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-heightB.bin",
+      "bytes": 229376,
+      "sha256": "2a2b0284278cf3841c1ab9dc9856ef99d93b1e86e7b158d1908d10ddbfa72e20"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-wetA.bin",
+      "bytes": 28672,
+      "sha256": "bd6b7d0d8ef0df211a14e247dcb026f78a4a35088e94f5629f64a4668a33ddc7"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-common.bin",
+      "bytes": 28672,
+      "sha256": "bd6b7d0d8ef0df211a14e247dcb026f78a4a35088e94f5629f64a4668a33ddc7"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-steep.bin",
+      "bytes": 28672,
+      "sha256": "b3d65d0568d23762a859f106b9c442b8fac1bce600597a02f223bcb593491eff"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "57a32c8a470bc8f5aee0f698e93cb359b651d173d571d3ec52d56f1fb30e0c82"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "41b60f56b48d31e520e8bbbd0ed926495126c0772f53e380e69907fc8c410f9e"
+    },
+    {
+      "url": "/data/protocol-spatial/1028-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c0cb9cd9b1bc29111d34bf2585caab31b7bfd0cc2cbe5c7a1010c7bcf41f2fe6"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-heightB.bin",
+      "bytes": 229376,
+      "sha256": "e91ca6b0bdc7bd0a3e9f2188a42e27cd0f06a1304a01089148ac28c4400d2d5d"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-steep.bin",
+      "bytes": 28672,
+      "sha256": "89ed827029db682ebfe62e17885151e89082b52f3ed2f22ae9982fffd35ad3fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "32ab7a7a1bf5362b285f91f7bef7a236a0c58361d6dc6979cc1cee0b0e94d5d6"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1029-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9c8aee6000ff762e3509e129b6420b1ef4837e4850587ffafb4147eb002b3a38"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-heightB.bin",
+      "bytes": 229376,
+      "sha256": "b1a100cf9d5db5eba98ead01ac2298e3016bca62c8c71ebdd6a2a49b0daa7a56"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-steep.bin",
+      "bytes": 28672,
+      "sha256": "644dc1336602b8d6797ede3664943067002c2f5ed2cc667dd2b577f8ca3f5855"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "217d0c8dad4557a0f58331e0d71e76ce27186f022dc25d3ae826fe267963dc1d"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1030-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-heightA.bin",
+      "bytes": 229376,
+      "sha256": "ba1f53ad2fb3e7bf00f79d8aa30d3e67e8c5556a95f10d40617b0a7ac589d669"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9c9d166d97d188f5e539f970163c45259234229df572a70f9e4894a85011b00b"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-steep.bin",
+      "bytes": 28672,
+      "sha256": "4afd342ccb372932bf70e4cf7ddc86e1dda8d88d7340d796d8bb78834dfde409"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c82ede96339f0b3534f5b251a41f680a713af85ee4d9d10c567be8b4b45a2673"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1031-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-heightA.bin",
+      "bytes": 229376,
+      "sha256": "187fa8f0fee74ca349f15c2341de294f2c11539f7f945f1d61dfd3872d0644f4"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-heightB.bin",
+      "bytes": 229376,
+      "sha256": "e2f55e29393eb4cb4971b696dfbe2bd6748528a0b7bbcee97ebcf2e3c7545044"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-wetA.bin",
+      "bytes": 28672,
+      "sha256": "fc0e4aab2131ec9cbb06cbf735bf2293fc54d21a69bb1ec93e8f4af9ad302265"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-common.bin",
+      "bytes": 28672,
+      "sha256": "fc0e4aab2131ec9cbb06cbf735bf2293fc54d21a69bb1ec93e8f4af9ad302265"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-steep.bin",
+      "bytes": 28672,
+      "sha256": "21db8b315c6dc11d3629c5e84c12934f6d63eb52ba3e75ffc7ec978048b34b85"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "73cde51a9365d52a98b0dcfba78314063d95eb6d39044f6c963557e0b0d077a8"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "f5ee3e74318a81d3732de40cac8457a7f188454ffcfc3eb671516cbb21965fd9"
+    },
+    {
+      "url": "/data/protocol-spatial/1032-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-heightA.bin",
+      "bytes": 229376,
+      "sha256": "98d3056989923833d6e6e563b80d72c56627294bc68b0d96a7a3f0acd038f136"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f7b27669c3ceb1a3984f6569cc463abaae2d20b89010d1bce9486d3e61fb16da"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-wetA.bin",
+      "bytes": 28672,
+      "sha256": "d2a47e8eca7ff10f0c26e2d120084cbe75dd26ebf9ed78b592e1a8ef119d7c67"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-wetB.bin",
+      "bytes": 28672,
+      "sha256": "f52eb7f9c4fa0226027dfdfca63c34ebefdee2b1ecc25d447b0c25c75839f563"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-common.bin",
+      "bytes": 28672,
+      "sha256": "3ff60b58690e8718c6941bcdf8efd28fb14c2a5a95698323ad4e9a1dc7457003"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-steep.bin",
+      "bytes": 28672,
+      "sha256": "99926a93de5917109f350a170759e0031bc6fccc219b2fa29de9defad3dc1765"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "552f51bd32c5430fd4605d0f1252d4e337c693177b775f76d650399b0b918073"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "c13710adb65d66d9fa86378f23eb3575110f60cd80e124ab302dab3226c1f083"
+    },
+    {
+      "url": "/data/protocol-spatial/1033-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-heightA.bin",
+      "bytes": 229376,
+      "sha256": "39724f1b72f87f3f2373721b265bb28c046e94b4feea568217c68b14ee43c0be"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-heightB.bin",
+      "bytes": 229376,
+      "sha256": "a56f2b3274e24f81e9a3ba7a934ff215f37ceb60664b886ab7327f0eea6822e3"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-wetA.bin",
+      "bytes": 28672,
+      "sha256": "0a94881750e262b4c4f634cf9fbefec9f4715315000601bc1882371d773c8f29"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-wetB.bin",
+      "bytes": 28672,
+      "sha256": "9d90bc5889984392a8c3306d71e1c5d9bf36ee8817f87cb13a2c10d260eb34ed"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-common.bin",
+      "bytes": 28672,
+      "sha256": "cd6f25e3c5e8236804872c26522609ac72183475f792ef33cbb07432e257a0df"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-steep.bin",
+      "bytes": 28672,
+      "sha256": "f8bc705d505366950c63895351dede9b50c632d31ade600f336736fd385a1187"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "1af289eb034941ed53bacd57404c6ba5614d5707b40a1f20bbf99fb187bc7c43"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "5bcc0368558a2a7ff8fa44210e5ddcff8a62cd3872a2de79370c79e9de8294c5"
+    },
+    {
+      "url": "/data/protocol-spatial/1034-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9c8825020167e35524f702e2e66df02fa0ec4117c9033d7baad34595a79c9a15"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-heightB.bin",
+      "bytes": 229376,
+      "sha256": "97016b7bdeb9c45747912a4bc62033a1c8c321439dcd46e237919158d61fe31b"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-wetA.bin",
+      "bytes": 28672,
+      "sha256": "5bede74c8ece9c85d4da6ccff5cadfc473dcdea129af7576a7ded5ec25f578c7"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-wetB.bin",
+      "bytes": 28672,
+      "sha256": "9d90bc5889984392a8c3306d71e1c5d9bf36ee8817f87cb13a2c10d260eb34ed"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-common.bin",
+      "bytes": 28672,
+      "sha256": "c166261c74d1fdb44f8136616a76e63389faa639508ea2bf8e901f9bc1e33701"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-steep.bin",
+      "bytes": 28672,
+      "sha256": "1d4a1374bd1b7aae4282e0040fcbc0b83970425b56363b17cd04ea6c0baa4bce"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4f7f5dc08761be447df70e9bfb834a64419ed6c0d332de629e2bb3cc1acd9d41"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "30c2e0ad0cbb94fa6c11b64dd58f85bf5c0e5b3d122acea72d0ab8c0bb6afea7"
+    },
+    {
+      "url": "/data/protocol-spatial/1035-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-heightA.bin",
+      "bytes": 229376,
+      "sha256": "8e62c5bddefe595c8f384548fe5ffb70bc7ae75b1675d59919e96d9f9d9aad1c"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-heightB.bin",
+      "bytes": 229376,
+      "sha256": "4fc78eddaa6fb580e6949f7c9f33bfd91452d4870535bf2a4b75b9a14a053428"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-wetA.bin",
+      "bytes": 28672,
+      "sha256": "b428f4794d0dec61d99e4a226f4ec28a0114442b35fbb722d0b66a8a5d8a3151"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-wetB.bin",
+      "bytes": 28672,
+      "sha256": "9d90bc5889984392a8c3306d71e1c5d9bf36ee8817f87cb13a2c10d260eb34ed"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-common.bin",
+      "bytes": 28672,
+      "sha256": "9d90bc5889984392a8c3306d71e1c5d9bf36ee8817f87cb13a2c10d260eb34ed"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-steep.bin",
+      "bytes": 28672,
+      "sha256": "32190b601e0f95e05ca8b660c543922bb6bd657eb1821a0a608e11d1ec4cb77d"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "cd2b09d415cfe0bad292d2611d5afb397c91d3472ed1da2ed66494cd8e015daf"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "483b9b9b6e79da0bcb2104ce082b8197aa8202e2ecae71948aa269d1ccdb00a9"
+    },
+    {
+      "url": "/data/protocol-spatial/1036-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-heightA.bin",
+      "bytes": 229376,
+      "sha256": "4e5fc12cc5dd430b21401cb0ab76eb7f58b1cfacea30160466a7c9572bcc43fb"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d3f478565d6ffa2d5b260587bbaee2f5a5bfbed544a9e7a731baf76d932afb2d"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-wetA.bin",
+      "bytes": 28672,
+      "sha256": "624f76a4cf2612ad9119da58566bcebc2d9e8392aed5a20f64e1ca281e756fcf"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-wetB.bin",
+      "bytes": 28672,
+      "sha256": "88a33da825735b7dbd1e8cf0aa10f18b1b844628f8c64e37582c8f5a7130402a"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-common.bin",
+      "bytes": 28672,
+      "sha256": "2a31abc88b5000e4db0976d0b3049edf1c3f5330623250749558b5deb55df49c"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-steep.bin",
+      "bytes": 28672,
+      "sha256": "8553dd7775625059fc0b4f4245193bb02bc7c3f13a0c01e9ae656534bab06486"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "654c57d7064b968ec0e842577285ad00e5ec7f7c49105f52c96c8b210e96f673"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "8f0c8f6d8900753f356742e2f52621a577fc7cb06aeeae013a1252b742f5fdea"
+    },
+    {
+      "url": "/data/protocol-spatial/1037-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-heightA.bin",
+      "bytes": 229376,
+      "sha256": "4d4766043faeeabb3de110892262a91381bd507d2b696889f05b213c23e3d87f"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9ea96bd3bbb6ce55054d821dae0ad983450b2facd4c4b852ecb3c88785d36ec6"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-steep.bin",
+      "bytes": 28672,
+      "sha256": "76d07f781e16f5aaff5d0c8ecd94f6fc460e72fe9d18ae7d54af06a03be9ec5d"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "a2283d031ef10243d670f46fe94d76386df206636652bf9d085a3cef2246a7fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1038-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-heightA.bin",
+      "bytes": 229376,
+      "sha256": "3d8b6a597c0e758093e338390a172f206c19d13d69b7b4293917097380caca3a"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f0403d580918887e8d0d34935c5789e4167c225453084d869326ea2b5ea780fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-steep.bin",
+      "bytes": 28672,
+      "sha256": "3eafc9312249e63da6a5b0c3ce471eb59024b315ac6782f15316480839360d57"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "275709e128be7d41051c1f9264f5c9d135060439a2f0060c8be194898ccde2e3"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1039-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1d646e1d426057b057b6698e4f26bf957df51ec6011aa5fb2cff5d55071bd1d7"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d8331c523c77db960b6fe765a10f9cc7139852efd39a59fc7d8e8d3acb4fbab7"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-steep.bin",
+      "bytes": 28672,
+      "sha256": "cf98b2ea6b0823c109c57d685e166cc1ad1c90612169e3ab73a88f78e59af11d"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "7e48fee5f7f6b931343c742103ca993851345fd4795692f6fe6e43bedaaabadb"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1040-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-heightA.bin",
+      "bytes": 229376,
+      "sha256": "98a95063362a9d8946e688d6a397aed01f0bf8dfc2bac18eef899ca578a1c64e"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-heightB.bin",
+      "bytes": 229376,
+      "sha256": "4e68d64a46b1b6564fd901f536e72d92530eda6d851c5b18e8f5c3148a39c3f1"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-steep.bin",
+      "bytes": 28672,
+      "sha256": "7728a4c94ad907e9743a1978ca13d8dd88834fd318f6596ea92b627819c2f6eb"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "24ca9e883316f3e11ced67318ec74bcc49542d66e37a42245e02aef86a7d0d06"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1041-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1601b5d3aa3c62ccc73ec6dbd2214c25c492daad57c681c93fa8aa4ebc3358d6"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-heightB.bin",
+      "bytes": 229376,
+      "sha256": "cfac3e18c6396ed2ef43f6f60a60cfcd7b49067c5c0e6aad5d2496327dd4b460"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-steep.bin",
+      "bytes": 28672,
+      "sha256": "59463036803e466f05e625c5a2a13eae601ef4d4e1e9d335e05312220621bebb"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "6b791fdd4f2445079345238930c3495a45850f058e971b029a873e229b2102fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1042-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-heightA.bin",
+      "bytes": 229376,
+      "sha256": "77922279cc1cb76ee5d85c3e5e93deec0a1ddd2c0580046163796212b9989587"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-heightB.bin",
+      "bytes": 229376,
+      "sha256": "0de6f233b2cbc514ae58d76bf2e09bdd2aab628c13315b9e522cb5069f9daca0"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-steep.bin",
+      "bytes": 28672,
+      "sha256": "b89fc698a2fde60f7fd652153783cf98d28a7a95783e46378873db2e41744f0e"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "6822c1b0fa249548beb24eeb0aeca29c29856413a891e83184c1c9f9cf908ad9"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1043-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1bd14740bb4191506d11574c42b8de5774594395552be5cbfa00bc28f8300c2e"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c9e51ea0fb08b11e478aa58a83307f55ee2290570f0014a9a3d84ec29b4f5fb5"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-steep.bin",
+      "bytes": 28672,
+      "sha256": "83eb2639d8157661e6b36e15d0168735bfc741f8037d34e76d41745ab2e602aa"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "50f709e069e8a361a3ba80d64dc8b1c894b3d5203077c4b32960c853d8156ab0"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1044-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-heightA.bin",
+      "bytes": 229376,
+      "sha256": "6b21b103b15953b03875bcf0f2ed4c1f0fbbfe3f3d0b393a4a44cba009e9f36a"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-heightB.bin",
+      "bytes": 229376,
+      "sha256": "bf84d6b0387cc6c0ab9a31f45b7e038d1020ed0ee8ae5b69fa3d0d0d4c588fd0"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-steep.bin",
+      "bytes": 28672,
+      "sha256": "d8bbb475e2d6466c0368bf57e93fc0a4d663635cd4fca02d7fb3491ba2106ae3"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "ba773ea7b46da1f3386adaef2603da36094f09f323e15d315a00351bd8b23de1"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1045-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c00277d09c4f7daf39442c70482bff2c56fb35144dccb26a398bf77ffdef4f11"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-heightB.bin",
+      "bytes": 229376,
+      "sha256": "0fed8b390c1b0dd759c951fb4a66c8a6ac4132fc68b05ea9367f514f71259c7c"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-steep.bin",
+      "bytes": 28672,
+      "sha256": "438eac013cf8a896937c3a0941edcfa9c012ff5a3021cf1a6a2c015e93396c44"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "e1dd0632b58d437e528552f634bfdde35c887a8a0796da46a2e92b5718f78e01"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1046-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-heightA.bin",
+      "bytes": 229376,
+      "sha256": "e112497bdc95c78bae2b5d3b28a56090b45b865068643577e06eddce8d64bc47"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-heightB.bin",
+      "bytes": 229376,
+      "sha256": "4c61f5c9c2069c34d1497c318780c4bc161ba910f1134b09bb438facd351c03e"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-steep.bin",
+      "bytes": 28672,
+      "sha256": "77b3c377ebd57b1ce8059a41e83870392f660459408363f6f6068ad91820e0c8"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "a3d104f71f6579b32aa876cdb9cf7ba08831dea314cada997e9c05c9417d7958"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1047-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-heightA.bin",
+      "bytes": 229376,
+      "sha256": "aa4abfd9d6181ea56e41517e2cd3e758a39a0cdd67165c4b5829349327517371"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-heightB.bin",
+      "bytes": 229376,
+      "sha256": "a81cf75a823b908b6fa18ea061a1390fcf047c1dad56f8343ff1b1552b39190b"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-steep.bin",
+      "bytes": 28672,
+      "sha256": "552660edc3ca50667e473792a689142438311f2f70c0a7b255be466b380377e8"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "fa93fca8f50c7a32768d6d6740c4dd86492a9f2db10957eeb4b94586d418c077"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1048-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-heightA.bin",
+      "bytes": 229376,
+      "sha256": "24c95d7cdfa22d12d1baa44f16647a69b44fde83a51177b9c999d4111f751d9a"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c8257805f4d3da79b0d2c5e336cea75c4b4bcfa66a55377dfe3da25004ad03b2"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-steep.bin",
+      "bytes": 28672,
+      "sha256": "2cf37c40b5fa4df751e05dfe9fe920a9a2efce396ff746978ff1e0c4f1b688db"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "7cfdd3055066ff1620d4127ff4e0e4aaf6f94aeb6996731887065efac3533d22"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1049-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-heightA.bin",
+      "bytes": 229376,
+      "sha256": "12398e209758a5b604b5057919fb6ab1eb8f854fd090a3c49a0c3c207fe8a027"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-heightB.bin",
+      "bytes": 229376,
+      "sha256": "aaf3f84490419613d95ee73cee3cd5bfcbd018a6d8a6cf5474e36ede813fae43"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-steep.bin",
+      "bytes": 28672,
+      "sha256": "75ac9c85124e070bccd6f9be1c7eb46b67028b315ae13a47b0fa7b2ca7fea1f5"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "b8b523b9939027180a0214409356369fce2230a19cb5aa05b0670d3b2291b7f4"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1050-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-heightA.bin",
+      "bytes": 229376,
+      "sha256": "594a6d3ab9322686acfd9c001e592e8bd38e1afa4a10525d7d3a04f7d801a0ad"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-heightB.bin",
+      "bytes": 229376,
+      "sha256": "8069dbe494a36d29eeea18cd08f6878e87ba4cb119f3376da7fc1c61c91de3fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-steep.bin",
+      "bytes": 28672,
+      "sha256": "171de6b68a513f17dfc09007ffa2fa2e537154698643edfed1a51824faa8023a"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "148a28c74e42aac7c9fa81bfb89bf8c28a275141168ba68e21b8c15c916f965f"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1051-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-heightA.bin",
+      "bytes": 229376,
+      "sha256": "13e218f7360a5858dbdf0138ee2c6bf0ac660ca5f2635223dc5d213c9e9e0b5a"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c854dcdba41d9c7272ed61f3933b4bc184cd79414b910540d73f0968341e1c19"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-steep.bin",
+      "bytes": 28672,
+      "sha256": "deca7bb8216228386d2f96e0581b3b150ff91958be44d7cb41115e9540cdf708"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "ae0f7d48bc6ce01724981a1c1e939556fba875a8661ace535974ddacb82e180b"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1052-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c914be931c5fe021796b04b4da455963ae851ad0ba0bd9b0c9d48f78584bebcf"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-heightB.bin",
+      "bytes": 229376,
+      "sha256": "646037def20508fc68ad9d986a8c552cbff90da65ff79ff4479ef5f0a0cb62e3"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-steep.bin",
+      "bytes": 28672,
+      "sha256": "47073067385bbd3bb45b76e3e3ababa4e33c972c9266c89b82cc6d3fbca97705"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "f866aa80fe00d9d3c873774effc0aeb0401b0049892ec9122218e2c92f329da5"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1053-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-heightA.bin",
+      "bytes": 229376,
+      "sha256": "b971546c4e32a5d6f3609b8f3ad7913076fb8c179dcb0eab5e07eddcbf6fdfef"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-heightB.bin",
+      "bytes": 229376,
+      "sha256": "51abeb4f0ffcdfd82413b7ff5568fbf580e3d5e88065b31aec240e0f63c60963"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-steep.bin",
+      "bytes": 28672,
+      "sha256": "842e1bd9d8332c6c35a079c04e1f54c51a836288f02b1774e9b44f904ed522d0"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "07fbdd7a058b9d2e9a51e030683ea0563a3c31e7b5d2a3775d608827accdc8c9"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1054-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-heightA.bin",
+      "bytes": 229376,
+      "sha256": "6bf6fad09320b60771a152f809a884ef9f29f551958cc98088a1ac6cd73cb8d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-heightB.bin",
+      "bytes": 229376,
+      "sha256": "051bd423fca944ac5a26ad1389d84ac5559573b0a08bddecc02dd4a1bc9416b7"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-wetB.bin",
+      "bytes": 28672,
+      "sha256": "c70dbab27f0080a896ad8e47b4769e3318f964debcc217d29d0303e5102e6624"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-common.bin",
+      "bytes": 28672,
+      "sha256": "006e4efbfde4e58cc7ca228bf6d8de9d44971666f90e9a1f6796a27eb35366ad"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-steep.bin",
+      "bytes": 28672,
+      "sha256": "db84d06889766c4b91a0f3ce3cd5ce727211163ea54f25646b3ccf029f280502"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "81920d4eb74732467a665f5505841430357390a8a0cab03adef28beece5594c1"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1055-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-heightA.bin",
+      "bytes": 229376,
+      "sha256": "031a2e39cef28f4cce645a7e528cddba7db3f2b28907aa6419b51c3ddeb0458a"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-heightB.bin",
+      "bytes": 229376,
+      "sha256": "2fc856d37b4bb97d578f47aa3083064125a89372dda60f7495d3ef1d1507aee5"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-wetB.bin",
+      "bytes": 28672,
+      "sha256": "c70dbab27f0080a896ad8e47b4769e3318f964debcc217d29d0303e5102e6624"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-common.bin",
+      "bytes": 28672,
+      "sha256": "006e4efbfde4e58cc7ca228bf6d8de9d44971666f90e9a1f6796a27eb35366ad"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-steep.bin",
+      "bytes": 28672,
+      "sha256": "1427207287b381fd2d608f6c3f595c04f4df48e44acd8117f07f506a1b6e49a1"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "8083d29433b15864725b2c304f67fa6a97c5aff5d14879a17577910693608bfe"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1056-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-heightA.bin",
+      "bytes": 229376,
+      "sha256": "3f49d2150ebb63cdb3abcb0623a36ba0c212703acace22e8d092674e0276858b"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-heightB.bin",
+      "bytes": 229376,
+      "sha256": "0d1ebc46e8afef6d5ae2172862daec7f271aca437315ac3aa7ff6b05883ae2e3"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-steep.bin",
+      "bytes": 28672,
+      "sha256": "a134c312ea6ce8dcb930ff7656dbbe4a2a042ccd3ffedea28a94e2e85938a4e6"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c3ec7c2767cd854a97f242bf05f51a30650fe7ee4b81465c853d790d45ea58cd"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1057-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-heightA.bin",
+      "bytes": 229376,
+      "sha256": "94904c38c83b1689c15de1fc57d3ab65b9f7880b433920a26bb16ef4de860bd1"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9e649af11a2d8eba4ec3cb3cc374752f2a3e828f0fd58d3d5015c91d34e5df13"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-steep.bin",
+      "bytes": 28672,
+      "sha256": "4de6be0d8336dac121842f5d23b064d6b401fff6ceb264d2315f1b8e67a0dfd6"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "0330f47878e42af19c442613dd0f05ec0da50dee39f47ecdbbd89798b5a753a6"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1058-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-heightA.bin",
+      "bytes": 229376,
+      "sha256": "517fd8753e75ef8798eeb53f686cb043cde05cc0dddedc7d4042517651ed3f6d"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-heightB.bin",
+      "bytes": 229376,
+      "sha256": "6b2ca6ea080cde90dfc8c4571ccb5b4c412f20ec4508091d7060269379e1ac6b"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-steep.bin",
+      "bytes": 28672,
+      "sha256": "6f3335049e33e7c01d1660d34828ecbccd3a88c1c177a0ad836b3cfcb2ea29a9"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "0b569946b9abfebe9bbe8941898614cd63ca2609bd279600180c7c8dce280309"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1059-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9d8b15d77b06a32c3b600d2a05c8377c09602cc2f5fd7fb72fa402fa7ecfc245"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ce4c4c4f0bd3074cc832adbee2156163d9be1b1e1a32d8610e6e91d7313d5462"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-steep.bin",
+      "bytes": 28672,
+      "sha256": "5126e6c6e5be4b01db81032395a4c1bf05fde036532ee6e1e378f35db60f414e"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "85a33dc011e66e23f9f4774229855ade2ae1aff0d590b2be713f866fa267a8a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1060-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-heightA.bin",
+      "bytes": 229376,
+      "sha256": "ceed81a53755ae46520128f06416214f315955dae8acabee165df2ec1e9809cf"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-heightB.bin",
+      "bytes": 229376,
+      "sha256": "7cdd5a8f7059a8a20af0bcd43f92159d02db034d1d4778f46f8b0b2c2c1c71df"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-steep.bin",
+      "bytes": 28672,
+      "sha256": "7b5d1cd0f57a04fc527a07759189b012905e960c49f5a36d9998e1da47132204"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "d8c31269c78977208ef1d2d44f48d1283e4941db46bf34258ff291c1d66c741e"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1061-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-heightA.bin",
+      "bytes": 229376,
+      "sha256": "4835b50aeedab3bdbd5e187d1b2cfdfb4f8dd48b56f04b4861aa34c87bc027ea"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-heightB.bin",
+      "bytes": 229376,
+      "sha256": "0ff41e0914e5cedfdeb26f5809d29d2b29836fe6e4443494f9d1e2a7ff19b9ba"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-steep.bin",
+      "bytes": 28672,
+      "sha256": "07d90dfd1c28e8d917bc7822b54793183f72e54331a8f8f6c56765926d4b8907"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c16c0f66a47765bbab1b152dfa2a243d53a3cb64efc79b0c11995be1725db871"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1062-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-heightA.bin",
+      "bytes": 229376,
+      "sha256": "fa6ee2b39c8c2abf99b392ab676b2f3f5624a7e74ec716acd4a6881e048711c8"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ef2298420e8704d9a3a3b5edab0f06e1032a0318287d3e0afea56e0ad16772cd"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-steep.bin",
+      "bytes": 28672,
+      "sha256": "1b64125bc53080bbe5c41f9bb5a807bd9d72b562dd6354f01f4ce7c8b099492a"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "095f01489a9984fc5b7ac20583cb0be6476bd62a7dfee9a7055cebb10baebd4b"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1063-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-heightA.bin",
+      "bytes": 229376,
+      "sha256": "f543ebd0c514591ec05f90278a9fb556de36b7059a68365172b0ac11e1196301"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-heightB.bin",
+      "bytes": 229376,
+      "sha256": "1818e471b27023e084fcd0e402a0790b3784cb0210e7bbdb8feafeb50c628680"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-steep.bin",
+      "bytes": 28672,
+      "sha256": "857c6ba9efc917fc170bdadfc787df5dcbc6bb7af3a5718be5ddba31653f68f6"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "eace0b45580a5f20c3f84b55297d3d5134329dae6321135e8e540104c3ec1eab"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1064-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1fb525b6c9cf7dbc05dbbed427d0eb223b910c502c900ee91e20eedd9c86c707"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c8ac620a7fcc349952d4fea80e79681fe9ea26dcac7f055f520a3ab133830768"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-steep.bin",
+      "bytes": 28672,
+      "sha256": "4a487ad79089b215891325c498644f0f815419cb4f5fcfc61563f4efeb452cc6"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "d5d24fad49d5ac3da0856a161e8d47643e7a99b05fbfe40dfada12d599f32038"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1065-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c17502c587b1dbac7243c13077b59106cd8e03340dfb5465bdcc42098474b30c"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c6da943ec543712a48c2766a13517cde47b3e05e8016d0538d0cf63b363edfdb"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-steep.bin",
+      "bytes": 28672,
+      "sha256": "6bad6426c5f5daa91b7189b4d7764c4c73ff94520bef68e9d6d3dd06d7d2beb5"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "e88b0941c89d1d291e532a820769d6eea5b5c791cae9e7259743d7336add8a01"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1066-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-heightA.bin",
+      "bytes": 229376,
+      "sha256": "8ebfaa900a9e889a8cd9caa647d00a395755ce26bdac60344ef0b26fa7b13a9b"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-heightB.bin",
+      "bytes": 229376,
+      "sha256": "c84f5f6729bec835d3175946b34cf9f4a26f0f0fafb512690d1ef4b1c67a6d48"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-steep.bin",
+      "bytes": 28672,
+      "sha256": "990b2c269e7c668bba7906af49a42e0774fba6ca67124904f1d204fefb878c5d"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4d8368cf087fe28c8bce25aef7721fa4ba38160bdd66ffa9543d4b0c4c59b48f"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1067-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-heightA.bin",
+      "bytes": 229376,
+      "sha256": "d808313ea3d317b706652212227a44a44eb6bcfd6c9977788e4593d0cb63acbf"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-heightB.bin",
+      "bytes": 229376,
+      "sha256": "f64a6fe690cfb2f1f224d2e902378ad899e3e35cdb06967aace0b2e331754f12"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-steep.bin",
+      "bytes": 28672,
+      "sha256": "587ce38292bb3f9b4dfd8f48d9b6f0ea4e56c376f90e937963c7a0ddbe4cf1e6"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c1b8a744a11133b246ea55ccef3ee154f69f4abcd362bd6c8b57b1d578bbc0f2"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1068-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-heightA.bin",
+      "bytes": 229376,
+      "sha256": "accdffebffcda7c5f3a234e227bd6c82cfb0f5a69b278aa56217bf3405fe61fa"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-heightB.bin",
+      "bytes": 229376,
+      "sha256": "565b69dd9e8a81368d7bb41381ccdf4296432cb3823321389da12fca60817411"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-steep.bin",
+      "bytes": 28672,
+      "sha256": "dccc6f06eed3688acef1006f4ed80db6395cbe0b9b14f87ee5d0353b5b692bf2"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4de6256e667d90604abae8ffe642424840120bbae5f6636b9a3ea9fec17c790f"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1069-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-heightA.bin",
+      "bytes": 229376,
+      "sha256": "c077fc4327e29c855166b2a72638c0973201604530dffb9c2619819e4c4045c1"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ac13bdcf4920895b1118f63c9b08b93a90fde9a50d27b2016fd8f8b735728f55"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-steep.bin",
+      "bytes": 28672,
+      "sha256": "6d2622d04a8a373cb9be7b7b8731f9a2e9f623462dfb67ba9e75f32303a5dd0e"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c07a69d9493f099e8814fd3911e9c8fa04c88523534cf430ae72f43b19c51bff"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1070-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-heightA.bin",
+      "bytes": 229376,
+      "sha256": "da82a309d52c013f74c9226e0ffb3179b99f01f41118100077dd2f7ef2568ef7"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ea53a2abb5ec8ea6b8fd5d04532291670316165b218d11147a44145578215ed0"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-steep.bin",
+      "bytes": 28672,
+      "sha256": "6d63041661418db5eb17a3ca80867b2f6a6ab86a117b0dc6e71ca166502a4a03"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "ca80a64d63c53db79b69c7713c8ddacb4759991cc1f6df6b2b27a71fcd0595b8"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1071-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-heightA.bin",
+      "bytes": 229376,
+      "sha256": "eabc4dbd19935bc0d4106aa5f77e69e5c12d5090e5d9ce3d8dba5e6b244d3c94"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9a59cca981542ed825de6ae16b1f28a0d90618a4fbd64c5376bd85dd240849fe"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-steep.bin",
+      "bytes": 28672,
+      "sha256": "c5c4bd03924e6c90a6dc23daa23766a269c376bdce6f57825ffc7d055c5946cd"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "146d9dfd6a602ec98da0d1fbd7c8a6b984718a6f323743b42c6fa7a40505d146"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1072-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-heightA.bin",
+      "bytes": 229376,
+      "sha256": "a0396005607e3fe478acacfed02df916e4efcc70544bec421a68f873dc12b4cd"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-heightB.bin",
+      "bytes": 229376,
+      "sha256": "b8b6bc6854536fbf645e9cce4899a4422c3f5cb0fa8131dbb05e7fdbfec7a603"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-steep.bin",
+      "bytes": 28672,
+      "sha256": "f2a91e15be2470b31b21c78e2b5e814d1c69369dd79b67db95c4b2bb1dc283ff"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "a61596337e81d0df8f44fe7e631309f8c87ad7e726f21c4c1ef0505688de5832"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1073-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-heightA.bin",
+      "bytes": 229376,
+      "sha256": "6712b292af2c18752b208dac6998850c3e82b8cf2ec3395150a626b79cec4ff2"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-heightB.bin",
+      "bytes": 229376,
+      "sha256": "fb4e9ea180f31ee23d7efe322de3978e60a98768d64c7842b191d8072da7e684"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-steep.bin",
+      "bytes": 28672,
+      "sha256": "cb767539af820feb7b40502c14e720ccd35a14bf03e868cb17d1da6bf2485c79"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "10f07e993c3b4300da97775bd93bba4939d0cabdfe2f14af5c078d6ac1393dfc"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1074-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9ea6a0bf5789fff3dbd41b82c6af394af6e956e1b79799ae377a482fa0cd2e03"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-heightB.bin",
+      "bytes": 229376,
+      "sha256": "94f008e815a72364a94690211411fd5b71159ba4a1dabaf87f1c7a9a8994d25d"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-steep.bin",
+      "bytes": 28672,
+      "sha256": "1df9b1e2ef8ab7bf1a347e20228d7974aea7d1a30f495936b267969e81cc2499"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "60ccdfc5933a7b087a9e20ea2e710808213261342b4465b4ee6b1448c407e8cb"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1075-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-heightA.bin",
+      "bytes": 229376,
+      "sha256": "7407ea2bfd8f880e62dc05819fe72720bd01d066973fab51572c14d798085490"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-heightB.bin",
+      "bytes": 229376,
+      "sha256": "2c729a08d6a271fdb013a114501145d6ebd5df797d066b13b98b03ec19d7e94c"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-steep.bin",
+      "bytes": 28672,
+      "sha256": "87f4c7610b0e0abcda4782b3477f1071f7a66d2eb213c7bdd7e073ded29ac47b"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "932c1b1fc93c4f57c26f96a8cd2edf7f56b9969f4c227e0dc9d9deefc94980a9"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1076-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-heightA.bin",
+      "bytes": 229376,
+      "sha256": "7e9c0f646f6645b186e713bf08aab90eb572e2f3a9bc1e2432d201b8a6cc8277"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-heightB.bin",
+      "bytes": 229376,
+      "sha256": "259dd094ec636eb665093e140fd021d146bace8999a0ff4b6049533818c7f3ad"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-steep.bin",
+      "bytes": 28672,
+      "sha256": "d117231a84712a04d0761aecdc410cd342f26834b4c3dbd3a4c3cdaf54806045"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "57c7877ded0c77d1c478dd62a52a1fc4c5664d695b986145e71e050d4ccf72bd"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1077-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-heightA.bin",
+      "bytes": 229376,
+      "sha256": "fd4f0a42288d4154a7c2428011fd49b619ada79ef7df7b42a53fb5c288f583bd"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-heightB.bin",
+      "bytes": 229376,
+      "sha256": "1d078bb9cc38bd89b75ff6e7bf0bb121f62ee673bdd3c517229ca10ad0a408f6"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-steep.bin",
+      "bytes": 28672,
+      "sha256": "7a14c46fb09f28a8729c9c0332c750788835f639ee4f990d7d0f9a72660e2075"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "208b88d1c92d0da7c7c1f6494b19b69f8f60338b66e037cbe2c43d2d54f48c22"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1078-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9fc691cfaf7fa7cfbf2da6904e56282d587673b6cd732c08578ce1a4381fd53d"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-heightB.bin",
+      "bytes": 229376,
+      "sha256": "d8df6d12aa5dd8851eba6f9b3f909137d479032dcbeef30bedddfb4ef611115b"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-steep.bin",
+      "bytes": 28672,
+      "sha256": "6a83b8abe84791af31d4e54e3e87bf34ad6cbc296563648be94487dae395312e"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "f932918d46075a14671d906da33c8ab6d4d58d515d4e01c9b6f29e048eafd444"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1079-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-heightA.bin",
+      "bytes": 229376,
+      "sha256": "e0c81c129cf1100cfe0ea643882ebbce4fd023795925961c7027ed2d21e32539"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-heightB.bin",
+      "bytes": 229376,
+      "sha256": "68da61cc817c85831db78fa0baf2b2f3e3f79820b5fa4ea67cb9702e787ca37d"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-steep.bin",
+      "bytes": 28672,
+      "sha256": "e99d55c95a77e37101c53e7010afc3348fa87bae0b20556e5f170e6aa3df0230"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c710d998a909c1e99f5d7e1b6a30493f6dd2d269306107ca43e5be16d6be32e8"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1080-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-heightA.bin",
+      "bytes": 229376,
+      "sha256": "2ee0a5293c91dda1b3bc6c7b83735eb12a7e5b81a41dcd64c4efd0afd43e845d"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-heightB.bin",
+      "bytes": 229376,
+      "sha256": "99c8beca63a02cdffe989954683d1c9ca2ae548a4854e273fbcf786c9e5e7b34"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-steep.bin",
+      "bytes": 28672,
+      "sha256": "75d2e13c823eb1fa8fe78d75d03d7f7dd6f9274a43db8bfa3864798c55cf898f"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "022aba646b1fe8bf7368cd06c15a78c60143897f59a91d152edcbbe2c6ca9bc4"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1081-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-heightA.bin",
+      "bytes": 229376,
+      "sha256": "b06c7ba7de1d4a2e08421afd63feb8190849838f5a3a21afe01b147982d8d567"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-heightB.bin",
+      "bytes": 229376,
+      "sha256": "76e867909d448c05e1d80bf5636f443dc57f83c6e08ceb584f12c42d1be09968"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-steep.bin",
+      "bytes": 28672,
+      "sha256": "aa8bcfd380a0b829555626754b60be08bb090310fbeefd391f75eb5ef1b86e21"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "7b385742352a8567734f783e8bc02ec86989e6b40c09d233707957dce525ad31"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1082-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-heightA.bin",
+      "bytes": 229376,
+      "sha256": "9cf0e53702e485180746d911fc865909febacf84712bfd0350ca44ca53c1442f"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-heightB.bin",
+      "bytes": 229376,
+      "sha256": "fcea1aa3b0ce291c3db456ea5e68f0e55563a1e7a771a3b5f29383c21082bdf5"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-steep.bin",
+      "bytes": 28672,
+      "sha256": "81ea6f322d42b81411de5fc078d79a17c1ffbb26a0e40b67599bf6a9115a4ad7"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "4c9759dde08acbfe233509ad560ac1f4b06cb0acbedb7b30c08905894d53cdf0"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1083-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-heightA.bin",
+      "bytes": 229376,
+      "sha256": "1a8da027b9667bb6969fa9ffda45eff8bd477771ab5eb28120ed6543806a8c4d"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-heightB.bin",
+      "bytes": 229376,
+      "sha256": "a3b3de8d45869b272107765ba2aa73548277681b39de4c633c01410c2d4d137b"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-steep.bin",
+      "bytes": 28672,
+      "sha256": "6cf1d2351e4ff58f35325c2bfdd3481fc4b78fade5ddfd4ae49ba34c5e896456"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "91d970afb747294667d114f5077f3c1d6f7d1520745d192d60e3d5bbadb7bc91"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1084-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-heightA.bin",
+      "bytes": 229376,
+      "sha256": "39ed4078d11beff611af76936e37ed3a1788db12071bddbae6675334938af90a"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-heightB.bin",
+      "bytes": 229376,
+      "sha256": "2c218c64f1ea4176464a0ba8d764e2cbad0a912affbf2f50fd78755382f324b8"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-steep.bin",
+      "bytes": 28672,
+      "sha256": "018a608a53aa94fc2fd9e5a9f2bfaa3b1ca43ca7be4f1a0970115e8f9e889736"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "cd75e43266e31f43188c3961248055f7f2e419097420171019cb24769e8a2e1c"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1085-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-heightA.bin",
+      "bytes": 229376,
+      "sha256": "4e59d5ddc785852cd2815f77cfbf6aabec451eed5c2a9989ed6d7b43aca97b5e"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-heightB.bin",
+      "bytes": 229376,
+      "sha256": "9b4ed9f91f3ead5f4b749c7dc31e86b7827b13eaae4b4752e5df102b37203b47"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-steep.bin",
+      "bytes": 28672,
+      "sha256": "a81b0c8c270a2ce5acc2b4604a9d95960b0d3dcc463213eb26e2d3d83e4ba5eb"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "c9ecff2c6a049ebd7fbad7cb60f2ab1efd5dcb8f5e35ec90c32da908ba80979e"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1086-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-heightA.bin",
+      "bytes": 229376,
+      "sha256": "d160b949cf1a3059a2db08be589c6e2fc364444eecc4a3dd010c406ee01db294"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-heightB.bin",
+      "bytes": 229376,
+      "sha256": "fd8bf7927254392fa0c9daad92753875c101df839cf4c73ec7895e57425accdf"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-wetB.bin",
+      "bytes": 28672,
+      "sha256": "b8fe2e5064b5214b01ac93a51fa84f478ddf9546a455bf6dbc222a638f1411a4"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-steep.bin",
+      "bytes": 28672,
+      "sha256": "ae259680cc46b9454ee322034c34d202169204edacc4742fb37d7a2f424555bc"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "73142650270a8fb19542ba4a96e7075741db069fb33575454e30f2bd070f74fc"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1087-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-heightA.bin",
+      "bytes": 229376,
+      "sha256": "559edae9003df143040e4ec1672e6dd0a4e487d0c87b4313b53b6a72cf434334"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-heightB.bin",
+      "bytes": 229376,
+      "sha256": "639b6c8f18e9616216ea5f0b0fb1acbfc87c1a7b2ad54739f2b3ad0b28991f2e"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-wetB.bin",
+      "bytes": 28672,
+      "sha256": "d0736df8832c5d824be3ba4756ef058a76ea81367ad20640d20163b9b1584175"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-steep.bin",
+      "bytes": 28672,
+      "sha256": "556fd47999d4908bf2acdfc434fe909f298859ca3866ed388aab66dfba49d12c"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "59c5d3bf63900806a38317b6234707887ab1e227a4a2670f0cc8fd7423130fbd"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1088-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-heightA.bin",
+      "bytes": 229376,
+      "sha256": "0661394e71dc787d463ea21035a8738ec1fdf4d15f4915c97f785ae4bee180e5"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-heightB.bin",
+      "bytes": 229376,
+      "sha256": "905c567cc34886fa2dcdfd3d3046a1b6c50c92b5f6c7da6b91baaac46eb704c4"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-wetB.bin",
+      "bytes": 28672,
+      "sha256": "d0736df8832c5d824be3ba4756ef058a76ea81367ad20640d20163b9b1584175"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-steep.bin",
+      "bytes": 28672,
+      "sha256": "1fb0542fa732e2544344630beb046d2e2452e81508421c0696ea8eb4cc49f963"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "5fd24bb619a06b90e6b8932d63efe188a7a9c22f21949461bdcbbed0346796bd"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1089-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-heightA.bin",
+      "bytes": 229376,
+      "sha256": "680745ac7e492c906006e0877cbb849744ac3cd8249378630daffb64e5b470a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-heightB.bin",
+      "bytes": 229376,
+      "sha256": "0c10c0c2990c5394a61b8fa75adcfbd4a28518f383abd635f2b7327592cf23ad"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-wetB.bin",
+      "bytes": 28672,
+      "sha256": "59a04ecb08a83b1f8a287fef14e1d33eeed96420aaaeed2844e609d29b9fcf65"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-common.bin",
+      "bytes": 28672,
+      "sha256": "d0dfea76942bcfc635c785ad93e80b0620391787133aceb5cf3ec9d5d9975523"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-steep.bin",
+      "bytes": 28672,
+      "sha256": "8ef110f39c85e915808a759d0b605fdd3021ead25bbe9ad29565fe0bbcc7a2be"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "7dd38a05bbc9bc26b53576d587002d4a3bedcd22877bc5ed269a78641108243b"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1090-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-heightA.bin",
+      "bytes": 229376,
+      "sha256": "10ae8b4a98c4fa2ae3a3098657b7218263942cf501a4e3eb7ec959fde2f2680c"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-heightB.bin",
+      "bytes": 229376,
+      "sha256": "e56f337ec9cd4c297ac7d18eb083ec9332d86f2a2a33d5b4dd8612f018edf01e"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-wetB.bin",
+      "bytes": 28672,
+      "sha256": "59a04ecb08a83b1f8a287fef14e1d33eeed96420aaaeed2844e609d29b9fcf65"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-common.bin",
+      "bytes": 28672,
+      "sha256": "d0dfea76942bcfc635c785ad93e80b0620391787133aceb5cf3ec9d5d9975523"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-steep.bin",
+      "bytes": 28672,
+      "sha256": "723c7f79f6490253dfc34b9c13752ab5c59a683e8fd3da812d056247d9eee6b5"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "73837e917563c191536204730ea5f2d6a5581178cfea6e83d228ff5cd5539f22"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1091-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-heightA.bin",
+      "bytes": 229376,
+      "sha256": "f6029b027ce61beddf2be4589b5a9e0cd01317de007a9a4ab2afd51e8d74bda0"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-heightB.bin",
+      "bytes": 229376,
+      "sha256": "3f0256e360bd18ca49160dcc60293a108a4109418b96d285712eafec0c7221f4"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-wetB.bin",
+      "bytes": 28672,
+      "sha256": "43c87a154b531285f68d8e4da0cc74988a57008443f71d18eb393df7bdf86e54"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-steep.bin",
+      "bytes": 28672,
+      "sha256": "8232986643958f91c715cee8e29d0c1a7b6ff2b4b189c316c47a4d90412e4e7d"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "1df445237ae6bbe3af37c4915a522ea5fee92dd5797e439645726f90f7ce85a6"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1092-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-heightA.bin",
+      "bytes": 229376,
+      "sha256": "e7b4aa61c218c3163b3793f7b4c10a8eeba4d218b50096f232fa3a26acde34c7"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ba8bcc21cd8f5e597af749b05422a38164dba8838550efb4adb9c3e2eab40aec"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-wetB.bin",
+      "bytes": 28672,
+      "sha256": "d0736df8832c5d824be3ba4756ef058a76ea81367ad20640d20163b9b1584175"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-steep.bin",
+      "bytes": 28672,
+      "sha256": "5d010dd55626c940cd09ccd143e01f76c441c32a4d66c48fbabadf5e79aa4eb2"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "59484e64e249cda1b6610d1b657715d0882442db1dadb540b3ff103b45b7dac5"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1093-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-heightA.bin",
+      "bytes": 229376,
+      "sha256": "59a0b5f2f5a0273e962897e30194d86b5ae96a5a4a396f49d35f96327503d2f7"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-heightB.bin",
+      "bytes": 229376,
+      "sha256": "82c69587fd514903e10482bc41e68d06c37d2c5ea9fdfcb0fad16d4e7dc5c6e9"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-wetB.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-steep.bin",
+      "bytes": 28672,
+      "sha256": "a9829035d5b157edd1741c47a22eda6287d0dc22a610f0564f762a0b58822246"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "e281b18fcc2b4d8e2c3936fe44e72bcfd08bec7e23c70f9066d75840026f6c3a"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1094-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-heightA.bin",
+      "bytes": 229376,
+      "sha256": "98493c0b8c16aa1e207551ed603284c1a97c96e92d43cb7a920a18653e89a4fe"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-heightB.bin",
+      "bytes": 229376,
+      "sha256": "5bde2474215e0a224babb09561e045764867800bb5419c1bed14433f7b662f27"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-wetB.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-common.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-steep.bin",
+      "bytes": 28672,
+      "sha256": "1be716cf20472524808b80a0debdc1cac014cd4c15c7b23e37f11ea449a8db44"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "1cbb96939dd719df7e6c7d6a58093dc4ccb2637166329fd00c57b70ec43dfca5"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "28b06f903683c67a6596196eb098e4b5b3a03743f102fefbebe2fccd284d2747"
+    },
+    {
+      "url": "/data/protocol-spatial/1095-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-heightA.bin",
+      "bytes": 229376,
+      "sha256": "ffb6208c091ff29e0006d362f9eba42089387b87acd5ef9c494d3bfc17bc8634"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-heightB.bin",
+      "bytes": 229376,
+      "sha256": "ff3a2b88771db3704faec03b9267f9aa8f6199e0f2c7caad94d3f1ddeb0e0a27"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-wetA.bin",
+      "bytes": 28672,
+      "sha256": "6afc83d7dee3970f9b0ebfc79269bf15bc5cfeebadc339f327a3483d901406a0"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-wetB.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-common.bin",
+      "bytes": 28672,
+      "sha256": "5c18710ce8bf03806726c30c973de323c9ae9637c18e6848aadfc981f0a5624d"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-steep.bin",
+      "bytes": 28672,
+      "sha256": "3e5a9f0f9ef66b9c9eda7ad5c001ff639ffb06153f004aca2bbe52b282dba1ee"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-calmCells.bin",
+      "bytes": 28672,
+      "sha256": "8a8a2fa215719bae764d56da9e067a2f00c0890f4d2ca5bc1aae7027eb79557f"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-breakingBand.bin",
+      "bytes": 28672,
+      "sha256": "3630d005bde6b14069c6f14533bf48d6317ad4af80c3668e99e15a28db4bfd86"
+    },
+    {
+      "url": "/data/protocol-spatial/1096-calmBand.bin",
+      "bytes": 28672,
+      "sha256": "b4ae9dd24a667f7546ee19dc7bd2ddc69a46f533a03326ab59c0a1abc4a580d1"
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "schema": 1,
+  "title": "OceanScope interactive demo",
+  "limitations": [
+    "96 frames provide protocol-native height and sequence metrics. 3D geometry is available for1001,1049,1096 only.",
+    "Displayed values use the recorded simulation convention; physical calibration and model training history have not been independently audited."
+  ],
+  "cases": [
+    {
+      "id": "best-1027",
+      "name": "Best_1027 · Gentle GT",
+      "description": "Gentle GT and Best_1027 reconstruction. Explore96-frame height analysis and three selected 3D frames. Metrics retain their stated supports.",
+      "comparison": {
+        "schema": 1,
+        "id": "best-1027",
+        "groundTruthId": "public-ground-truth",
+        "predictionId": "best-1027-reconstruction",
+        "settings": {
+          "activeGroup": "sdf",
+          "previewOnly": false,
+          "sdfEvaluationRegion": "full_domain",
+          "sdf": {
+            "gt": {
+              "semantics": "full",
+              "unit": "m",
+              "validationMode": "local_pilot"
+            },
+            "prediction": {
+              "semantics": "full",
+              "unit": "m",
+              "validationMode": "local_pilot"
+            }
+          },
+          "velocity": {
+            "gt": {
+              "unit": "m/s"
+            },
+            "prediction": {
+              "unit": "m/s"
+            }
+          },
+          "heightComparison": {
+            "surfaceValidated": true,
+            "negativeInside": true,
+            "upAxis": "Y",
+            "coordinateUnit": "m",
+            "frameTimeAligned": true,
+            "basis": "Working pairing confirmed by user; local audited full-SDF pilot; see reconstructionEvaluation protocol."
+          }
+        },
+        "availableGroups": [
+          "sdf",
+          "velocity"
+        ],
+        "status": "ready",
+        "labels": {
+          "gt": {
+            "displayName": "Ground Truth · Gentle"
+          },
+          "prediction": {
+            "displayName": "Best_1027"
+          }
+        }
+      },
+      "processing": {
+        "availableGroups": [
+          "sdf",
+          "velocity"
+        ],
+        "lattice": {
+          "axisSteps": [
+            [
+              0.049999999148505836,
+              0,
+              0
+            ],
+            [
+              0,
+              0.049999999148505836,
+              0
+            ],
+            [
+              0,
+              0,
+              0.049999999148505836
+            ]
+          ],
+          "dimensions": [
+            224,
+            64,
+            128
+          ],
+          "origin": [
+            -9.649999714323453,
+            -1.5000000204890966,
+            -2.550000047311187
+          ],
+          "voxelSize": [
+            0.049999999148505836,
+            0.049999999148505836,
+            0.049999999148505836
+          ]
+        },
+        "frames": [
+          {
+            "frame": 1001,
+            "bytes": 99523224
+          },
+          {
+            "frame": 1049,
+            "bytes": 99523224
+          },
+          {
+            "frame": 1096,
+            "bytes": 99523224
+          }
+        ],
+        "missingPredictionFrames": [],
+        "extraPredictionFrames": []
+      },
+      "metrics": {
+        "schema": 1,
+        "algorithmVersion": "best1027-pilot-v1",
+        "settings": {
+          "activeGroup": "sdf",
+          "previewOnly": false,
+          "sdfEvaluationRegion": "full_domain",
+          "sdf": {
+            "gt": {
+              "semantics": "full",
+              "unit": "m",
+              "validationMode": "local_pilot"
+            },
+            "prediction": {
+              "semantics": "full",
+              "unit": "m",
+              "validationMode": "local_pilot"
+            }
+          },
+          "velocity": {
+            "gt": {
+              "unit": "m/s"
+            },
+            "prediction": {
+              "unit": "m/s"
+            }
+          },
+          "heightComparison": {
+            "surfaceValidated": true,
+            "negativeInside": true,
+            "upAxis": "Y",
+            "coordinateUnit": "m",
+            "frameTimeAligned": true,
+            "basis": "Working pairing confirmed by user; local audited full-SDF pilot; see reconstructionEvaluation protocol."
+          }
+        },
+        "frames": {
+          "1001": {
+            "sdf": {
+              "mae": 0.1354916092200671,
+              "rmse": 0.2480393531709235,
+              "bias": -0.10366507310437828,
+              "maxAbsoluteError": 1.3617270588874817,
+              "validCount": 1241408,
+              "coverage": 0.676513671875,
+              "globalDistanceEnabled": true,
+              "evaluationRegion": "full_domain",
+              "notice": "Valid finite SDF pairs on the native 0.05 m grid; this is not height error.",
+              "noticeZh": "0.05 m 原网格共同有效区域内的 SDF 距离误差；水面高度误差见左侧独立评估。"
+            },
+            "velocity": {
+              "meanEpe": 0.12554418368234727,
+              "epeRmse": 0.16134167289071008,
+              "epeP95": 0.30701732641724333,
+              "componentMae": [
+                0.0571610362271868,
+                0.08700480930289214,
+                0.03767554224657687
+              ],
+              "componentRmse": [
+                0.08196248361005294,
+                0.1280170092008197,
+                0.05408264090193195
+              ],
+              "relativeL2": 0.3173132031916267,
+              "meanCosineSimilarity": 0.9314263615631799,
+              "medianCosineSimilarity": 0.98488003199846,
+              "meanAngularErrorDegrees": 15.298949750471833,
+              "angularExcludedCount": 0,
+              "validCount": 291311,
+              "coverage": 0.15875189644949778,
+              "errorSquaredSum": 7583.156087764185,
+              "gtEnergy": 75313.65229847131,
+              "notice": "Native 0.05 m common velocity support. The underwater 0.1 m protocol is reported separately.",
+              "noticeZh": "0.05 m 原网格共同有效速度指标；水下 10 cm、0.1 m 网格的筛选指标见左侧独立评估。"
+            },
+            "elevation": {
+              "mae": 0.017575577444165855,
+              "rmse": 0.021084835642070466,
+              "bias": -0.011671488733768097,
+              "maxAbsoluteError": 0.0835603796642459,
+              "validCount": 19397,
+              "coverage": 0.999124343257443,
+              "validColumns": 19397,
+              "gtValidColumns": 19414,
+              "predictionValidColumns": 19397,
+              "candidateColumns": 28672,
+              "gtCoverage": 0.6771065848214286,
+              "excludedReasons": {
+                "gt:no_crossing": 9258,
+                "gt:multiple_crossings": 0,
+                "gt:unsupported_above_crossing": 0,
+                "prediction:no_crossing": 9275,
+                "prediction:multiple_crossings": 0,
+                "prediction:unsupported_above_crossing": 0
+              }
+            }
+          },
+          "1049": {
+            "sdf": {
+              "mae": 0.1405361861375805,
+              "rmse": 0.24028624835743068,
+              "bias": -0.0883303851099388,
+              "maxAbsoluteError": 0.8236308693885803,
+              "validCount": 1247166,
+              "coverage": 0.6796515328543526,
+              "globalDistanceEnabled": true,
+              "evaluationRegion": "full_domain",
+              "notice": "Valid finite SDF pairs on the native 0.05 m grid; this is not height error.",
+              "noticeZh": "0.05 m 原网格共同有效区域内的 SDF 距离误差；水面高度误差见左侧独立评估。"
+            },
+            "velocity": {
+              "meanEpe": 0.15412063940519957,
+              "epeRmse": 0.2874693070107811,
+              "epeP95": 0.5651060798775727,
+              "componentMae": [
+                0.09816754133137302,
+                0.06423203303938824,
+                0.0646606292314283
+              ],
+              "componentRmse": [
+                0.21648256299076798,
+                0.13700649806772616,
+                0.13039601942327972
+              ],
+              "relativeL2": 0.5295495781843594,
+              "meanCosineSimilarity": 0.8792590982264017,
+              "medianCosineSimilarity": 0.9730228150954255,
+              "meanAngularErrorDegrees": 21.002042963113315,
+              "angularExcludedCount": 0,
+              "validCount": 303233,
+              "coverage": 0.16524887084960938,
+              "errorSquaredSum": 25058.751343773663,
+              "gtEnergy": 89360.6200976293,
+              "notice": "Native 0.05 m common velocity support. The underwater 0.1 m protocol is reported separately.",
+              "noticeZh": "0.05 m 原网格共同有效速度指标；水下 10 cm、0.1 m 网格的筛选指标见左侧独立评估。"
+            },
+            "elevation": {
+              "mae": 0.0189204046524422,
+              "rmse": 0.027349861779081643,
+              "bias": -0.005923813165199515,
+              "maxAbsoluteError": 0.4218508459717416,
+              "validCount": 19064,
+              "coverage": 1,
+              "validColumns": 19064,
+              "gtValidColumns": 19064,
+              "predictionValidColumns": 19487,
+              "candidateColumns": 28672,
+              "gtCoverage": 0.6648995535714286,
+              "excludedReasons": {
+                "gt:no_crossing": 9186,
+                "gt:multiple_crossings": 422,
+                "gt:unsupported_above_crossing": 0,
+                "prediction:no_crossing": 9185,
+                "prediction:multiple_crossings": 0,
+                "prediction:unsupported_above_crossing": 0
+              }
+            }
+          },
+          "1096": {
+            "sdf": {
+              "mae": 0.12212243288790757,
+              "rmse": 0.2114842017424276,
+              "bias": -0.06754038076220373,
+              "maxAbsoluteError": 0.7859535217285156,
+              "validCount": 1247103,
+              "coverage": 0.679617200578962,
+              "globalDistanceEnabled": true,
+              "evaluationRegion": "full_domain",
+              "notice": "Valid finite SDF pairs on the native 0.05 m grid; this is not height error.",
+              "noticeZh": "0.05 m 原网格共同有效区域内的 SDF 距离误差；水面高度误差见左侧独立评估。"
+            },
+            "velocity": {
+              "meanEpe": 0.17364191375061253,
+              "epeRmse": 0.25459666103684425,
+              "epeP95": 0.5609223362355699,
+              "componentMae": [
+                0.10357321829416669,
+                0.06477186954775192,
+                0.08372318217056451
+              ],
+              "componentRmse": [
+                0.18469127774931635,
+                0.10583760985701919,
+                0.1396674338355077
+              ],
+              "relativeL2": 0.577961584282454,
+              "meanCosineSimilarity": 0.8491893386076522,
+              "medianCosineSimilarity": 0.9546733334648623,
+              "meanAngularErrorDegrees": 24.896670421730068,
+              "angularExcludedCount": 0,
+              "validCount": 326628,
+              "coverage": 0.17799813406808035,
+              "errorSquaredSum": 21171.850519183157,
+              "gtEnergy": 63381.26069122285,
+              "notice": "Native 0.05 m common velocity support. The underwater 0.1 m protocol is reported separately.",
+              "noticeZh": "0.05 m 原网格共同有效速度指标；水下 10 cm、0.1 m 网格的筛选指标见左侧独立评估。"
+            },
+            "elevation": {
+              "mae": 0.018576161486070938,
+              "rmse": 0.02223872336873178,
+              "bias": -0.011670486099669473,
+              "maxAbsoluteError": 0.21009800480157947,
+              "validCount": 19448,
+              "coverage": 0.9999485834747288,
+              "validColumns": 19448,
+              "gtValidColumns": 19449,
+              "predictionValidColumns": 19486,
+              "candidateColumns": 28672,
+              "gtCoverage": 0.6783272879464286,
+              "excludedReasons": {
+                "gt:no_crossing": 9185,
+                "gt:multiple_crossings": 38,
+                "gt:unsupported_above_crossing": 0,
+                "prediction:no_crossing": 9186,
+                "prediction:multiple_crossings": 0,
+                "prediction:unsupported_above_crossing": 0
+              }
+            }
+          }
+        },
+        "reconstructionEvaluation": {
+          "version": "best1027-pilot-v1",
+          "status": "local_reference_not_collaborator_reproduction",
+          "pairedFrames": [
+            1001,
+            1049,
+            1096
+          ],
+          "sourceFrameRange": [
+            1001,
+            1096
+          ],
+          "totalSourceFrames": 96,
+          "pairIdentity": "User confirmed Best_1027 corresponds to the v2 Gentle GT (2026-10-29). Same-number frames are the working pairing.",
+          "units": "Working convention inherited from v2: Y-up, 1 coordinate unit = 1 m, velocities interpreted as m/s. No numerical scale conversion; Best_1027 metadata does not independently certify units.",
+          "height": "Native 0.05 m XZ lattice; linear negative-to-positive Y crossing. Reject multiple crossings and invalid/nonpositive support above the crossing. Compare common finite heights; report paired / GT coverage.",
+          "breaking": "Common height support intersected with X > -0.3 m, using the collaborator screenshot boundary.",
+          "amplitude": "Subtract each frame spatial mean over the SAME common height support on each side; sum cross-products divided by GT squared anomalies. Pooled value combines sums, not frame slopes.",
+          "velocity": "Select every second native sample along X,Y,Z, anchored at original index 0 (0.1 m spacing, no interpolation). Require both SDF and velocity masks, GT SDF < 0, and Y <= GT height - 0.1 m. Relative L2 uses pooled vector energy; cosine median excludes either speed <= 1e-8 m/s.",
+          "aggregation": "Pilot pooled results cover only the three selected frames, not all 96 frames or a Test split. The generic sequence table separately reports equal-weight per-frame descriptive statistics.",
+          "normalizationR": null,
+          "unavailable": [
+            "Height and breaking percentages: R undefined",
+            "M1: separate K=3 baseline absent",
+            "Wavelength gains: not implemented in this pilot"
+          ],
+          "reader": "Audited with Houdini 21.0.729; VDB format 225 / reader advertised maximum 224 warning remains. Preliminary results, not independently reproduced reference scores.",
+          "sourceProofs": [
+            {
+              "frame": 1001,
+              "vdbName": "recon_fullsdf_vel.1001.vdb",
+              "vdbSha256": "fd0ab7ff40ed007eb3543c6326ba10f7f98dbda59e094a0dbfbb2066b4212f26",
+              "auditedDenseSha256": "f1af6da7ed2e10262b9b107e759c07bc703f58abc65a1314a20c75b946377237",
+              "gtCache": "data/fields/gt-fields/1001.ocfld.gz",
+              "gtCacheSha256": "1b29c48014631164cf4e558ac12288a49e9be0be78a8387f6e389833cfc91a09",
+              "outputSha256": "3a504d78eefed6ef1a3e5fef3523f62eb7f0a13ae68e67e8cb23907f4b6f6f46"
+            },
+            {
+              "frame": 1049,
+              "vdbName": "recon_fullsdf_vel.1049.vdb",
+              "vdbSha256": "ff18d054439135a9c39abc139aa628ca7dcb753dd46b389b86bde47747f5d4c3",
+              "auditedDenseSha256": "1897952bf50c75084afdd5c5e97943146ea49df3110e4e722cc3fbabe001601d",
+              "gtCache": "data/fields/gt-fields/1049.ocfld.gz",
+              "gtCacheSha256": "2174e05c09778ace6a93ffbe4803b14d674b3292a4fab12944dc6b6243e9e261",
+              "outputSha256": "1443fd356c49996f7b7bac3ab8d8ee9fc4b40d9a6d4a0734b2a0e6e2592c2548"
+            },
+            {
+              "frame": 1096,
+              "vdbName": "recon_fullsdf_vel.1096.vdb",
+              "vdbSha256": "16187d0cad3236b3ebef4900650d0b3cd98294ef9ab248088797a73365200db2",
+              "auditedDenseSha256": "a62463972f9a52a953f128dd7032acae0ce8f197969f15e9486dfacbdb55908e",
+              "gtCache": "data/fields/gt-fields/1096.ocfld.gz",
+              "gtCacheSha256": "19adfe8e3e87365e09633282950a8471a6274e3cff4ef7009501120445360868",
+              "outputSha256": "5900168e2e47a98c85f505558e49c754619e3824ea1404299d783fd7451dd0ee"
+            }
+          ],
+          "frames": {
+            "1001": {
+              "heightMae": 0.017575577444165855,
+              "heightRmse": 0.021084835642070466,
+              "heightBias": -0.011671488733768097,
+              "pairedColumns": 19397,
+              "gtColumns": 19414,
+              "pairedCoverage": 0.999124343257443,
+              "breakingMae": 0.02029352456108021,
+              "breakingColumns": 2452,
+              "heightErrorPercent": null,
+              "breakingErrorPercent": null,
+              "amplitudeSlope": 1.0483437981888843,
+              "amplitudeNumerator": 495.2777398205304,
+              "amplitudeDenominator": 472.438279003673,
+              "velocityRelativeL2": 0.26274674774937434,
+              "velocityMedianCosine": 0.9893046280231435,
+              "velocityVoxels": 27048,
+              "velocityGtEligibleVoxels": 28874,
+              "velocityCoverage": 0.9367597146221515,
+              "angularExcludedCount": 0,
+              "velocityErrorSquaredSum": 461.68363890047704,
+              "velocityGtEnergy": 6687.59225545956
+            },
+            "1049": {
+              "heightMae": 0.0189204046524422,
+              "heightRmse": 0.027349861779081643,
+              "heightBias": -0.005923813165199515,
+              "pairedColumns": 19064,
+              "gtColumns": 19064,
+              "pairedCoverage": 1,
+              "breakingMae": 0.034906814724790305,
+              "breakingColumns": 2267,
+              "heightErrorPercent": null,
+              "breakingErrorPercent": null,
+              "amplitudeSlope": 1.0184444288450045,
+              "amplitudeNumerator": 125.33791268016336,
+              "amplitudeDenominator": 123.0679938249614,
+              "velocityRelativeL2": 0.4897986691842379,
+              "velocityMedianCosine": 0.9786615168064803,
+              "velocityVoxels": 27508,
+              "velocityGtEligibleVoxels": 30446,
+              "velocityCoverage": 0.9035012809564474,
+              "angularExcludedCount": 0,
+              "velocityErrorSquaredSum": 1385.5161764878903,
+              "velocityGtEnergy": 5775.32460719904
+            },
+            "1096": {
+              "heightMae": 0.018576161486070938,
+              "heightRmse": 0.02223872336873178,
+              "heightBias": -0.011670486099669473,
+              "pairedColumns": 19448,
+              "gtColumns": 19449,
+              "pairedCoverage": 0.9999485834747288,
+              "breakingMae": 0.012796107860205403,
+              "breakingColumns": 2494,
+              "heightErrorPercent": null,
+              "breakingErrorPercent": null,
+              "amplitudeSlope": 0.9981594760921708,
+              "amplitudeNumerator": 102.16373009477792,
+              "amplitudeDenominator": 102.35211160320041,
+              "velocityRelativeL2": 0.5331003681013359,
+              "velocityMedianCosine": 0.9626798650515622,
+              "velocityVoxels": 32022,
+              "velocityGtEligibleVoxels": 34943,
+              "velocityCoverage": 0.9164067195146381,
+              "angularExcludedCount": 0,
+              "velocityErrorSquaredSum": 1410.0020997242932,
+              "velocityGtEnergy": 4961.37203715322
+            }
+          },
+          "pooled": {
+            "amplitudeSlope": 1.0357106810200847,
+            "velocityRelativeL2": 0.43235930407843204,
+            "velocityMedianCosine": 0.9791637518370815,
+            "angularValidCount": 86578
+          }
+        }
+      },
+      "frameUrls": {
+        "1001": "/data/fields/best-1027/1001.ocfld.gz",
+        "1049": "/data/fields/best-1027/1049.ocfld.gz",
+        "1096": "/data/fields/best-1027/1096.ocfld.gz"
+      },
+      "fieldDirectory": [
+        {
+          "group": "sdf",
+          "name": "ground_truth",
+          "unit": "m"
+        },
+        {
+          "group": "sdf",
+          "name": "ground_truth_valid",
+          "unit": ""
+        },
+        {
+          "group": "sdf",
+          "name": "prediction",
+          "unit": "m"
+        },
+        {
+          "group": "sdf",
+          "name": "prediction_valid",
+          "unit": ""
+        },
+        {
+          "group": "sdf",
+          "name": "error",
+          "unit": "m"
+        },
+        {
+          "group": "sdf",
+          "name": "error_valid",
+          "unit": ""
+        },
+        {
+          "group": "velocity",
+          "name": "ground_truth.x",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "ground_truth.y",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "ground_truth.z",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "ground_truth_valid",
+          "unit": ""
+        },
+        {
+          "group": "velocity",
+          "name": "prediction.x",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "prediction.y",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "prediction.z",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "prediction_valid",
+          "unit": ""
+        },
+        {
+          "group": "velocity",
+          "name": "error.x",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "error.y",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "error.z",
+          "unit": "m/s"
+        },
+        {
+          "group": "velocity",
+          "name": "error_valid",
+          "unit": ""
+        },
+        {
+          "group": "height",
+          "name": "ground_truth",
+          "unit": "m"
+        },
+        {
+          "group": "height",
+          "name": "ground_truth_valid",
+          "unit": ""
+        },
+        {
+          "group": "height",
+          "name": "prediction",
+          "unit": "m"
+        },
+        {
+          "group": "height",
+          "name": "prediction_valid",
+          "unit": ""
+        },
+        {
+          "group": "height",
+          "name": "error",
+          "unit": "m"
+        },
+        {
+          "group": "height",
+          "name": "error_valid",
+          "unit": ""
+        }
+      ],
+      "sourceFrameRange": {
+        "start": 1001,
+        "end": 1096,
+        "fps": 24,
+        "fpsBasis": "inherited v2 working convention"
+      },
+      "sampledFrames": [
+        1001,
+        1049,
+        1096
+      ],
+      "measurementFrames": [
+        1001,
+        1049,
+        1096
+      ],
+      "limitations": [
+        "96 frames provide protocol-native height and sequence metrics. 3D geometry is available for1001,1049,1096 only.",
+        "Displayed values use the recorded simulation convention; physical calibration and model training history have not been independently audited."
+      ]
+    }
+  ],
+  "defaultCaseId": "best-1027"
+}
