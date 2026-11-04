@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.5",
-  "sourceCommit": "3ed5e047045364f1a2854d3769188f4aa089f0b1",
+  "version": "2.0.0-demo.6",
+  "sourceCommit": "5cc9a94b1ce7a5febc830c0b44551935c67c7a0d",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,14 +220,14 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
-      "path": "assets/FieldSamples-Bh8xSnk7.js",
-      "bytes": 592453,
-      "sha256": "a79054e455b9fb148bdd364fe9c6451e4bb3b8065f60801408db12f79643796f"
+      "path": "assets/FieldSamples-CVPw7HLx.css",
+      "bytes": 17972,
+      "sha256": "1a963bd656846dab7ea70e412987cc8b59c8ce4b37543643c0a4631995a23a2d"
     },
     {
-      "path": "assets/FieldSamples-CpcrMf8S.css",
-      "bytes": 15935,
-      "sha256": "1784944f4e9c3d289fc4964125c704f191326ac3aa461eb0311ab3178538ed39"
+      "path": "assets/FieldSamples-DZ5m_Pd1.js",
+      "bytes": 598450,
+      "sha256": "10aa3cedc39ddaa8c51a3a830b600bdac15f456775a77ff96e7db073a6e8c102"
     },
     {
       "path": "assets/geometryWorker-BGm7dbIH.js",
@@ -240,19 +240,19 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-B5dzCIiS.js",
-      "bytes": 15671,
-      "sha256": "2587b989b28f43ec0e5580140bf85fa996d0cae495c0106bb0dc82febbe92012"
+      "path": "assets/PublicGuide-DKKQW59W.js",
+      "bytes": 17538,
+      "sha256": "5c6bb3b33f4ede673b7bca4ae6477f9cae788005e3fc406344a86a89b2417f70"
     },
     {
-      "path": "assets/PublicResults-DwcTlRm9.js",
+      "path": "assets/PublicResults-DfImLw4d.js",
       "bytes": 4938,
-      "sha256": "0401939c45aaa393f170998a41cb4273dbe0bb18c2eb239ea1362cc26b4d8e25"
+      "sha256": "f98b2eb993ceddac73f5918fca46aecd95460a6a737e4a75e495df2945337556"
     },
     {
-      "path": "assets/SectionRotation-D5cIjfCa.js",
+      "path": "assets/SectionRotation-C02aqFdU.js",
       "bytes": 577200,
-      "sha256": "009a8dd2d912ca92f8aaaa8b17d9fffc77c72f60a6c21e2c99e70c4ce96e7ef8"
+      "sha256": "73b1c570174c8aa4fd49f2a38ac802d1fc2b52802879dc32b3870d3248fb415f"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -265,9 +265,9 @@
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-CppCuPbv.js",
+      "path": "assets/SurfaceWorkspace-etYvh05A.js",
       "bytes": 84819,
-      "sha256": "ef0f3518bf93e186dc19c99ca4770c61f43faa7a69784b31a405213a6b149be9"
+      "sha256": "e6edb3d98a10b4230d776747ebc279ef35c490a4d10432fc313eb07083b9ba91"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -275,14 +275,14 @@
       "sha256": "dea98e44b59841f82399ec47b75d1f8ee1882788132c6fcc946a6450b2f3f09d"
     },
     {
-      "path": "assets/workbench-DJCfgjEb.css",
-      "bytes": 71047,
-      "sha256": "6cbf5643a5887d3bdfc23d78b26cea6648d538a3692bd4e9f29d09168c900c07"
+      "path": "assets/workbench-D5m-O85n.js",
+      "bytes": 260395,
+      "sha256": "81ecb2e1ddcc1ece902ee1e6df2340262b7a8f34dc09ba7ccde0e13c0d1b982f"
     },
     {
-      "path": "assets/workbench-DvHTkvo1.js",
-      "bytes": 260451,
-      "sha256": "86990ae245ed7a934b71c44bdc8ceef5c07fdf7be6ca9bc2f413f1adeb8048ee"
+      "path": "assets/workbench-DvXHBPWj.css",
+      "bytes": 71183,
+      "sha256": "8bfc6cf5ef06a85706e9a6e61485bb28a26f6fcbe780321865e1d58dfabf9e2b"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6077,7 +6077,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "cdee008b13b94b1e082fbf4447bdc29452256b7aed9cb1c6671cfac2b16b92ac"
+      "sha256": "3e4809301701c2145a152f8bb60c03a238289f298fbbe418e80313048efc8b9c"
     },
     {
       "path": "licenses/react-dom.txt",
@@ -6106,8 +6106,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1105,
-      "sha256": "512a8388d2e1db583865fbd67f86905ba10547289902fb9b6745cd42a1e84c05"
+      "bytes": 1184,
+      "sha256": "e8d5032e7fae33334d2d733b199c94fc8d421062fc52107f862b594094afb27c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -6117,7 +6117,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "cdee008b13b94b1e082fbf4447bdc29452256b7aed9cb1c6671cfac2b16b92ac"
+      "sha256": "3e4809301701c2145a152f8bb60c03a238289f298fbbe418e80313048efc8b9c"
     }
   ]
 }
