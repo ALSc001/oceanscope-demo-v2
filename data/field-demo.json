@@ -2,14 +2,14 @@
   "schema": 1,
   "title": "OceanScope interactive demo",
   "limitations": [
-    "96 frames provide protocol-native height and sequence metrics. 3D geometry is available for1001,1049,1096 only.",
+    "96 frames provide native-SDF 3D surfaces, protocol-native height and sequence metrics. Full volume/velocity slices cover1001,1049,1096.",
     "Displayed values use the recorded simulation convention; physical calibration and model training history have not been independently audited."
   ],
   "cases": [
     {
       "id": "best-1027",
       "name": "Best_1027 · Gentle GT",
-      "description": "Gentle GT and Best_1027 reconstruction. Explore96-frame height analysis and three selected 3D frames. Metrics retain their stated supports.",
+      "description": "Gentle GT and Best_1027 reconstruction. Explore96-frame 3D surfaces and height analysis; three frames also include full volume slices. Metrics retain their stated supports.",
       "comparison": {
         "schema": 1,
         "id": "best-1027",
@@ -618,7 +618,7 @@
         1096
       ],
       "limitations": [
-        "96 frames provide protocol-native height and sequence metrics. 3D geometry is available for1001,1049,1096 only.",
+        "96 frames provide native-SDF 3D surfaces, protocol-native height and sequence metrics. Full volume/velocity slices cover1001,1049,1096.",
         "Displayed values use the recorded simulation convention; physical calibration and model training history have not been independently audited."
       ]
     }

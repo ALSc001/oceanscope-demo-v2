@@ -4,8 +4,8 @@
   "assets": [
     {
       "url": "/data/field-demo.json",
-      "bytes": 23365,
-      "sha256": "fa8b0fdf8ae9b3ce306df82b3214a94d77bd1e70c31d86dd6ec397a2c114921b"
+      "bytes": 23446,
+      "sha256": "044a1b89f4e1839a8fbccb17b1021774f00abce60112951dc72ff4963a1c8575"
     },
     {
       "url": "/data/manifest.json",
@@ -506,6 +506,966 @@
       "url": "/data/fields/best-1027/1096.ocfld.gz",
       "bytes": 26932173,
       "sha256": "5900168e2e47a98c85f505558e49c754619e3824ea1404299d783fd7451dd0ee"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1001-1.ocsurf.gz",
+      "bytes": 2824656,
+      "sha256": "1a3afbb1409897b79b6e0bc43ee26889aaf79099b48669a00f826f646d09d514"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1001-2.ocsurf.gz",
+      "bytes": 756853,
+      "sha256": "a956dc0e8ac04ebae6272721408c481ce6138a46d5d908eed10658b2abe1814c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1002-1.ocsurf.gz",
+      "bytes": 2854539,
+      "sha256": "43594eb7cbc024cbfa14961b898301a0aa4104f57d29678b6b64fd69f565bd70"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1002-2.ocsurf.gz",
+      "bytes": 766460,
+      "sha256": "44175a61325ca573d31b43047845eacd7c6c69239a3d4532b0734bae3a83ff68"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1003-1.ocsurf.gz",
+      "bytes": 2882818,
+      "sha256": "e6c63e3bb31793404fb57832a4bb9c65ae0cf4292e5632c358c1764d3b550bd7"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1003-2.ocsurf.gz",
+      "bytes": 774019,
+      "sha256": "ed183b0ca9e3d62e966201704fc2ac2ca0dbe9cb28bc2484e1e4c0cb3db149e3"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1004-1.ocsurf.gz",
+      "bytes": 2891042,
+      "sha256": "b1a9d52f4ab2f2fa932699fd841d4672bfcfb4ab6fd5d77daa6ae526960c3404"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1004-2.ocsurf.gz",
+      "bytes": 781676,
+      "sha256": "7beae25349b543a17a86f7f908dcbc5f05ed2b5cab289f6948724820f11524a1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1005-1.ocsurf.gz",
+      "bytes": 2896269,
+      "sha256": "b8ebbb6a4f3ae1d20caf3c33a52069fdb52b9127c9568ef14d280c16f82444c2"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1005-2.ocsurf.gz",
+      "bytes": 781028,
+      "sha256": "02d1b81462005f4179ee90114a0df7561ef23c4b8de7025a9ad31f3c4c395c29"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1006-1.ocsurf.gz",
+      "bytes": 2902690,
+      "sha256": "b833effeb7d3479146ff13817c8aa65e392ee4c6e2f5d848f66a4ab701f22c05"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1006-2.ocsurf.gz",
+      "bytes": 778723,
+      "sha256": "4dbc1281eeccbf7b0f83e5147fd6e1f1a1dd1ec9affd58af51bfde0eb257c73c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1007-1.ocsurf.gz",
+      "bytes": 2890714,
+      "sha256": "e4cafc6f2dbd4ed2b5cf0b7bd52742933a4222f1542012a144923399b661048a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1007-2.ocsurf.gz",
+      "bytes": 773769,
+      "sha256": "28cb6dea4fab10228ca9917acd8ce1d593b83af7be5120506988de88e7b2711a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1008-1.ocsurf.gz",
+      "bytes": 2864926,
+      "sha256": "d3ca9dffd48fb29aaaf351580814b4eecf832ebecce1e9333445448525fcb745"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1008-2.ocsurf.gz",
+      "bytes": 769687,
+      "sha256": "7d3ddd25fe8a7550e58e867504e1029ed8b284cf0d361573f7ee7a6e3e378acd"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1009-1.ocsurf.gz",
+      "bytes": 2846200,
+      "sha256": "1d58c8ef5f8dc8fd201f96fa6c990e89318a748320e3781b4cc72ea7c23bc884"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1009-2.ocsurf.gz",
+      "bytes": 761558,
+      "sha256": "13a858730bb1aaaa159cf48490750a6e3eb498868e4bb5df141c80fc01d12d87"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1010-1.ocsurf.gz",
+      "bytes": 2838425,
+      "sha256": "825bac941e46dbbb27924124cd1792671db70c056f44817d47d9f695b860c156"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1010-2.ocsurf.gz",
+      "bytes": 766733,
+      "sha256": "6df5712fda436271c55b066cbd872dbe430780b9d1a9ea22a48e4e3d5d75db4e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1011-1.ocsurf.gz",
+      "bytes": 2828104,
+      "sha256": "c9e5cbe0f255544d349d9080a9e22277be48cdeb39234dd7a265104f969444c0"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1011-2.ocsurf.gz",
+      "bytes": 766187,
+      "sha256": "4c270626f1d090ec54d9f03bd18ce27c7e9325df58644c1a4627826a8d98a246"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1012-1.ocsurf.gz",
+      "bytes": 2838586,
+      "sha256": "0093a7b9fc8e3e3f14fc485e9be219f98b82b3e788d5f16fb016ff1c09eac469"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1012-2.ocsurf.gz",
+      "bytes": 769749,
+      "sha256": "d5a616d9e6694af0e7e782474397c404d6034bd8dafbaed7ca1b0012c862de80"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1013-1.ocsurf.gz",
+      "bytes": 2840698,
+      "sha256": "983e4a5fdb12ac9889e67bc50bd6d9785822ca8238feab1ba7f57d955598d1e6"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1013-2.ocsurf.gz",
+      "bytes": 771101,
+      "sha256": "2803670a75f3cc88cf88c30784e21f28c25e7a682ab45356c54ab45822fecc62"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1014-1.ocsurf.gz",
+      "bytes": 2845804,
+      "sha256": "a5fec93938fcc48158625a94ef6d14d41eaea92f5b471778d2018cbf9c839513"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1014-2.ocsurf.gz",
+      "bytes": 771052,
+      "sha256": "6152e84d66e71aad20866af7374e2cfc9b1e623c3de2357f148778a3ad471093"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1015-1.ocsurf.gz",
+      "bytes": 2849729,
+      "sha256": "ddc8065a4fe00801b351c7c9f275865c05c3b80bb85374e8fd3f64ee1e74a93e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1015-2.ocsurf.gz",
+      "bytes": 767862,
+      "sha256": "f0413580067aaf5247fd7be00165202831b644f858359fad1c53daa864c43043"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1016-1.ocsurf.gz",
+      "bytes": 2859833,
+      "sha256": "99cd6f232547e96daa7820cb82a12e1e4df307fd21ca834cd749435a14203ad5"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1016-2.ocsurf.gz",
+      "bytes": 768755,
+      "sha256": "92b3404c89cb4c9bc7a3b9958212af060cad22dbbcc35cb07ffee5eb4886dc89"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1017-1.ocsurf.gz",
+      "bytes": 2874651,
+      "sha256": "cb89a17209f210d681b34c36c1ce2176555b49c5689e2e2b94b0121f99a14ab1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1017-2.ocsurf.gz",
+      "bytes": 770653,
+      "sha256": "3c2b40d3d1b958ee932a5b96f989602b73967b10480d700e8e0ad95b2ce474f8"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1018-1.ocsurf.gz",
+      "bytes": 2881593,
+      "sha256": "b3c93ac02ee636857c72a7d208bc94eee1c87247b86ca6fedc605e1d216ea961"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1018-2.ocsurf.gz",
+      "bytes": 771729,
+      "sha256": "ffd746e7843e79a228d15771d9911451355bca73514f430c9a71664cddaa8880"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1019-1.ocsurf.gz",
+      "bytes": 2881643,
+      "sha256": "7b068258c3670f7571aed0a0d865c2c5df325e1c41697d2ad5bb2603d84588d1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1019-2.ocsurf.gz",
+      "bytes": 774004,
+      "sha256": "69d8afe2af9c26e9d65f10a23d91592ec225e7772ed223bad0a4de82e8258de1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1020-1.ocsurf.gz",
+      "bytes": 2887319,
+      "sha256": "b764eb3f39588293e78dcc7896f5eb5d9ea5067f4f62399c6eda424ee9543f9b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1020-2.ocsurf.gz",
+      "bytes": 775938,
+      "sha256": "b7dbd2e73b055e3b1f804b24de379ddc4798632e51fabef5bc567ee6fe2a95ba"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1021-1.ocsurf.gz",
+      "bytes": 2884857,
+      "sha256": "19d835db9a8c8b5c839f53b7a639bd08b91df69e17289448afbab8b943cd8ffc"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1021-2.ocsurf.gz",
+      "bytes": 776676,
+      "sha256": "a211ad7cf198ea434ba9edfd255141e9e3eeb5b28660650a04523bbf7b401e41"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1022-1.ocsurf.gz",
+      "bytes": 2895647,
+      "sha256": "31eccc1ea69dc00c9d41458bb83fe8281eee209c9206d41fa51ffe541c642f4c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1022-2.ocsurf.gz",
+      "bytes": 778104,
+      "sha256": "0c185ad01c3501def61eef14a8b3b7b42056b0034e54098747ad0ca06871d962"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1023-1.ocsurf.gz",
+      "bytes": 2904809,
+      "sha256": "deea8e41a7f4bc4d296455705a4c0caca1a2f50dfb87a89dd8d80cf7759c498a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1023-2.ocsurf.gz",
+      "bytes": 780907,
+      "sha256": "9fbc27d32894bb7ba056df8966938afed8d3e03ad988ee91349f9b3feccfe942"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1024-1.ocsurf.gz",
+      "bytes": 2896439,
+      "sha256": "fd53533f99a59cdce8328dc8c3b5e2fa3494cee49abe6e752fc106610dd620c9"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1024-2.ocsurf.gz",
+      "bytes": 779458,
+      "sha256": "c6ae23c82a2a12ff54999b03c38eca78d6b5eee9cd4688b36306cfc90afda2d6"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1025-1.ocsurf.gz",
+      "bytes": 2897497,
+      "sha256": "b66199a3dabc10e5bd92f5fc13fe96539f747fdba80913bb3f628a9d874d5844"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1025-2.ocsurf.gz",
+      "bytes": 779280,
+      "sha256": "7fceb39dbc86882c387569f665e4292911756a87ffbf7d8a4ac4f645a60c2104"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1026-1.ocsurf.gz",
+      "bytes": 2919676,
+      "sha256": "cbca0fb5ad718541e3ee6c756768169bdedcf2fa39fe4923a1f08ce458bae87d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1026-2.ocsurf.gz",
+      "bytes": 782976,
+      "sha256": "6715efca7f2be968a17544ba314ceb338ef23e26e7c5f8bb07cc362ed4133119"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1027-1.ocsurf.gz",
+      "bytes": 2937762,
+      "sha256": "de00a5808e76b3b6a9baba6cdfc327916ba7470ec42abc8eb301d62e3de39007"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1027-2.ocsurf.gz",
+      "bytes": 785192,
+      "sha256": "1590b336ded939ec317774fd30d2307228a09c20a7ac7fb81d383746060884cb"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1028-1.ocsurf.gz",
+      "bytes": 2945673,
+      "sha256": "0827780237b275dd56be634935d7d5ba2058d8d454fd8563dbd984ccd7181f7f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1028-2.ocsurf.gz",
+      "bytes": 785894,
+      "sha256": "5a68d8ae889ee080dc983b2b857b07e8819b2b93eb62fd7a6ccbc7c925cd50ff"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1029-1.ocsurf.gz",
+      "bytes": 2945343,
+      "sha256": "74c6f3bea36767aeb005c293c7b4a6ebe1807b147c3ec008443c9ab4e2b5a8b2"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1029-2.ocsurf.gz",
+      "bytes": 785957,
+      "sha256": "6063fc660311cf5592285431cc833aeae29c41cec5e9915e529fc66f087ced82"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1030-1.ocsurf.gz",
+      "bytes": 2941130,
+      "sha256": "7fc7e2a3f1e113ae102ae99c9d080d97fee09c1a101eb4cdb640481316968cf6"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1030-2.ocsurf.gz",
+      "bytes": 785719,
+      "sha256": "3f891377d9cd437bc46fd3fba89dea21b8862810df14cdbbfb7aafe90b55358e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1031-1.ocsurf.gz",
+      "bytes": 2938854,
+      "sha256": "7faeab48e09966aceef9831ca433bd133cb08ddf77121170fe03ef8d1b080d5e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1031-2.ocsurf.gz",
+      "bytes": 782513,
+      "sha256": "272c873510245f54495dbd2864fe4bc53e323ec9e0f621edd0f7d43581a2d257"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1032-1.ocsurf.gz",
+      "bytes": 2939261,
+      "sha256": "129f6c349293ee22c370854afd6ce365b24df28e5c1375aec283158e9ae6ce30"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1032-2.ocsurf.gz",
+      "bytes": 784061,
+      "sha256": "728118085ee1caab275a0ce2a80cf3e72226dfba0d327024a8e0b89bc52699a2"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1033-1.ocsurf.gz",
+      "bytes": 2929886,
+      "sha256": "9fa8ca0e3221d1f78d943b9d780330033e4b68cfcbf4f50d1fa130b294e4015b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1033-2.ocsurf.gz",
+      "bytes": 780377,
+      "sha256": "ca44400aa926829af558dfcf6bd963055a2861077b9dbf08c846952375c136c0"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1034-1.ocsurf.gz",
+      "bytes": 2927774,
+      "sha256": "3035dbf6ab6c8ac7c257b1a5fd96d6ebd7ef7445d3ad634bca345d82fb38bcd5"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1034-2.ocsurf.gz",
+      "bytes": 780469,
+      "sha256": "2ce96afee549076475c37d5f67ed1572b4268720d45e1781e83a1915913ab052"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1035-1.ocsurf.gz",
+      "bytes": 2938155,
+      "sha256": "cb83bae7ed56ea5898af6d115349a8798bd324555b029f448a7edcbaa496ad10"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1035-2.ocsurf.gz",
+      "bytes": 786670,
+      "sha256": "f71012016460a748ede2b8478bc5e45659d093278596fde8d2669318b80feced"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1036-1.ocsurf.gz",
+      "bytes": 2946668,
+      "sha256": "940ef9df7694a5ac2c8a4487b135852b605fef7ae9c357cdb8c7afa7de685f8b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1036-2.ocsurf.gz",
+      "bytes": 786852,
+      "sha256": "4e4a13ca5cc078a5579efa9d83933f2c4ae4ad6155ef5708a4200c936732885d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1037-1.ocsurf.gz",
+      "bytes": 2907863,
+      "sha256": "a72acdf21b703af98b0c2eaf9a9e2db55392686046204672d1dc0258168d44e7"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1037-2.ocsurf.gz",
+      "bytes": 775537,
+      "sha256": "7954c74a4787f808177aba14c094747c41bfed5845f7914c8c9bf218620a8d2a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1038-1.ocsurf.gz",
+      "bytes": 2917122,
+      "sha256": "d5035d0a1c5795fc1c0f9ec7f1f4a360814689ef0328671968b8bc906dbdfc4c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1038-2.ocsurf.gz",
+      "bytes": 778405,
+      "sha256": "835ffffebd7f308aabefe07f86549331f311d022bb3dff70474fdd0540223a83"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1039-1.ocsurf.gz",
+      "bytes": 2921523,
+      "sha256": "2c6ecc6cfccf3c6c900f604f4dc7c78d5ac275f7a7f0390ff3405c7c10a463f3"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1039-2.ocsurf.gz",
+      "bytes": 781686,
+      "sha256": "c22ec78584b83d78a9e36b46b06851a76e4a2dc6b695a339bb37616d826d2e4d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1040-1.ocsurf.gz",
+      "bytes": 2916739,
+      "sha256": "efa54be706277caf76303429079398e6124be39622bdb44284da3a13fe43f10a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1040-2.ocsurf.gz",
+      "bytes": 781560,
+      "sha256": "753755911929d4b9148952eed3a5a1ff7585e89e83b01c1be1592cba6dc6f8df"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1041-1.ocsurf.gz",
+      "bytes": 2910510,
+      "sha256": "402ed00dd565dae07219e2bf3897cdebac8d1d05a1f6ed82df632d538fff7dc5"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1041-2.ocsurf.gz",
+      "bytes": 777979,
+      "sha256": "d6fda477607c03a10a9db7709c8d0f08b1a2988e2decbe5e6cf39a01e734ca62"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1042-1.ocsurf.gz",
+      "bytes": 2894186,
+      "sha256": "1babd156a190affaa1696707120fed43e0f97a93da41c3e53621d1d91cd3b57f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1042-2.ocsurf.gz",
+      "bytes": 775322,
+      "sha256": "ca8bf0bc59e9ec86bb7eb8522b4c46f1abadab63ed7256042463f5fa42055e09"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1043-1.ocsurf.gz",
+      "bytes": 2950148,
+      "sha256": "0671122b5cfb644fd2d10fd9e954bbf7d1dd73bbac1edfd0e967927cf494076a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1043-2.ocsurf.gz",
+      "bytes": 787540,
+      "sha256": "775c9e26512cf7abce1bc3a3046f9c51a9242656d97de71dcc7dd1da35290763"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1044-1.ocsurf.gz",
+      "bytes": 2938925,
+      "sha256": "1437a80572d19297c5ca01655f6681b2167d83a045caed6b2032ee718e1bbb2a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1044-2.ocsurf.gz",
+      "bytes": 786465,
+      "sha256": "97e723aacfd92fc0d6c4773d063bf01b31d7173260611dcfd37d51d105a60211"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1045-1.ocsurf.gz",
+      "bytes": 2974968,
+      "sha256": "e4848f8fb11ca4664739f3ac319d056ad5c775e039e73d5dd67e93e0cba8c9a0"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1045-2.ocsurf.gz",
+      "bytes": 791208,
+      "sha256": "9799259a43a97c0661e4dcd3ee31479116622be4c2113c8b27e6fbd54f925dc3"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1046-1.ocsurf.gz",
+      "bytes": 2986559,
+      "sha256": "65dfc7f00f80d23d55dc7c588566ec44d0354b67c585683042cd997c65b1ff1f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1046-2.ocsurf.gz",
+      "bytes": 793843,
+      "sha256": "f5a27316584ca474d8d8fbc8d8555c1c3e36e197e878d196f0f5b65132410203"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1047-1.ocsurf.gz",
+      "bytes": 3022097,
+      "sha256": "8ebcf190678f59ed3924f77b7ff5fdeb19dc888077856ca8f764bfd0dcd4ef57"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1047-2.ocsurf.gz",
+      "bytes": 802614,
+      "sha256": "8212bead0324caa59373fda63db469527d89e07883cd721faf61386f4f30a625"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1048-1.ocsurf.gz",
+      "bytes": 3051309,
+      "sha256": "74e9016a5fde7a91b740657f6949deb7133933284f02d5a2227014fef9782e34"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1048-2.ocsurf.gz",
+      "bytes": 810773,
+      "sha256": "f53d5392e336f7470eef3faf8303787ac3abe04de305ef08c52d07e4ef0818fa"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1049-1.ocsurf.gz",
+      "bytes": 3079463,
+      "sha256": "652de209cc544e16ee92bf1579b0636c080a85e85dbed80d9cffb6c4af5db533"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1049-2.ocsurf.gz",
+      "bytes": 816309,
+      "sha256": "8f76513ae9f22ca88ddf8cb216f731053f98ad693981e670b9d4e8be8233d1aa"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1050-1.ocsurf.gz",
+      "bytes": 3098589,
+      "sha256": "d8b12fcca8a873a7fe3e662d6a01c992b7e263d97ac6e5a33a7edfb19b7e0e5f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1050-2.ocsurf.gz",
+      "bytes": 815997,
+      "sha256": "aff76e62fed5e43426e406567135ea3838af3299f9cad243851e7c0e0ab0ec4e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1051-1.ocsurf.gz",
+      "bytes": 3127614,
+      "sha256": "15b7be6e1a876c19c4ed2d52d4cb831042c80891d384446af435371e0903428f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1051-2.ocsurf.gz",
+      "bytes": 826742,
+      "sha256": "2eb229bda271ad1ca674a606c0e1870d897abe1dba8552f0ed1d1345e1b21b75"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1052-1.ocsurf.gz",
+      "bytes": 3141170,
+      "sha256": "c04d4728466ea9e8b09fd43a1f210bde5f9497fce284224066027f24e43da00e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1052-2.ocsurf.gz",
+      "bytes": 825432,
+      "sha256": "642b176c2cc81dd9327059230604d1ef9ab0c14f98aca7813ed9400870b43103"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1053-1.ocsurf.gz",
+      "bytes": 3129923,
+      "sha256": "30d7e7e8a834f8d3b1b6d952ea9fd396800960d7e15dfd8ef16b3535a8659d44"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1053-2.ocsurf.gz",
+      "bytes": 825280,
+      "sha256": "bed525befbf15ebba3f70945974b186101dbe8c0faec905843f6d788578cb705"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1054-1.ocsurf.gz",
+      "bytes": 3110259,
+      "sha256": "15a522f19243e37bbebeb4d88f052dc19ae1719314b0ffe496bfed7ca87524fc"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1054-2.ocsurf.gz",
+      "bytes": 824284,
+      "sha256": "771ad6fc2538efdf7eb1c95a98b445359b9ef88de82d72699264852e8bcb913e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1055-1.ocsurf.gz",
+      "bytes": 3086394,
+      "sha256": "9aa13016e7b3550567389e46617ad1a97d67fdba2f6938de3562df4cdb1191e9"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1055-2.ocsurf.gz",
+      "bytes": 823406,
+      "sha256": "d0c68f1cc9a03520155795095760e2862a575061bc92949d2c10b99f2e57598b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1056-1.ocsurf.gz",
+      "bytes": 3060289,
+      "sha256": "8b79876e2dc99826ae639b951fb5b79d29a84293e8130ecd456d82e28701de84"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1056-2.ocsurf.gz",
+      "bytes": 816226,
+      "sha256": "febde77c9561e0abbb7f9075291c7d96119b45e179c36f69bf59992876c469e2"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1057-1.ocsurf.gz",
+      "bytes": 3023015,
+      "sha256": "a7781e535752e45992008580fec5c2243ec8b3f6a7b11ba193df011e28dd4dec"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1057-2.ocsurf.gz",
+      "bytes": 806317,
+      "sha256": "ce2cafde00ff15c935c1feb105d2674a1343dfa5306b7117a75226f4482c5ab7"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1058-1.ocsurf.gz",
+      "bytes": 2982227,
+      "sha256": "8d775a28e6851f05e1caf6a82943b64f1e4893b4f90adc30b7af4f9dd1d655fc"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1058-2.ocsurf.gz",
+      "bytes": 794987,
+      "sha256": "4812e26cd69aec40ccc6e32ca036ade30d0bfd45fecb8c0a87dfd5eace0fc9ce"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1059-1.ocsurf.gz",
+      "bytes": 2954989,
+      "sha256": "59f748c2b42fb6999bdfbcc232903ab3bcb15a4449405ca759071cff13a35d9a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1059-2.ocsurf.gz",
+      "bytes": 793114,
+      "sha256": "b6e33fada4ed72905b4dda0d65e95759b757849c56f7b1e1b0e523683ee61eca"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1060-1.ocsurf.gz",
+      "bytes": 2929826,
+      "sha256": "a5d7d22999b41f60353496cb8c004059503c1fad0301d87800525a84d355ad60"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1060-2.ocsurf.gz",
+      "bytes": 791375,
+      "sha256": "58c193d0419c457317fa72d48c5b9986319ef8815a0de0f75b6367647bccb73b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1061-1.ocsurf.gz",
+      "bytes": 2903215,
+      "sha256": "2cde70c120b15687994d6de72ad8802066deba857727cd5e30a701fb75f8e6ac"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1061-2.ocsurf.gz",
+      "bytes": 790956,
+      "sha256": "f54d2a6d173ee4858531bdbc0e507e8e63016ae1e8fd5e1e62d183670450dfa1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1062-1.ocsurf.gz",
+      "bytes": 2944830,
+      "sha256": "a83a1986b569168be63eb8c83f51955add210eae4061f35bc10b9dc89f7f4d45"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1062-2.ocsurf.gz",
+      "bytes": 780860,
+      "sha256": "8ae0f71fbbc67c558862f4cb6db53e144af1226a9aa5e13cca6403a5bc601cd8"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1063-1.ocsurf.gz",
+      "bytes": 2946491,
+      "sha256": "050169162feffaeba36d452fab355d44d3eb8b176bbfc2e74c3bbb3b9133e83e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1063-2.ocsurf.gz",
+      "bytes": 780909,
+      "sha256": "783763ccb285cf5f53310be8a78e17fd94d0cd67ec800e1ad1974309cb3b3fde"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1064-1.ocsurf.gz",
+      "bytes": 2949788,
+      "sha256": "ad791fa356cf0edbf957df0acf937ca50c046d2648c901307241e84cd3b9dc44"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1064-2.ocsurf.gz",
+      "bytes": 779539,
+      "sha256": "1fdc10ef52a19969e609b4b536d41c1e92f968c8e4e6327b2f7f5fca053d54d1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1065-1.ocsurf.gz",
+      "bytes": 2940052,
+      "sha256": "67e03a6b5c425d1f7b137d86ac806f2368f89a4b33a8dbfcdd705399c610c636"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1065-2.ocsurf.gz",
+      "bytes": 775633,
+      "sha256": "bef34ff8cef09f5c61d21b7f7f62ed1df570836438c29519ad98e051e3c9c9c3"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1066-1.ocsurf.gz",
+      "bytes": 2940351,
+      "sha256": "1df347bb6c3f1b5dc9933ce9606f72a3e287429f8facf8feab7604bfcfc1b19f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1066-2.ocsurf.gz",
+      "bytes": 777771,
+      "sha256": "8d1d12316fa8d6448d13ce8cfede18f326ec28ba6520c2788fc854ce7807c4a8"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1067-1.ocsurf.gz",
+      "bytes": 2936651,
+      "sha256": "25c260af9b1aa71028ddf07aa6afa16c469bf95d9a61f9958599548943009100"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1067-2.ocsurf.gz",
+      "bytes": 781435,
+      "sha256": "291e0c8f7ed975cdd259db502d5703976a6c63351259ae62a34468be31e15411"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1068-1.ocsurf.gz",
+      "bytes": 2943377,
+      "sha256": "ec7413ed41c704f2b71e5fb1f1e87fa895eb5e1b20fcf883e3a25646f662c54a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1068-2.ocsurf.gz",
+      "bytes": 778533,
+      "sha256": "effe4733f81fb4c7313e12e648ab2ea6f94677dd7daba3491da836a43d41c6e7"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1069-1.ocsurf.gz",
+      "bytes": 2928424,
+      "sha256": "7e36e043ee681567944a07e2d3c7a858765df79523e44f483dcc5c41bbf3814a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1069-2.ocsurf.gz",
+      "bytes": 776183,
+      "sha256": "fccd2a892d5182b8be72bfdaf7ba5e5e43eafc333332839771db8459d247ebd1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1070-1.ocsurf.gz",
+      "bytes": 2919193,
+      "sha256": "9dbe900b5860e10878db75c56fcd45f2e48b7e4e18cff450957a17a0fa3efe79"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1070-2.ocsurf.gz",
+      "bytes": 769466,
+      "sha256": "8ee3d17c9bc05de00b3c9f8ff198fcad42e42f3b60ffbf18f9ccfa919df9cbea"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1071-1.ocsurf.gz",
+      "bytes": 2918235,
+      "sha256": "35bd2426c5402ff529c04fe82c1a2d66ac6f34db265f5d02cb9213f1bcdb4077"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1071-2.ocsurf.gz",
+      "bytes": 770573,
+      "sha256": "d5728364da3e6b9bd2b422cdb2792338ac6286cbe51941b274ed388544f25894"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1072-1.ocsurf.gz",
+      "bytes": 2894675,
+      "sha256": "a94ace50bd2d4db551f9a50222d862e6a8072c8a542eea4071c504d6a39fb6f2"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1072-2.ocsurf.gz",
+      "bytes": 764302,
+      "sha256": "d8580108b464e4c3a5c8549ff910d7958703c85ee96138c8ac1e5ce0b9937d13"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1073-1.ocsurf.gz",
+      "bytes": 2890324,
+      "sha256": "bbde15a6d5cd96b3267c22f83434688b20ecacf40bc2f603fc22e00d0ac1bed3"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1073-2.ocsurf.gz",
+      "bytes": 763665,
+      "sha256": "f0b48e621fbd8f3b8039defb647c9f24ff95606ed51139393026859c813eeebb"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1074-1.ocsurf.gz",
+      "bytes": 2872784,
+      "sha256": "89f7e965a950995c8356e061a364778669cbaa774e1adb9389485527f453463d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1074-2.ocsurf.gz",
+      "bytes": 763126,
+      "sha256": "fcfef02345acea4bfbcfc66c1714b8670aaf8994828cf91d3f33665fe736809e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1075-1.ocsurf.gz",
+      "bytes": 2860826,
+      "sha256": "d4def1d31a088d5627f2bea94c50e4a609cdc9e794777e1f56e6c8e8ad05f964"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1075-2.ocsurf.gz",
+      "bytes": 763284,
+      "sha256": "d091f6abada9760596542e62881bf3e1d208ce1dce570086b7afdaaf00955b35"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1076-1.ocsurf.gz",
+      "bytes": 2851963,
+      "sha256": "b2949ee71283d3302ebf80094ae0c88231bb8f7dc24c282795b417830d6a08be"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1076-2.ocsurf.gz",
+      "bytes": 760736,
+      "sha256": "44f5b4d5d88dd76a40623bf75943e4adf13064f5415c3aceb957e1ae32a89b5e"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1077-1.ocsurf.gz",
+      "bytes": 2861042,
+      "sha256": "c17abc525d0e04c72c8df74be084e1e529a2c78384e20c1c9641ef6396d280fd"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1077-2.ocsurf.gz",
+      "bytes": 761870,
+      "sha256": "21cdba49fa04e846cd2d18cbbed215f9497263b91c5ad06d34f0ea4b71294a5d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1078-1.ocsurf.gz",
+      "bytes": 2871646,
+      "sha256": "96a900756313706bcf79fa3499a8d852bdad85a3d2d6abecc234f2aa0f203646"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1078-2.ocsurf.gz",
+      "bytes": 762016,
+      "sha256": "af5081ade2c2544ae49b8716beedb5b5e09461a79cd3e15c67859ab9551d568d"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1079-1.ocsurf.gz",
+      "bytes": 2865726,
+      "sha256": "9f18a81e36c4d81d7555cabec5bda83eed10628db4ebed984325d1922fcb7248"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1079-2.ocsurf.gz",
+      "bytes": 765167,
+      "sha256": "70528c3a881b27e73c3e4a5e1057b19a171b54844c2c26b36431a7c617bec276"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1080-1.ocsurf.gz",
+      "bytes": 2870663,
+      "sha256": "22ac44acf68f1beeee2172845e6e49cd2f19f99d08b08488b9bbc057935af018"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1080-2.ocsurf.gz",
+      "bytes": 769720,
+      "sha256": "fd6d4c71be9cb160fb07e2b5ca52327295d3c6b4ddcb58dbd886cbda62c66cb1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1081-1.ocsurf.gz",
+      "bytes": 2881523,
+      "sha256": "4621a1780ea282da8b4cf7433e4d8a41c64b071a8b274b8136f23da11afd280b"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1081-2.ocsurf.gz",
+      "bytes": 769443,
+      "sha256": "2c42348d150612bbe1503b5cfd4e81fa773d530aa5b3eba114c887312a9841d4"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1082-1.ocsurf.gz",
+      "bytes": 2894245,
+      "sha256": "1e4267890d62595f0d78bb1a6382015b64d6273b85674c1ddb02193f23cc3b50"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1082-2.ocsurf.gz",
+      "bytes": 773537,
+      "sha256": "5db3ace8062457ac9bc4641b442e789f03158482ce688be2767ab34c8df58836"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1083-1.ocsurf.gz",
+      "bytes": 2894355,
+      "sha256": "90808303b8024ab380a0077e264da9a89f97351bf29586d0724a5840954dcfdb"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1083-2.ocsurf.gz",
+      "bytes": 773820,
+      "sha256": "06af7f8a121b5dff696c34311acfbd8f666f278c6d3a7bb9988263bc87f49ac1"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1084-1.ocsurf.gz",
+      "bytes": 2879027,
+      "sha256": "c8ff7e8679b2b4c46b67b8c6477970de33cde690eca6687b57e244601f4fa5a5"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1084-2.ocsurf.gz",
+      "bytes": 773741,
+      "sha256": "225e862f10f43790f4b9b1fe62c19574f11bd08a9e1ae6daaaddee26f41c51da"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1085-1.ocsurf.gz",
+      "bytes": 2865894,
+      "sha256": "262786c546c6494b9e7f97b4db1c2bfcd3e3d91134d775329797ad0ca612741f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1085-2.ocsurf.gz",
+      "bytes": 769460,
+      "sha256": "fb06f664ec2c82908af762efa78b3d3a43e131c05d5bfbadb961967ac0a1181c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1086-1.ocsurf.gz",
+      "bytes": 2840830,
+      "sha256": "72c21c82bf1c8085fbb88fc24f4c6c8f9e6a166aa41c12627eec0f891551cd8a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1086-2.ocsurf.gz",
+      "bytes": 760505,
+      "sha256": "d2601d2e42186ad6593ebf64734f80ebe715ea8f2029bdcef2ddbf2f54d6d3de"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1087-1.ocsurf.gz",
+      "bytes": 2809431,
+      "sha256": "230c6203c3c326e857d62e41c2a1b8891248fee109327fe46ad01970c39f5fb6"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1087-2.ocsurf.gz",
+      "bytes": 747827,
+      "sha256": "192d03c086a41ccd002f528d1cbf92c5242a392985e95985bac0832cfe5a136a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1088-1.ocsurf.gz",
+      "bytes": 2790052,
+      "sha256": "7d76cad53d3105614d59d4e063454eceebf54212f1efebd7f1bc812daf7c8e06"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1088-2.ocsurf.gz",
+      "bytes": 739262,
+      "sha256": "9fbf2297784756470c6057abc8d568b33c60e46319310cd5f791e930927ee02c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1089-1.ocsurf.gz",
+      "bytes": 2777742,
+      "sha256": "7e8a3723a7cd063f884f0bf945af7147ae3799e3b981765ae170424e509a47b0"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1089-2.ocsurf.gz",
+      "bytes": 736948,
+      "sha256": "2cc93038c6f2e75fd0ca1a8a718a4c5ad2bc1b43194bf351b52ce19d825e1126"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1090-1.ocsurf.gz",
+      "bytes": 2766344,
+      "sha256": "55f2ddcc31fcf24b6e18c220e3c615ba96bfb106e2a60d866e097b39351fc46f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1090-2.ocsurf.gz",
+      "bytes": 735696,
+      "sha256": "e348da239b960ae5cc76cebacd33a31f5305efa65ad55518c9ca97ba6687c901"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1091-1.ocsurf.gz",
+      "bytes": 2763980,
+      "sha256": "f4030527696400614768894e079eace0c04a96bb4dcce3240c390c3f90316024"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1091-2.ocsurf.gz",
+      "bytes": 735293,
+      "sha256": "c99dfae99a65d0f22aee24e6c6feaceb90a4996ee1bb9f62a320356240bb0304"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1092-1.ocsurf.gz",
+      "bytes": 2756031,
+      "sha256": "d7eb594f3cc02e362a906192e804122a7df80712337c13091d5897582b83ec29"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1092-2.ocsurf.gz",
+      "bytes": 735831,
+      "sha256": "d69a6f8e18056589732e5ea151bcf7fde004bc23838707078e1fc2b984ce5f9c"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1093-1.ocsurf.gz",
+      "bytes": 2746459,
+      "sha256": "8711a8bf2f8deb83e01e644965909a522bf94d95ab250cdc2f551fffd889a75f"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1093-2.ocsurf.gz",
+      "bytes": 740169,
+      "sha256": "9a59483d3a49212c2f3e121cd42b898742eea76fc694323049c36b3fa32c3251"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1094-1.ocsurf.gz",
+      "bytes": 2753195,
+      "sha256": "9485479402fde5e4dc75f126e3242082d185f226c87a268fbefcc961da49bc8a"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1094-2.ocsurf.gz",
+      "bytes": 744105,
+      "sha256": "6e4cb8200924b0be3078e949a17aa3e308bac62b04a4e6cd5ecb84686a191c80"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1095-1.ocsurf.gz",
+      "bytes": 2754148,
+      "sha256": "b415bdfdcd7aeeef828b4816a74195f4fe2a0c9ddafb539226ae4d461be70a49"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1095-2.ocsurf.gz",
+      "bytes": 742959,
+      "sha256": "02386509e74c974cce9d4759c57d364cab0cbd7118bbe4ccfdaa71647e8b0b02"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1096-1.ocsurf.gz",
+      "bytes": 2768855,
+      "sha256": "efe29f804b197b87945df1bbbd4edbfeced84e185d0630920f66f83ddafb6215"
+    },
+    {
+      "url": "/data/surfaces/best-1027/1096-2.ocsurf.gz",
+      "bytes": 746075,
+      "sha256": "60c5c9f1f744cfb836873ec752ddb38ba973d7527aa2b8d7b7816b40aacf79af"
     },
     {
       "url": "/data/protocol-spatial/1001-heightA.bin",
