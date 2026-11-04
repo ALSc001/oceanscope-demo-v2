@@ -1,6 +1,6 @@
-import{R as e,u as l}from"./workbench-Bth39UrA.js";import{e as c}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册\r
+import{R as e,u as l}from"./workbench-DvHTkvo1.js";import{e as c}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册\r
 \r
-Version: 2.0.0-demo.4 · 2026-11-04\r
+Version: 2.0.0-demo.5 · 2026-11-04\r
 \r
 ## Start / 开始\r
 \r
@@ -22,6 +22,10 @@ Switching analyses preserves the frame, section, camera and ROI. Playback pauses
 \r
 切换分析保留当前帧、截面、相机与ROI；离开三维或输入跳转帧号时暂停播放。“视图设置”在窄屏以弹窗打开，键盘焦点和长内容滚动留在面板内；用“关闭设置”、Escape或点击遮罩收起，焦点返回入口。“数据详情”位于数据名旁。海浪示例、结果库与手册在OceanScope旁的工作区菜单中。\r
 \r
+Presentation mode keeps the comparison full-width. View settings opens a temporary modal; close it before returning to the enlarged view. The exit button remains available after resizing to a narrow screen. Escape closes settings first, then exits presentation.\r
+\r
+汇报模式保持对比画面全宽，视图设置以临时弹窗打开。窄屏仍可点击退出汇报；Escape先关闭设置，再退出汇报。\r
+\r
 ## Frames, sections and metrics / 帧、截面与指标\r
 \r
 Current frame and SDF playback cover1001–1096:96 actual native-SDF surfaces with Fine (stride1) and Balanced (stride2) display. Additional surface frames load about0.8 MB Balanced or3 MB Fine on demand, with bounded caching; playback waits for verified data and does not interpolate time. Full volume/SDF/velocity slices cover1001,1049,1096. Surface-only frames keep their same-frame height, ROI, section outline and report camera; the slice panel names its narrower coverage. No neighboring frame is substituted. Gray cells and N/A mean missing support, not zero error.\r
@@ -38,9 +42,9 @@ Confirm frame, ROI, section and camera, then create a report under Reports & res
 \r
 确认帧、选区、截面和相机后，进入“报告与恢复”生成报告。PNG用于汇报，CSV保留数值精度，JSON恢复分析。下载使用同一快照，视图改动后需更新；三维页隐藏时仍保留最后画面用于报告。选择文件或粘贴JSON，核对范围后应用，恢复后重新生成导出快照。\r
 \r
-Reports require matching public source-summary and data identities. Reports from demo.1/demo.2 remain compatible with demo.4 because their data identities are unchanged. New surface reports additionally bind the exact frame, quality and surface resource hashes; reports from a different local edition are rejected. Download help provides selectable JSON when normal download is unavailable. Reload does not restore temporary ROI: save JSON before leaving.\r
+Reports require matching public source-summary and data identities. Reports from demo.1/demo.2 remain compatible with demo.5 because their data identities are unchanged. New surface reports additionally bind the exact frame, quality and surface resource hashes; reports from a different local edition are rejected. Download help provides selectable JSON when normal download is unavailable. Reload does not restore temporary ROI: save JSON before leaving.\r
 \r
-报告要求公开来源摘要与数据标识一致。冻结指标与原三帧资源标识保持不变，demo.1／demo.2报告仍可在demo.4恢复。新增表面报告额外绑定帧号、精度与表面资源哈希；不同本机版本的报告会被拒绝。下载不便时可从“下载帮助”复制JSON。刷新不会恢复临时ROI，离开前应保存JSON。\r
+报告要求公开来源摘要与数据标识一致。冻结指标与原三帧资源标识保持不变，demo.1／demo.2报告仍可在demo.5恢复。新增表面报告额外绑定帧号、精度与表面资源哈希；不同本机版本的报告会被拒绝。下载不便时可从“下载帮助”复制JSON。刷新不会恢复临时ROI，离开前应保存JSON。\r
 \r
 ## Scope / 范围\r
 \r

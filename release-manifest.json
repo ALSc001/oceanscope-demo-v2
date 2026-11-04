@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.4",
-  "sourceCommit": "3c99639aaf69976777c3aa28024a4484694b53be",
+  "version": "2.0.0-demo.5",
+  "sourceCommit": "3ed5e047045364f1a2854d3769188f4aa089f0b1",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,9 +220,9 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
-      "path": "assets/FieldSamples-CBalSGIJ.js",
-      "bytes": 592296,
-      "sha256": "ab86c10ee840eb5ca4c39e77204a97b318d7276a988620f8b34ec3462b39036d"
+      "path": "assets/FieldSamples-Bh8xSnk7.js",
+      "bytes": 592453,
+      "sha256": "a79054e455b9fb148bdd364fe9c6451e4bb3b8065f60801408db12f79643796f"
     },
     {
       "path": "assets/FieldSamples-CpcrMf8S.css",
@@ -240,14 +240,19 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-Du2jLQWQ.js",
-      "bytes": 15248,
-      "sha256": "8dd41022094f20f2c104a104f3cf4901f08e483637c48924c36b7ff3ae2d3f6a"
+      "path": "assets/PublicGuide-B5dzCIiS.js",
+      "bytes": 15671,
+      "sha256": "2587b989b28f43ec0e5580140bf85fa996d0cae495c0106bb0dc82febbe92012"
     },
     {
-      "path": "assets/PublicResults-CZhKIgQP.js",
+      "path": "assets/PublicResults-DwcTlRm9.js",
       "bytes": 4938,
-      "sha256": "463602f1a0a7ea2fbf45d486cb9824ae8e91d885f22d35fd40c820131c97657c"
+      "sha256": "0401939c45aaa393f170998a41cb4273dbe0bb18c2eb239ea1362cc26b4d8e25"
+    },
+    {
+      "path": "assets/SectionRotation-D5cIjfCa.js",
+      "bytes": 577200,
+      "sha256": "009a8dd2d912ca92f8aaaa8b17d9fffc77c72f60a6c21e2c99e70c4ce96e7ef8"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -255,19 +260,14 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
-      "path": "assets/SectionRotation-DUNrqaWb.js",
-      "bytes": 577200,
-      "sha256": "4038433fc5d5abcaa4404477e1b498a67eacaaf3d86e0e0ff19866e93625cf03"
-    },
-    {
       "path": "assets/surfaceResources-udFyEaQA.js",
       "bytes": 157562,
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-BscjukIa.js",
+      "path": "assets/SurfaceWorkspace-CppCuPbv.js",
       "bytes": 84819,
-      "sha256": "d6b6303bcef9a3aa8383c6fcc4672b436eea5b9c787685c1d70b43d0d795cd73"
+      "sha256": "ef0f3518bf93e186dc19c99ca4770c61f43faa7a69784b31a405213a6b149be9"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -275,14 +275,14 @@
       "sha256": "dea98e44b59841f82399ec47b75d1f8ee1882788132c6fcc946a6450b2f3f09d"
     },
     {
-      "path": "assets/workbench-Bth39UrA.js",
-      "bytes": 260451,
-      "sha256": "15e7266c1084751bd796caa30551a3092ff52fbff0bca267b5336c2f69a210e1"
+      "path": "assets/workbench-DJCfgjEb.css",
+      "bytes": 71047,
+      "sha256": "6cbf5643a5887d3bdfc23d78b26cea6648d538a3692bd4e9f29d09168c900c07"
     },
     {
-      "path": "assets/workbench-NHaSzQRe.css",
-      "bytes": 70646,
-      "sha256": "d858d6dd9153a588110644e976bb3e988ac9063672ea3d55398d034093299cca"
+      "path": "assets/workbench-DvHTkvo1.js",
+      "bytes": 260451,
+      "sha256": "86990ae245ed7a934b71c44bdc8ceef5c07fdf7be6ca9bc2f413f1adeb8048ee"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6077,7 +6077,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "83ce71beced1c89f2f87d5af2fa1744a63018170460100615c5382db789832af"
+      "sha256": "cdee008b13b94b1e082fbf4447bdc29452256b7aed9cb1c6671cfac2b16b92ac"
     },
     {
       "path": "licenses/react-dom.txt",
@@ -6117,7 +6117,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "83ce71beced1c89f2f87d5af2fa1744a63018170460100615c5382db789832af"
+      "sha256": "cdee008b13b94b1e082fbf4447bdc29452256b7aed9cb1c6671cfac2b16b92ac"
     }
   ]
 }
