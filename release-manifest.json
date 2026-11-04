@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.1",
-  "sourceCommit": "9ed79951ada978c0a079f9827c9aec0f6e8edda4",
+  "version": "2.0.0-demo.2",
+  "sourceCommit": "ccb5553fac1d350fdbd1ca4997ccbbfaf092e7df",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -121,14 +121,14 @@
       "sha256": "d7df755195128cc70e5c0e5f60e80e8b85e78941f1478f02b68dc140bab563da"
     },
     {
+      "path": "assets/FieldSamples-1gs3IdBu.js",
+      "bytes": 590702,
+      "sha256": "a40aa6249ef4fa08d2ed64554373e417f95952efb2166db1744d25720ecd6083"
+    },
+    {
       "path": "assets/FieldSamples-CpcrMf8S.css",
       "bytes": 15935,
       "sha256": "1784944f4e9c3d289fc4964125c704f191326ac3aa461eb0311ab3178538ed39"
-    },
-    {
-      "path": "assets/FieldSamples-DwaRDZw-.js",
-      "bytes": 588444,
-      "sha256": "e1e05c54777e6a14e858ba03beface8f26f6a3b9d92ccafadb6de7a65c010ae8"
     },
     {
       "path": "assets/geometryWorker-BGm7dbIH.js",
@@ -141,14 +141,19 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-QG9Oz-Ey.js",
-      "bytes": 11291,
-      "sha256": "5bc23e1c54b12e48744ac297a7a0b9dd286a4ef0d8f1a5366aceda88a5705e60"
+      "path": "assets/PublicGuide-BrqhHNab.js",
+      "bytes": 13640,
+      "sha256": "60baa2a157081565b41b0526ae2519c4eb238adc8337f6910680889bcd4acad8"
     },
     {
-      "path": "assets/PublicResults-Cd8Ipdbz.js",
+      "path": "assets/PublicResults-H3hsShQf.js",
       "bytes": 4836,
-      "sha256": "0fc731f133f49eea609eb5fabec734f14446bf94c7509e9d8f2e2a99add98ce0"
+      "sha256": "43681648fc1ee04d85a988bdfda01f8a84d279cca856e355f7e3452eaf4ad7a0"
+    },
+    {
+      "path": "assets/SectionRotation-CaNmyTYE.js",
+      "bytes": 580471,
+      "sha256": "c7896ad64668a8bfa96bcf8a4bdfe4bac40f5157658ad4783c34c15b322326a1"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -156,24 +161,19 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
-      "path": "assets/SectionRotation-nEUeqvjN.js",
-      "bytes": 580471,
-      "sha256": "a25b4655c59f5a8ba9428047d1526de714f0b3cdc769239537601e477219b355"
-    },
-    {
-      "path": "assets/SurfaceWorkspace-DMV5mDDi.js",
+      "path": "assets/SurfaceWorkspace-ypiqGdj-.js",
       "bytes": 84737,
-      "sha256": "8312dcf08cbf040a1d1646a5ebc18db6e13c5a371325a0275d6197b110c3cc72"
+      "sha256": "f662a22655d6bd9b3e18c5cacb55177d9c36a1d16a3d27c931f8377b862ce6bd"
     },
     {
-      "path": "assets/workbench-DQobAKGm.js",
-      "bytes": 260130,
-      "sha256": "1776c7eab5bac6330e3acf25f1876fd4f8b5fd93b7295c92c2adc0fb82b357f4"
+      "path": "assets/workbench-C-AJXb4Q.css",
+      "bytes": 70013,
+      "sha256": "c7418d5ee43888d4d925e57e6ff6527d35d02721a179975cfbe33d81d8995207"
     },
     {
-      "path": "assets/workbench-E67QUkdY.css",
-      "bytes": 61025,
-      "sha256": "5185f9c0f1baee2ef595af61cc37e1c430e07b396462f11539e3bfc7c39b42f5"
+      "path": "assets/workbench-CFbdkqY7.js",
+      "bytes": 260371,
+      "sha256": "8fcd9a40a2e59b7769254dd0a528d228571fb4d4e176adb51790e841aad0929d"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -5008,7 +5008,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "3550b76f1d56fae609e4be1b50f860398610b15a38571ebcf1289ab73033372e"
+      "sha256": "ebb6af617780c6e16bee4ccb9069cf83908439d5021e3eef0b88e9dd0a5daafe"
     },
     {
       "path": "licenses/react-dom.txt",
@@ -5037,8 +5037,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 838,
-      "sha256": "4c07975a1b6514103bcce4e36958fcd8245cd880caeeb70f85d8f7319c911394"
+      "bytes": 911,
+      "sha256": "90b097a11b430cfc7d07e2bf353cf7844d4f358baac01f7638e4e14fca510a6f"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -5048,7 +5048,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "3550b76f1d56fae609e4be1b50f860398610b15a38571ebcf1289ab73033372e"
+      "sha256": "ebb6af617780c6e16bee4ccb9069cf83908439d5021e3eef0b88e9dd0a5daafe"
     }
   ]
 }
