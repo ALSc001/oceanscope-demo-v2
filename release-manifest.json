@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.7",
-  "sourceCommit": "c7dbb28cf36a0be7b587b42820bd3011854f581d",
+  "version": "2.0.0-demo.8",
+  "sourceCommit": "0ed5d0f74bd228ca77384cc8fe3d3a2bf2804f9d",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,19 +220,14 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
-      "path": "assets/demoMode-BBjAQ3qj.js",
-      "bytes": 58,
-      "sha256": "65d2bbfd99fc29e2541d0bdceab407620e82fc2846cc35d097a5582cfa7e6857"
+      "path": "assets/FieldSamples-D_GOpVg3.css",
+      "bytes": 20954,
+      "sha256": "d068d5f3405ffb5734dca562090cbadb87103fe60c5bdf2db52268dad453fe86"
     },
     {
-      "path": "assets/FieldSamples-CVPw7HLx.css",
-      "bytes": 17972,
-      "sha256": "1a963bd656846dab7ea70e412987cc8b59c8ce4b37543643c0a4631995a23a2d"
-    },
-    {
-      "path": "assets/FieldSamples-DMl4UYRO.js",
-      "bytes": 599413,
-      "sha256": "0ba50fb576631a386e855d86443910641f97f0d3eed45ff224ee22afa2522a92"
+      "path": "assets/FieldSamples-D8U4vu-1.js",
+      "bytes": 689983,
+      "sha256": "5fe4f80fe6bbfabd4b886be276395906499ae3cb1e98502dbb46714db4f56399"
     },
     {
       "path": "assets/geometryWorker-BGm7dbIH.js",
@@ -245,19 +240,14 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-BHpFx0IY.js",
-      "bytes": 18125,
-      "sha256": "c339186e7b093e5bd9bbf868434b49141a627945b3bb296a1e0715ad7595df29"
+      "path": "assets/PublicGuide-TPqYAgoA.js",
+      "bytes": 18152,
+      "sha256": "4bba7f00135922a26404663cd82beb4175a085f19a1c248c9536c2b1fe8c8aab"
     },
     {
-      "path": "assets/PublicResults-C1C8yJAz.js",
+      "path": "assets/PublicResults-3ezHk2Qs.js",
       "bytes": 4938,
-      "sha256": "818f26cd7648c7d36487279e135e2d00c08eb33cc49cbe617c2b02549a2c9882"
-    },
-    {
-      "path": "assets/SectionRotation-CUJjtHgl.js",
-      "bytes": 577200,
-      "sha256": "78cc398b3e4c09efbcb71df3f49fa96d84bfd2ea682cac9df5f6247beb9a4d67"
+      "sha256": "515096f8350736417a61c42d918f28c5d0c7e3bb33d6d74c5a4a978f5763686f"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -265,14 +255,19 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
+      "path": "assets/SectionRotation-GW6Ch20H.js",
+      "bytes": 577200,
+      "sha256": "b78b7a5de3533d1ce0409cfd9c4be9d774e975dae03f19ed9d42590900294c4b"
+    },
+    {
       "path": "assets/surfaceResources-udFyEaQA.js",
       "bytes": 157562,
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-fd--hQEQ.js",
+      "path": "assets/SurfaceWorkspace-C7ad5soa.js",
       "bytes": 84819,
-      "sha256": "91057368168acdb68f80de9611ccd57c3b4dd7208f6d8f81196fa61f13804d3d"
+      "sha256": "8b86b30b159da36b2dde29d9f01e7a9042083bb710f9730588a52973f300e9a9"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -280,14 +275,14 @@
       "sha256": "dea98e44b59841f82399ec47b75d1f8ee1882788132c6fcc946a6450b2f3f09d"
     },
     {
-      "path": "assets/workbench-cdcK9XmN.js",
-      "bytes": 260484,
-      "sha256": "5c4ea85820f642177c83eb2015d0184b2784fb9eeba2050a6455954ed89b3425"
-    },
-    {
       "path": "assets/workbench-GO2AiD4r.css",
       "bytes": 71811,
       "sha256": "d8de60a4ba259c6611aa4cd3df080228dd2c264184e3c7d2c9ee92732448bdf7"
+    },
+    {
+      "path": "assets/workbench-PsY_4aH7.js",
+      "bytes": 260369,
+      "sha256": "5749d189d8c4a472e6a0f3195ce2a9c382de35ff29a1448a4d4befadcc619c95"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6082,7 +6077,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "0888006a33903470c09e8ef9a76d4de50b8e346a18fefc3b5205e54fbdc978d0"
+      "sha256": "1ff60b74394dafe2436dcdeb8ec1b01b75f249408a0d908be024c72d979e9cec"
     },
     {
       "path": "licenses/react-dom.txt",
@@ -6122,7 +6117,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "0888006a33903470c09e8ef9a76d4de50b8e346a18fefc3b5205e54fbdc978d0"
+      "sha256": "1ff60b74394dafe2436dcdeb8ec1b01b75f249408a0d908be024c72d979e9cec"
     }
   ]
 }
