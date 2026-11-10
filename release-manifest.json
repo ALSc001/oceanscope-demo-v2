@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.8",
-  "sourceCommit": "0ed5d0f74bd228ca77384cc8fe3d3a2bf2804f9d",
+  "version": "2.0.0-demo.9",
+  "sourceCommit": "b02fb8f239be78ed16415555635c25289c367924",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,14 +220,14 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
+      "path": "assets/FieldSamples-C42CCx5u.js",
+      "bytes": 693644,
+      "sha256": "6c843fb9159a0c74742ee3520c2773d8dc444f92c2ea97756e27f9db43d336fc"
+    },
+    {
       "path": "assets/FieldSamples-D_GOpVg3.css",
       "bytes": 20954,
       "sha256": "d068d5f3405ffb5734dca562090cbadb87103fe60c5bdf2db52268dad453fe86"
-    },
-    {
-      "path": "assets/FieldSamples-D8U4vu-1.js",
-      "bytes": 689983,
-      "sha256": "5fe4f80fe6bbfabd4b886be276395906499ae3cb1e98502dbb46714db4f56399"
     },
     {
       "path": "assets/geometryWorker-BGm7dbIH.js",
@@ -240,14 +240,14 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-TPqYAgoA.js",
+      "path": "assets/PublicGuide-DBWm8w44.js",
       "bytes": 18152,
-      "sha256": "4bba7f00135922a26404663cd82beb4175a085f19a1c248c9536c2b1fe8c8aab"
+      "sha256": "e31b42ed1928abdfaf16ae148f149af9fff175d44af9e261135f0722547a3460"
     },
     {
-      "path": "assets/PublicResults-3ezHk2Qs.js",
+      "path": "assets/PublicResults-C_k632yq.js",
       "bytes": 4938,
-      "sha256": "515096f8350736417a61c42d918f28c5d0c7e3bb33d6d74c5a4a978f5763686f"
+      "sha256": "4caf344fa85b74d353ff3c84ab431186211c54ae010c11a6bcd06c13fa84fafb"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -255,9 +255,9 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
-      "path": "assets/SectionRotation-GW6Ch20H.js",
+      "path": "assets/SectionRotation-DPMzzF3M.js",
       "bytes": 577200,
-      "sha256": "b78b7a5de3533d1ce0409cfd9c4be9d774e975dae03f19ed9d42590900294c4b"
+      "sha256": "6968a62a789f7bc0ebe28df8a23df83e9eb99990cc875e344a6990edd66e9742"
     },
     {
       "path": "assets/surfaceResources-udFyEaQA.js",
@@ -265,9 +265,9 @@
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-C7ad5soa.js",
+      "path": "assets/SurfaceWorkspace-B2XulUhX.js",
       "bytes": 84819,
-      "sha256": "8b86b30b159da36b2dde29d9f01e7a9042083bb710f9730588a52973f300e9a9"
+      "sha256": "573396c0fb700d7aee6edbb17333c2b04a7eddbdca8c66af3267e78740de9174"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -275,14 +275,14 @@
       "sha256": "dea98e44b59841f82399ec47b75d1f8ee1882788132c6fcc946a6450b2f3f09d"
     },
     {
+      "path": "assets/workbench-CiUSG3zo.js",
+      "bytes": 260369,
+      "sha256": "7455f20d428dee7b8c482e72da4783a39940da92117302969abcdc3b406852f3"
+    },
+    {
       "path": "assets/workbench-GO2AiD4r.css",
       "bytes": 71811,
       "sha256": "d8de60a4ba259c6611aa4cd3df080228dd2c264184e3c7d2c9ee92732448bdf7"
-    },
-    {
-      "path": "assets/workbench-PsY_4aH7.js",
-      "bytes": 260369,
-      "sha256": "5749d189d8c4a472e6a0f3195ce2a9c382de35ff29a1448a4d4befadcc619c95"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6077,7 +6077,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "1ff60b74394dafe2436dcdeb8ec1b01b75f249408a0d908be024c72d979e9cec"
+      "sha256": "5fda664c9c08b7680aaa4bc7fab8bde4d47c29f91f8e5911f1b375159d87b3bf"
     },
     {
       "path": "licenses/react-dom.txt",
@@ -6117,7 +6117,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "1ff60b74394dafe2436dcdeb8ec1b01b75f249408a0d908be024c72d979e9cec"
+      "sha256": "5fda664c9c08b7680aaa4bc7fab8bde4d47c29f91f8e5911f1b375159d87b3bf"
     }
   ]
 }
