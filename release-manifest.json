@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.26",
-  "sourceCommit": "b04f8d347c3f9b964bdd1973c24e3353539ef452",
+  "version": "2.0.0-demo.27",
+  "sourceCommit": "9a3d722192550d59d3ba10f5b3fed1006ae4d7fe",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,9 +220,9 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
-      "path": "assets/FieldSamples-B6Zn5YQ_.js",
+      "path": "assets/FieldSamples-CR-6Hgxi.js",
       "bytes": 855350,
-      "sha256": "35a6ff410b7e9cc648630642a5824ac0262fb1f9956173d0c5304c6ddd8b6725"
+      "sha256": "2584a8169b3ddee8198017450dc0b001a4bed864031fa04f5c1869de6237f907"
     },
     {
       "path": "assets/FieldSamples-DBf-5jd9.css",
@@ -245,14 +245,19 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-BBSpZTw8.js",
+      "path": "assets/PublicGuide-L56rNlbb.js",
       "bytes": 21599,
-      "sha256": "9951faab477b5d77999e08d9916f02f56879c90b57c07272ad8303fc685070f4"
+      "sha256": "a896b0c6ae7fc67a85e0ff026135df7662c3e0d40cb9cac57d317a2c1190abf0"
     },
     {
-      "path": "assets/PublicResults-BvrIyGOd.js",
+      "path": "assets/PublicResults-BmaqoVAe.js",
       "bytes": 7009,
-      "sha256": "dfe28308390b3ae2f57de04ad3221f648db2335a7b2241eb699bc3373b0574cd"
+      "sha256": "5cc7b3f16c869a5d15eeffa55bed52e263766681f66c964bb90761dd8944c61c"
+    },
+    {
+      "path": "assets/SectionRotation-BBDvnTRU.js",
+      "bytes": 586072,
+      "sha256": "fc8e5f5ded9033f550c96e95f3590fa23714775ad69fcc88ca5f60a298707785"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -260,19 +265,14 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
-      "path": "assets/SectionRotation-DPbZTtLN.js",
-      "bytes": 586072,
-      "sha256": "3076534af4c50851a97b7a4f7aa56b8592d5bf8c4710b972e0d23cd98d28c9d5"
-    },
-    {
       "path": "assets/surfaceResources-udFyEaQA.js",
       "bytes": 157562,
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-A-aF9C25.js",
+      "path": "assets/SurfaceWorkspace-4znAWgbY.js",
       "bytes": 96232,
-      "sha256": "b64619b4961127b8b0fd910dc7ad9d14ca2a2d60d8186fc08238994e6a0eef77"
+      "sha256": "0ff59e31d00626c1bef241d7b6ba8f9b58f345fe436fafd9eae6877d25e3812e"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -280,9 +280,9 @@
       "sha256": "dea98e44b59841f82399ec47b75d1f8ee1882788132c6fcc946a6450b2f3f09d"
     },
     {
-      "path": "assets/workbench-C0IL5XtJ.js",
-      "bytes": 322845,
-      "sha256": "e54727fe641e151186c9d331768b227748c5d3d87e56af13c14cac11fa72579d"
+      "path": "assets/workbench-CmVeJtIZ.js",
+      "bytes": 326151,
+      "sha256": "a0a8aab8207000c8f610971dbc8e8aafc4cc658a965db616af1564c7f2e5d173"
     },
     {
       "path": "assets/workbench-CYFvjbUu.css",
@@ -6082,7 +6082,7 @@
     {
       "path": "index.html",
       "bytes": 600,
-      "sha256": "78672eabfb7833aebf7a24f85e0fc0ab8ca9c38dd9c1f5fd50b93e0e3ce1f20d"
+      "sha256": "7e0bab681cb1a2f3fe8db8ed99f6f17faae94a093a9d8cc6461820b50b46851c"
     },
     {
       "path": "licenses/base64-arraybuffer.txt",
@@ -6152,7 +6152,7 @@
     {
       "path": "review/ui-locations.json",
       "bytes": 294003,
-      "sha256": "2194ace210a86def0703cac37617c42394d060b4cc41c6ef7a4b15b67c945688"
+      "sha256": "82ef1a45195db7fd0e7dafd873c565e8044d23c045ea4e6db78a1a371eaa5d68"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -6162,7 +6162,7 @@
     {
       "path": "workbench.html",
       "bytes": 600,
-      "sha256": "78672eabfb7833aebf7a24f85e0fc0ab8ca9c38dd9c1f5fd50b93e0e3ce1f20d"
+      "sha256": "7e0bab681cb1a2f3fe8db8ed99f6f17faae94a093a9d8cc6461820b50b46851c"
     }
   ]
 }
