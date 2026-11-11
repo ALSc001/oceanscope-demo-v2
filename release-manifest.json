@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.19",
-  "sourceCommit": "45b398a50153aa69aa1737cf39f49f64cb0a76e0",
+  "version": "2.0.0-demo.20",
+  "sourceCommit": "08d9548b645b2018cf11ca6ae8bc21a423223bd2",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,9 +220,9 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
-      "path": "assets/FieldSamples-CNpnQ-t1.js",
-      "bytes": 786197,
-      "sha256": "222b4c444ad5772fbe15d9c29da584959e3e1e1d12a64fe112facc3f2f8e3908"
+      "path": "assets/FieldSamples-8jrInG2h.js",
+      "bytes": 788127,
+      "sha256": "a4e148030dcc988a42962e3eea30942f4f2be6485cf2c67cf2ace5f4b631b0b1"
     },
     {
       "path": "assets/FieldSamples-DmlxPj2x.css",
@@ -245,19 +245,14 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-DxgRdUt0.js",
+      "path": "assets/PublicGuide-BTPONaB7.js",
       "bytes": 21599,
-      "sha256": "5c59c3a9d20ce073ba402789cb62f3bd31685aaba29a48a1406b6d5a8011de1d"
+      "sha256": "586aaade58c868d3871ad0a219ffa390dace4414f1acbb2583d6c51d921457ae"
     },
     {
-      "path": "assets/PublicResults-hAC7bWrK.js",
+      "path": "assets/PublicResults-CsVs6NBi.js",
       "bytes": 7009,
-      "sha256": "a4854e60a6da30757efd069dab418ed39b1dc58c0547d699892cf95db473dcd7"
-    },
-    {
-      "path": "assets/SectionRotation-BP4gYT_n.js",
-      "bytes": 586072,
-      "sha256": "508421c00cd3d69b883e1acb0b81b23f7fc2fa17c1787d9195c5e76f3c9600e0"
+      "sha256": "7917bf341baecf523aa1be298f13d3a26f1f6bae7cbd84f4b075adebe5549340"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -265,14 +260,19 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
+      "path": "assets/SectionRotation-OLmljf7W.js",
+      "bytes": 586072,
+      "sha256": "c56473cecc173f1b50c23662bcecb9b0a6dfbc0d63330aaf2bdc5dec62a16858"
+    },
+    {
       "path": "assets/surfaceResources-udFyEaQA.js",
       "bytes": 157562,
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-D-RdTiTC.js",
+      "path": "assets/SurfaceWorkspace-CWw9a7tM.js",
       "bytes": 96232,
-      "sha256": "d264e432c45900f221e03a75dbf299ac23a6286dd476bb5fb7cfe4bb4421a909"
+      "sha256": "0ca7b000db6e8a416946785e15e1222b2458e1947c9ff8f41144c86857b42555"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -285,9 +285,9 @@
       "sha256": "64a477795f473da8e060a386283f81ed8dfcdb3efbf57470e4d4569635e803f4"
     },
     {
-      "path": "assets/workbench-CrHpxNRX.js",
-      "bytes": 309766,
-      "sha256": "1ff7c47b197e034c458f14b2f1c6b2777c51630d4f2e3c12e96d6d4bbd49764d"
+      "path": "assets/workbench-CJlWg7xJ.js",
+      "bytes": 314827,
+      "sha256": "c10647bdb2529cd1f14accf3f62120e5d8d0fb199fbca941b82977e4acef28d1"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6082,7 +6082,7 @@
     {
       "path": "index.html",
       "bytes": 568,
-      "sha256": "b234f465553e7f675b039f4711bac6e2596399978c02b8d3450dbd88547b4467"
+      "sha256": "1ff595f3bdf9c06846104cee0679f7891d84b5e49ec967c6ffdc3da25a27c423"
     },
     {
       "path": "licenses/base64-arraybuffer.txt",
@@ -6151,8 +6151,8 @@
     },
     {
       "path": "review/ui-locations.json",
-      "bytes": 281645,
-      "sha256": "9de4f397a63c0ceb8a0cc182fea72ec23007b2ae957919cdfdc15154ac6351dc"
+      "bytes": 283334,
+      "sha256": "d72b977b812323effa58ddd0a425d87e03c7cfd8610c6052910c38054473efe2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -6162,7 +6162,7 @@
     {
       "path": "workbench.html",
       "bytes": 568,
-      "sha256": "b234f465553e7f675b039f4711bac6e2596399978c02b8d3450dbd88547b4467"
+      "sha256": "1ff595f3bdf9c06846104cee0679f7891d84b5e49ec967c6ffdc3da25a27c423"
     }
   ]
 }
