@@ -6,4 +6,6 @@ This static browser edition uses:
 - Three.js 0.180.0 — MIT, https://threejs.org/
 - three-mesh-bvh 0.9.1 — MIT, https://github.com/gkjohnson/three-mesh-bvh
 
+The annotation snapshot uses html2canvas, base64-arraybuffer, css-line-break, text-segmentation and utrie (MIT).
+
 JavaScript package licenses are retained in `licenses/`. These notices are adapted from the existing OceanScope distribution. Python, Blender, OpenVDB and other native executables are not redistributed with this static edition.
