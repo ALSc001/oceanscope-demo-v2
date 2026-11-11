@@ -1,4 +1,4 @@
-import{R as e,u as c}from"./workbench-CiVsmLde.js";import{e as l}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册\r
+import{R as e,u as c}from"./workbench-5pcHB2PC.js";import{e as l}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册\r
 \r
 Version: 2.0.0-demo.7 · 2026-11-04\r
 \r
