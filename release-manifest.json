@@ -1,7 +1,7 @@
 {
   "schema": "oceanscope.static-release.v1",
-  "version": "2.0.0-demo.22",
-  "sourceCommit": "aedfb1a0ac7512ac33dabb60c9fad04c9ccf5db1",
+  "version": "2.0.0-demo.23",
+  "sourceCommit": "bfcdc28aea0d615318547886ef7793800d074b2a",
   "sourceDirty": false,
   "publication": "selected-derived-data-and-public-source-summary",
   "declarationsSha256": "b4b0602325141df1c3f185e1578e94eca1b627b3cedd1c96f5401291e574843c",
@@ -220,14 +220,14 @@
       "sha256": "9e01ffd2058215d3615eeb45d4d9aab28d0225a041aac8f0cb35950d3a7ca2f6"
     },
     {
+      "path": "assets/FieldSamples-BQ2nLwnU.js",
+      "bytes": 847742,
+      "sha256": "a03b92ce4d73001b1319005bf0c050d1c6a28444cea003c6bd73e36949c22e88"
+    },
+    {
       "path": "assets/FieldSamples-DBf-5jd9.css",
       "bytes": 24950,
       "sha256": "19e7a432fb06053a03bfaafa48016f50b9e2632f991dc2835e818f5e56c7e27c"
-    },
-    {
-      "path": "assets/FieldSamples-VPccWgd_.js",
-      "bytes": 846741,
-      "sha256": "42a53531476ef440721d75ec7b08f6c040079a87ddc0e69a0092756297f24e28"
     },
     {
       "path": "assets/geometryWorker-BGm7dbIH.js",
@@ -245,19 +245,14 @@
       "sha256": "b3fdcfe4a9bf3e0bea6f5f2abc9d46434d3f34db5f2e0425e60c95ccb0119cd8"
     },
     {
-      "path": "assets/PublicGuide-Ce7dtlV2.js",
+      "path": "assets/PublicGuide-DdOqOJMM.js",
       "bytes": 21599,
-      "sha256": "af0a7ad23c524d0eda30c6dd1c9a4dc28724fda39aac602e38b9452db98721a8"
+      "sha256": "62efebba43d448c4183da70223a609d84846164b943b67febdb921b2a74b0193"
     },
     {
-      "path": "assets/PublicResults-CPatFG7f.js",
+      "path": "assets/PublicResults-De5YC5Ol.js",
       "bytes": 7009,
-      "sha256": "89a3a1894e55c74edd069db26400a87030a70c7948bd59a8c3ad6146030eca0a"
-    },
-    {
-      "path": "assets/SectionRotation-CxeFH3Fx.js",
-      "bytes": 586072,
-      "sha256": "8d5af8a8f66a594d9bdad96058bea57b423338eab4af753b8e2b39e30c01f826"
+      "sha256": "f9d404b72bcd6343d0a2064ee58c8c92ba21c4c78587077b4fb6457e08dcb2b9"
     },
     {
       "path": "assets/SectionRotation-DaeM1oIQ.css",
@@ -265,14 +260,19 @@
       "sha256": "936f68cf362aa0d5171853fef44d8ee224653dd7fc44049c3074dad6c689fa58"
     },
     {
+      "path": "assets/SectionRotation-DTctcGIE.js",
+      "bytes": 586072,
+      "sha256": "8d30730c514e2637149c6fc6f6b2630fdf37c7d96f280fa95b400f86b5c49838"
+    },
+    {
       "path": "assets/surfaceResources-udFyEaQA.js",
       "bytes": 157562,
       "sha256": "defaf12ed2e38d05b95ad9580b70906c85617979c34a57da6252e34f414665da"
     },
     {
-      "path": "assets/SurfaceWorkspace-BiO90gCH.js",
+      "path": "assets/SurfaceWorkspace-D9tpTDNj.js",
       "bytes": 96232,
-      "sha256": "9b682c88ed90a948fc14e5f986ce94bb1a4f9d1c89c4c7d54b3eca10d559d721"
+      "sha256": "323a46dde53e54b25e21e514af4201e93fdd6ecb72bb37258204fbd9215a8d0b"
     },
     {
       "path": "assets/verticalSection-DptfHDZh.js",
@@ -285,9 +285,9 @@
       "sha256": "1869c60d464dee0c4a4c7d0d8b6d2f0a81dfe6a21ccbaa61e909a39271b64b35"
     },
     {
-      "path": "assets/workbench-nzpmOryo.js",
-      "bytes": 318619,
-      "sha256": "cf38319d6e7f87520ba9bd25d6087f8999987d15a302fa25d72895af9dc8a169"
+      "path": "assets/workbench-L70nj4ve.js",
+      "bytes": 319073,
+      "sha256": "065ec03576a205030d98f3777ef4e413bdda2d570f9e913addb90781438f2b58"
     },
     {
       "path": "data/calm/1001.bin.gz",
@@ -6082,7 +6082,7 @@
     {
       "path": "index.html",
       "bytes": 600,
-      "sha256": "82b85231aa30bf33cd78112ed41de0a7f3af4cf161ace8bbfa2cc78c87221699"
+      "sha256": "1996e4911913e8bca5a899d0973390ad8c238c6c3ac7e7fc01b53a0885dc1c48"
     },
     {
       "path": "licenses/base64-arraybuffer.txt",
@@ -6151,8 +6151,8 @@
     },
     {
       "path": "review/ui-locations.json",
-      "bytes": 292427,
-      "sha256": "132804a17187afe986a7c7724d2bf9687e781828e94b06dbe39cc3e0da4e5efb"
+      "bytes": 292565,
+      "sha256": "84d103777adb1fdcfcdc571edc83a54fbb5deec7b84cf0f4e741c8ca26549077"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -6162,7 +6162,7 @@
     {
       "path": "workbench.html",
       "bytes": 600,
-      "sha256": "82b85231aa30bf33cd78112ed41de0a7f3af4cf161ace8bbfa2cc78c87221699"
+      "sha256": "1996e4911913e8bca5a899d0973390ad8c238c6c3ac7e7fc01b53a0885dc1c48"
     }
   ]
 }
