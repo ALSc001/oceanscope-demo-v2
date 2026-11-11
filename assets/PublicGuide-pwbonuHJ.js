@@ -1,4 +1,4 @@
-import{R as e,u as c}from"./workbench-D8yORiDG.js";import{e as l}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册
+import{R as e,u as c}from"./workbench-D5YoaBSD.js";import{e as l}from"./comparisonExport-rG_qP9SP.js";import"./verticalSection-DptfHDZh.js";const d=`# OceanScope Interactive Demo / 公开演示用户手册
 
 适用于已发布研究案例和本浏览器的个人 VDB 实验。
 
